@@ -1,0 +1,287 @@
+---
+name: fachanwalt-strafrecht-insolvenzantrag-staatsanwaltschaft
+description: "Wenn es um Insolvenzantrag der Staatsanwaltschaft gegen Angeklagte/n in Fachanwalt Strafrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+---
+
+> <div dir="rtl">
+>
+> **ترجمهٔ فارسی (لایهٔ افزوده) — نسخهٔ آلمانی معتبر و ملاک است.**
+> این متن ترجمهٔ ماشینیِ کمکی و صرفاً برای **جهت‌یابی** است، نه ترجمهٔ رسمی و نه مشاورهٔ حقوقی. اصطلاح‌های حقوقی، شمارهٔ مادّه‌ها (مثل «§ 305 BGB»)، نام دادگاه‌ها و شمارهٔ پرونده‌ها **عیناً به آلمانی** نگه داشته شده‌اند؛ بخش‌هایی که مطمئن ترجمه نشده‌اند به آلمانی می‌مانند. **خروجیِ کارِ این اسکیل باید به زبان آلمانی تولید شود.** متن اصلی و معتبر: [`SKILL.md`](./SKILL.md).
+>
+> </div>
+
+# درخواست دادستان علیه متهم
+
+## اطلاعات اصلی و سوالات مشتری
+
+در واقع، این مجموعه از دفاعی های جنایی بسیار خطرناک است: همزمان یک پرونده کیفری (حق عدم دخالت به دادگاه) نیز وجود دارد. § 136 StPO) و یک روش ورشکستگی (مجبوری برای مشارکت در § 97 InsO) ،منتظران اغلب دوگانه بودن را نمی فهمند. اشتباهات در یک روش می توانند دیگری را خراب کنند.
+
+**8 پرسش های شروع سرد:**
+
+1. آیا شما در متن درخواست ورشکستگی را می بینید؟ چه کسی متقاضی است (صارف، دادستان، بیمه اجتماعی و وامدار خصوصی) ؟
+2. این درخواست به چه کسی مربوط است؟ شما یا شرکت های زیر رهبری تان (GmbH، AG" تاجر تک نفره"؟
+3. چه نوع قانونی در کنار هم می رود و شامل کدام اتهامات است (تخلل مالیات، خیانت، تقلب، دستگیری از کمک) ؟
+4. آیا در جریان پرونده های کیفری از طریق اقدامات امنیتی استفاده می شود - املاک و مستغلات § 111e StPO یا پس از تصرف § 111b StPO?
+5. آیا دادگاه یا اداره ورشکستگی قبلاً یک مدیر موقت را استخدام کرده است؟
+6. تا حالا به مدیر یا دادگاه اطلاع داده اید؟
+7. آیا راه های واقعی برای پرداخت وجود دارد؟ - هزینه ی کسری، مقایسه با متقاضی و وام های شخص ثالث.
+8. آیا شما وکالت در پرونده های ورشکستگی را از وکیل قانونی جدا کرده اید؟
+
+---
+- ** چه چیزی را واقعاً می خواهد مشتری به دست آورد؟** (نه، آنچه که در راه استاندارد نوشته شده است بلکه: کدام نتیجه برای مشتریان از نظر شخصی/اقتصادی بهترین است ؟ گاهی اوقات مقایسه سریع تر بهتر از روش رسمی "صواب" است.)
+
+## مبانی قانونی
+
+| استاندارد | محتوای آن |
+|---|---|
+| § 14 InsO | درخواست بدهی در مورد ورشکستگی؛ نیاز به دریافت یا اثبات اعتبار قانونی |
+| § 17 InsO | عدم پرداخت به عنوان دلیل افتتاح |
+| § 19 InsO | مبلغ بیش از حد بدهی قانونی به عنوان دلیل باز کردن |
+| § 21 InsO | اقدامات امنیتی دادگاه ورشکستگی؛ مدیر موقت ورشکستی |
+| § 35 InsO | مبلغ ورشکستگی؛ کل دارایی های قابل اعتقال |
+| § 36 InsO | اشیاء آزاد از دست دادن؛ محدودیت های مربوط به نگهداری |
+| § 97 InsO | تعهد بدهکار برای مشارکت؛ ممنوعیت خودکشی § 97 Abs. 1 S. 3 InsO |
+| § 129 ff. InsO | نقدی در مورد ورشکستگی؛ بازپرداخت پرداخت های قابل اعتراض |
+| § 15b InsO | ممنوعیت پرداخت پس از ورشکستگی (پخوانین) § 64 GmbHG a.F.) |
+| § 174 ff. InsO | گزارش درخواست به جدول |
+| § 270 InsO | مدیریت شخصی: بدهکار به دست می آید |
+| § 270b InsO | روش های حفاظتی (مختار بهداشت) |
+| § 302 InsO | معافیت از بازمانده در مورد اعمال عمدا غیر مجاز |
+| §§ 73, 73c StGB | جمع آوری جرم و ارزش گذاری |
+| §§ 111b-111p StPO | امنیت دارایی در دادگاه های کیفری؛ ضبط و دستگیری اموال |
+| § 111i StPO | نسبت بازپرداخت دارایی به افتادن ورشکستگی |
+| § 370 AO | اجتناب از مالیات؛ رایج ترین دلیل درخواست فسلت مالیاتی |
+| § 266a StGB | از دست دادن کمک به حامل های بیمه اجتماعی |
+| § 15a InsO | واجب درخواست ورشکستگی (برگرفتن در صورت ورشکستی) |
+
+---
+
+## آرای راهنما
+
+| نشانه های پرونده | دادگاه / تاریخ | اصل اصلی |
+|---|---|---|
+| بررسی قانونی زنده | تایید زنده لازم است | هیچ تصمیری را از دانش نمونه ای نقل نکند؛ قبل از انتشار، منبع رسمی یا آزاد با دادگاه و تاریخ، اسناد و مدارک ثبت شود. |
+
+---
+
+## برنامه آزمایش
+
+| قدم | محتوای آن | پایه |
+|---|---|---|
+| 1 | بررسی درخواست: آیا متقاضی، پایه ی مطالبه، تضمین یا اعتبار کافی است؟ | § 14 InsO |
+| 2 | بررسی علت ورشکستگی: عدم پرداخت (§ 17 InsO) یا بدهی بیش از حد (§ 19 InsO) واقعاً وجود دارد؟ | § 17, § 19 InsO |
+| 3 | آیا اقدامات امنیتی در پرونده های ورشکستگی، از کارگزار موقت برای ورشکسته شدن استفاده می شود؟ | § 21 InsO |
+| 4 | بررسی کنسول های ضبط/بند دارایی: § 111b111-ه StPO· نسبت به میزان ورشکستگی را روشن کنید | § 111i StPO |
+| 5 | حق سکوت در مقابل تعهد به مشارکت: روشن کردن دوگانه بودن برای فرماندهان؛ آماده سازی اظهارات | § 97 InsO, § 136 StPO |
+| 6 | آماده کردن دادگاهی برای دادخواست: تهیه یک برنامه نقدینگی، آموزش BWA/SuSa، تردید یا تسلیت در مورد علت ورشکستگی | § 14 Abs. 2 InsO |
+| 7 | مقایسه با متقاضیان را بررسی کنید: پرداخت وام، تخفیف و یک بار؛ § 46a StGB | § 46a StGB |
+| 8 | بررسی فوری شکایت علیه دستورات: 2 هفته | § 6 InsO, §§ 567 ff. ZPO |
+| 9 | در نظر گرفتن درخواست خود با مدیریت و محافظت: مالکیت اختیار را حفظ می کند؛ دستگیری دارایی جایگزین می شود | § 270, § 270b InsO |
+| 10 | بررسی خطرات نقدی در مورد ورشکستگی: پرداخت به افراد نزدیک، حقوق مشاوران، اهدائی های زمان قابل اعتراض | §§ 129–135 InsO |
+| 11 | بررسی معافیت بدهی باقیمانده: § 302 InsO از حذف موارد کلاهبرداری مالیاتی، تقلب و یا سایر جرایم عمدی | § 302 InsO |
+| 12 | هماهنگی با مدیریت ورشکستگی: تماس زودرس، تحویل اسناد و فیلترهای خودکشی | § 97 InsO |
+| 13 | بازپرداخت خسارت را به عنوان کاهش مجازات ثبت کنید: § 46a StGB؛ درک § 257c StPO شامل کردن | § 46a, § 257c StPO |
+| 14 | مسئولیت مدیرعامل § 15b InsO بررسی: پرداخت های پس از ورود به دوره ورشکستگی | § 15b InsO |
+
+---
+
+## گزینه های استراتژیک (پیش از انتخاب قالب)
+
+قبل از اینکه یک به یک پر کنید، باید بررسی کرد که کدام نوع برای کنسلتیون مشتری مناسب است. این قالب شکل احتمالی ای ـه - تنها نیست
+
+| ستاره شناسی | راه توصیه شده |
+|---|---|
+| استاندارد - درخواست دادستان برای دفع پرونده های گشایش | نظر: قالب زیر |
+| گزینه A - خود مدعی از درخواست ورشکستگی می شود | درخواست خود § 15 InsOحداقل کردن مسئولیت |
+| گزینه B - متوقف کردن روش ها | § 153a StPO- قبول پیشنهادات، پرداخت اتوبوس |
+| گزینه C - آسیب پذیری متغیر در تمرکز | § 283 StGB-آفرین را بررسی کنید؛ InsO-پشت کردن موازی |
+
+اگر کنستلاسیون مشتری ** نمی تواند به طرح استاندارد مطابقت داشته باشد، باید قالب را تغییر دهید یا با مهارت دیگری جایگزین کنید - نه اینکه دستورات را در schema فشار بدهید.
+
+## سنگ های ساختاری
+
+### بخش اول - دادگاهی که در آن پرونده می پردازد (عداوت علیه درخواست)
+
+```
+An das Amtsgericht [...]
+– Insolvenzgericht –
+Aktenzeichen: [...]
+
+Stellungnahme zur Anhörung gemäß § 14 Abs. 2 InsO
+
+In dem Insolvenzantragsverfahren gegen
+[Name/Firma der Schuldnerin / des Schuldners]
+
+zeige ich die anwaltliche Vertretung an.
+
+Der Insolvenzantrag vom [Datum] ist zurückzuweisen.
+
+I. Kein Insolvenzgrund vorhanden
+
+Die Antragstellerin hat keine wirksam titulierte Forderung
+glaubhaft gemacht. Der Steuerbescheid vom [Datum] ist nicht
+rechtskräftig; gegen ihn ist Einspruch eingelegt (Anlage 1).
+Ein auf bestrittene Forderungen gestützter Gläubigerantrag
+ist mangels Forderungslegitimation unzulässig (vgl. BGH
+IX ZB 37/12).
+
+II. Zahlungsunfähigkeit liegt nicht vor
+
+Zum Stichtag [Datum] verfügt die Schuldnerin über folgende
+liquide Mittel: [Kontostand EUR, offene Kreditlinie EUR,
+zugesagtes Darlehen EUR (Nachweis Anlage 2)]. Die fälligen
+Verbindlichkeiten betragen [Summe EUR]. Die Liquiditätslücke
+Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+III. Hilfsweise: Vergleichsbereitschaft
+
+Hilfsweise erklärt die Schuldnerin Bereitschaft zur sofortigen
+Zahlung von [Betrag EUR] sowie Ratenzahlung der verbleibenden
+Schuld in monatlichen Raten von [Betrag EUR] ab [Datum].
+
+[Ort, Datum]
+[Unterschrift, Kanzlei]
+```
+
+### بخش دوم - یادداشت در مورد فرماندهی: حق سکوت و تعهد به مشارکت
+
+```
+Mandanteninfo: Ihre Rechte in Strafverfahren und Insolvenzverfahren
+
+1. Im Strafverfahren:
+   Sie haben das Recht zu schweigen (§ 136 StPO).
+   Keine Aussage ohne Absprache mit mir.
+
+2. Im Insolvenzverfahren:
+   Sie sind zur Auskunft verpflichtet (§ 97 InsO).
+   Unrichtige Angaben können als Bankrott (§ 283 StGB) geahndet werden.
+
+3. Schutz vor Selbstbelastung:
+   § 97 Abs. 1 S. 3 InsO enthält ein beschränktes Verwertungsverbot:
+   Zwangsweise erlangte Auskünfte dürfen im Strafverfahren nicht
+   verwertet werden. Freiwillige Angaben genießen diesen Schutz
+   jedoch NICHT.
+
+4. Praxisregel:
+   Alle Auskünfte im Insolvenzverfahren schriftlich, nach Rücksprache
+   mit mir. Keine mündlichen Spontanangaben gegenüber dem Insolvenz-
+   verwalter.
+
+5. Koordination:
+   Ich stimme Ihre Angaben im Insolvenzverfahren mit Ihrer
+   Strafverteidigungsstrategie ab.
+```
+
+### بخش سوم - درخواست برای ثبت نام با مدیریت شخصی § 270 InsO
+
+```
+An das Amtsgericht [...]
+– Insolvenzgericht –
+
+Antrag auf Eröffnung des Insolvenzverfahrens in Eigenverwaltung
+gemäß §§ 270 ff. InsO
+
+Die Schuldnerin beantragt die Eröffnung des Insolvenzverfahrens
+über ihr Vermögen verbunden mit der Anordnung der Eigenverwaltung
+gemäß § 270 InsO.
+
+Begründung:
+[1. Insolvenzgrund: Zahlungsunfähigkeit nach § 17 InsO liegt vor.]
+[2. Kein Schaden für Gläubiger durch Eigenverwaltung: Mandantschaft
+hat Sanierungskonzept vorgelegt (Anlage 1).]
+[3. Eigenverwaltung hat Vorrang vor Fremdverwaltung, wenn keine
+Nachteile für Gläubiger ersichtlich, § 270 Abs. 1 InsO.]
+[4. Strategischer Vorteil im Strafverfahren: Mit Eigenverwaltung
+entfällt faktisch das durch Fremdverwaltung entstehende Risiko
+unkontrollierter Aktenweitergabe an die Staatsanwaltschaft.]
+
+Dem Antrag liegt ein Sanierungsplan gemäß § 270 Abs. 2 Nr. 3 InsO bei.
+
+[Ort, Datum]
+[Unterschrift]
+```
+
+--- قبل از ارسال
+1. هدف مذاکره کسل کننده چیست؟ [Bestand / Abfindung / Reputation / Schnelle Loesung]
+2. چه خط های سازشی مطلق هستند؟ [Mindestabfindung / Freistellung / Zeugnisformulierung]
+3. آیا راه های اتصال مطلوب هستند؟ [Mediation / Direktgespraech / Settlement vor Klageerhebung]
+
+---
+
+## بار اثبات
+
+| ستاره شناسی | بار اثبات |
+|---|---|
+| علت ورشکستگی (خواستن وام دهنده) | متقاضی باید ادعای خود را و دلیل ورشکستگیش را معتبر کند (§ 14 InsO); بدهکار باید انکار کند |
+| (بعد از پرداخت)§ 17 InsO) | فرضیه از درخواست ورشکستگی؛ بدهکار باید ثابت کند که نقدی در نظر گرفته شده است |
+| بدهی بیش از حد (§ 19 InsO) | متقاضی یا متخصص باید وضعیت بدهی بیش از حد را ایجاد کند؛ مدنی می تواند |
+| § 97 InsO محافظت از خودکشی | بدهکار باید نشان دهد که اطلاعات می تواند منجر به تعقیب شود؛ |
+| (مطالبات در مورد بيكاري)§ 129 InsO) | در صورت عدم اطمینان از این که دولت یا اداره ورشکستگی،§ 133 InsO) همچنین پیش بینی محرومیت |
+
+---
+
+## مهلت ها و مدّت گذاری
+
+| مهلت | محتوای آن | استاندارد |
+|---|---|---|
+| حالا | درخواست بررسی پرونده ها در دادگاه ورشکستگی؛ زمان شنیدن | § 14 Abs. 2 InsO |
+| دو هفته | شکایت فوری در مورد دستورات دادگاه ورشکستگی | § 6 InsO |
+| سه هفته پس از سفارش | مدیر ناخواسته موقت در دفتر است؛ هماهنگی ضروری | § 21 InsO |
+| 6 هفته از افتتاح | گزارش مطالبه به جدول (صفحه وامدار) | § 174 InsO |
+| سه سال | از دست دادن حقوق کیفری § 370 AO (حساب مالیاتی ساده) | § 78 StGB, § 376 AO |
+| ده سال | در صورت فرار از مالیات، به مدت قانونی (§ 376 AO Abs. 1) | § 376 AO |
+| سه سال | در مورد عدم پرداخت § 133 Abs. 1 InsO (تناقض پیش بینی) ؛ به اطلاع مدیر | § 146 InsO |
+
+---
+
+## استدلال های متضاد
+
+| استدلال ضد | پاسخ |
+|---|---|
+| "قانون عدم اعلامیه در پرونده های ورشکستگی نیز اعمال می شود" | نه، § 97 InsO این قانون به طور صریحاً تعهد مشارکت را معیّن می کند؛ § 136 StPO فقط در پرونده های کیفری |
+| بررسی قانونی زنده | هیچ تصمیم گیری از دانش مدل نیست؛ قبل از انتشار منبع را ثبت کنید |
+| "بخاطر ورشکستگی، دارایی ها به طور خودکار متوقف می شوند" | در اصل بله (§ 111i StPO), اما حق جذب دولت باقی می ماند و او به عنوان بانکی در حال ورشکستگی تبدیل می شود |
+| "باقی از بدهی ها نیز از مالیات آزاد می شود" | نه، § 302 Nr. 1 InsO اعمال غیرقانونی را که عمداً مرتکب شده است، از بین می برد؛ § 370 AO = اعمال غیر مجاز |
+| "خود مدیریت به اعتبارداران آسیب می رساند" | § 270 InsO در این مورد، اگر هیچ گونه تضاد برای وام دهندگان وجود نداشته باشد ، مدیریت شخصی را تعیین می کند. |
+
+---
+
+## ارزش اختلاف / هزینه
+
+| موقعیت | محاسبه |
+|---|---|
+| دفاعی کیفری | وRVG بخش 4 (مجموعه 4100) ff.); هزینه های متوسط به اندازه ای؛ درک افزایش نرخ پرداخت |
+| فرمان در مورد ورشکستگی | وRVG بخش 3 (در شماره 3300) ff.) بر اساس ارزش موضوع = مطالبه یا نقدی در مورد اختلاف |
+| قرارداد جداگانه ی حقوق § 3a RVG | برای حکم مجازات و یا ورشکستگی، به طور جداگانه مناسب است؛ از اختلاف در مورد ارزش های مالی جلوگیری می کند |
+| هزینه های مدیر ناخواسته موقت | نرخ حقوق ثابت به عنوان INSV؛ از بین رفتن در حد زیادی، هیچ نفوذ وکیل |
+| هزینه های جرایم مالیاتی | در صورت تعویض § 153a StPO: جریمه (مبلغ) به عنوان مجازات؛ حسابداری در مورد بدهی های مالیاتی ممکن است |
+
+---
+
+## توصیه استراتژیک
+
+| وضعیت | توصیه |
+|---|---|
+| درخواست پرداخت مالیات مالی + پرونده های کیفری | دو قرارداد مستقل (قانونی جرایم + حقوق ورشکستگی) ؛ هماهنگی بین این دو نماینده |
+| پس از § 111e StPO در حال اجرا است | در نظر گرفتن درخواست خود؛ افتتاح ورشکستگی بازداشت را از بین می برد (§ 111i StPO) و فضای طراحی را فراهم می کند |
+| امکان مقایسه با مالیات مالی | تلاش برای مقایسه زمان و میزان؛ پرداخت خسارت § 46a StGB وارد پرونده های کیفری |
+| درخواست های فسادی که به صورت قانونی قابل اعتراض است | هیچ دلیل در برابر بدهی نیست؟ شکایت فوری + حکم موقت |
+| مدیرعامل شرکت | § 15b InsO-حساب پذیری را بررسی کنید؛ درخواست در زمان مناسب از مسئولیت شخصی محافظت می کند |
+| تلاش برای معافیت از بدهی باقی مانده | بررسی پرونده های جنایت § 302 InsO تاثیر می گذارد ggf. تلاش برای پایان دادن به پرونده های جنایی بدون قصد |
+
+---
+
+## اسکیل‌های پیوسته
+
+- `fachanwalt-strafrecht-zeugenbeistand` - در مورد شاهد های دادگاهی که مربوط به ورشکستگی است
+- `fachanwalt-strafrecht-adhaesionsverfahren` - خسارت در پرونده های کیفری به عنوان یک درخواست ورشکستگی
+- `plaedoyer-vorbereitung-strafverteidigung` - مجازات با بازپرداخت خسارت (§ 46a StGB)
+- `fachanwalt-strafrecht-nebenklage-opfervertretung` - آسیب دیده به عنوان یک وامدار در حال ورشکستگی
+
+---
+
+## منابع
+
+قضیه: هیچ تصمیمی را از دانش نمونه ای نقل نکنید؛ قبل از انتشار با دادگاه، شکل تصمیم گیری و تاریخ آن ها، نشانه های پرونده یا اظهارات قابل اثبات را توسط منبع رسمی یا آزاد تأیید کنید.
+
+---

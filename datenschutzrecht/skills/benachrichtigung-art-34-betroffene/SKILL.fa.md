@@ -1,0 +1,72 @@
+---
+name: benachrichtigung-art-34-betroffene
+description: "Wenn es um Benachrichtigung der Betroffenen nach Art. 34 DSGVO in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+---
+
+> <div dir="rtl">
+>
+> **ترجمهٔ فارسی (لایهٔ افزوده) — نسخهٔ آلمانی معتبر و ملاک است.**
+> این متن ترجمهٔ ماشینیِ کمکی و صرفاً برای **جهت‌یابی** است، نه ترجمهٔ رسمی و نه مشاورهٔ حقوقی. اصطلاح‌های حقوقی، شمارهٔ مادّه‌ها (مثل «§ 305 BGB»)، نام دادگاه‌ها و شمارهٔ پرونده‌ها **عیناً به آلمانی** نگه داشته شده‌اند؛ بخش‌هایی که مطمئن ترجمه نشده‌اند به آلمانی می‌مانند. **خروجیِ کارِ این اسکیل باید به زبان آلمانی تولید شود.** متن اصلی و معتبر: [`SKILL.md`](./SKILL.md).
+>
+> </div>
+
+# اطلاع دادن به افراد ذینفع Art. 34 DSGVO
+
+## سه گانه - قبل از پردازش پاک
+
+1. اگر حد خطر بالا باشد Art. 34 Abs. 1 DSGVO قبل از اینکه
+2. چه اطلاعات آدرس افراد مورد علاقه وجود دارد؟
+3. کدام راه ارسال مناسب است (میل، نامه یا پیام پرتاب) ؟
+4. چه توصیه های خاصی برای حفاظت از آن ها وجود دارد؟
+5. چه خط تماس یا آدرس ایمیل ای در دسترس است؟
+- چه چیزی را می خواهد به دست آورد؟ (خطای قانونی؛ حفظ اعتماد، حفاظت از شکایت های جمع آوری)
+
+## مبانی قانونی
+
+- **Art. 34 Abs. 1 DSGVO** اطلاع در صورت خطر بالا
+- **Art. 34 Abs. 2 DSGVO** مطالب لازم و زبان ساده روشن
+- **Art. 34 Abs. 3 DSGVO** استثنا
+- **Art. 12 DSGVO** شفافیت.
+- **§ 29 BDSG** محدودیت ها
+
+## رویهٔ قضایی روز
+
+نه از طریق دانش مدل، به ویژه برای شکل اطلاع رسانی و شکایت های جمع آوری شده در مورد اطلاعات نامکمل قبل از انتشار.
+
+## قوانین محوری
+
+Art. 12; Art. 34 Abs. 1; Art. 34 Abs. 2; Art. 34 Abs. 3 DSGVO; § 29 BDSG.
+
+## در این باره، می توان گفت که "در نظر شما" است.
+
+موضوع: اطلاعات مهم درباره یک حادثه حفاظت از داده ها
+
+خیلی عالی [Name],
+
+ما می خواهیم به شما اطلاع دهیم که در [Datum] در شرکت ما، نقض حفاظت از اطلاعات شخصی که به داده های شما نیز مربوط می شود رخ داد.
+
+چه اتفاقی افتاد؟ [klare einfache Beschreibung in zwei bis drei Sätzen].
+
+که به چه داده های شما مربوط می شود: [konkrete Aufzählung].
+
+چه عواقب احتمالی وجود دارد؟ [realistische Einschätzung ohne Verharmlosung und ohne Panikmache].
+
+آنچه که ما قبلاً انجام داده ایم: [Sofortmaßnahmen].
+
+ما به شما توصیه می کنیم: [konkrete Schritte — Passwort ändern, Konten beobachten, Schufa-Auskunft einholen, je nach Fall].
+
+تماس: مامور حفاظت از اطلاعات [Name, E-Mail, Telefon]; خط تماس [Nummer]; FAQ [URL].
+
+ما از این مشکل عذر می خواهیم و در اختیار شما هستیم تا سوالاتی را مطرح کنیم.
+
+با سلام های دوستانه [Geschäftsleitung]
+
+## جداسازی از دیگر مهارت ها
+
+- `dsv-aufnahme-statusinformation` این مهارت، شروع به تحصیلات اولیه ساختاری را تشکیل می دهد که بر آن تکیه دارد.
+- `dsv-meldung-art-33-pflichtangaben` گزارش های مقامات را پوشش می دهد و اگر لازم باشد، به طور اضافی نیز بازمی گردد.
+- `dsv-benachrichtigung-art-34-betroffene` این اطلاعات مربوط به افراد را پوشش می دهد.
+- `dsv-bussgeldverteidigung-art-83` و `dsv-schadensersatz-art-82` و از پسرنگي وکلا پرداخت مي کنند.
+
+- `dsv-benachrichtigung-art-34-schwelle-hohes-risiko` این موضوع در مورد تصمیم گیری بر روی حد قرار می گیرد.
+- `dsv-benachrichtigung-art-34-ausnahmen` این موضوع استثنایی را پوشش می دهد.

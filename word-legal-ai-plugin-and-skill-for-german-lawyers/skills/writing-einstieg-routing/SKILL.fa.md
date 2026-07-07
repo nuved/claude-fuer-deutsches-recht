@@ -1,0 +1,48 @@
+---
+name: writing-einstieg-routing
+description: "Wenn es um Einstieg und Routing in Word-Workflows für deutsche Juristen geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+---
+
+> <div dir="rtl">
+>
+> **ترجمهٔ فارسی (لایهٔ افزوده) — نسخهٔ آلمانی معتبر و ملاک است.**
+> این متن ترجمهٔ ماشینیِ کمکی و صرفاً برای **جهت‌یابی** است، نه ترجمهٔ رسمی و نه مشاورهٔ حقوقی. اصطلاح‌های حقوقی، شمارهٔ مادّه‌ها (مثل «§ 305 BGB»)، نام دادگاه‌ها و شمارهٔ پرونده‌ها **عیناً به آلمانی** نگه داشته شده‌اند؛ بخش‌هایی که مطمئن ترجمه نشده‌اند به آلمانی می‌مانند. **خروجیِ کارِ این اسکیل باید به زبان آلمانی تولید شود.** متن اصلی و معتبر: [`SKILL.md`](./SKILL.md).
+>
+> </div>
+
+# ورود و رویتینگ
+
+## وضعیت کاربرد
+
+این راه اندازی **Word Legal Ai Plugin And Skill For German Lawyers** را از شرایط اولیه به نقش ها، زمان بندیها، مقام اختصاصی، مسیر تخصص مناسب و محصول بعدی کار می کند.
+
+## نقشه تخصصی این افزونه
+
+- `anspruchsgrundlage-rechtsfolge-b2b-klauseln` - پایه ی حقوق و حقوقی
+- `anwaltsschreiben-aussergerichtlich-argumentationsarchitektur` - نامه های وکیل در دادگاهی فوق العاده معماری استدلال
+- `bilingual-drafting-cowork-cloud` - دو زبان درافتنگ کاوورک کلاو
+- `bilinguales-writing-englische-vertraege` - دو زبان نوشته شدن
+- `boilerplate-klauseln-definitionen-klauseln` - شقایق کلوچه های کتانی تعریف شقاق
+- `defensive-drafting-deutscher-kanzleistil` - دفاعی در حال انتخاب
+- `dokumentarchitektur-vertrag-englischer-vertrag` - معماری مستند
+- `drafting-prinzipien-finaler-writing` - طرحی اصول نوشتن نهایی
+- `entwurfscheck-aktenabgleich-red-team` - چک طرحی از پرونده ها Red Team
+- `force-majeure-geheimhaltung-nda` - نیروی ارشد مخفی نگه داشتن Nda
+- `german-agb-konforme` - آلمان Agb conform
+- `gutachten-internes-ip-rechteuebertragung` - نظرسنجی داخلی IP انتقال حقوق
+- `haftungsausschluss-haftungsbegrenzung-klageerwiderung` - عدم مسئولیت محدودیت مسوولیت پاسخ دادن به شکایت
+- `kaltstart-drafting-kommandocenter` - سردستارت درافتینگ مرکز فرماندهی
+
+## مسیر کار
+
+- نقش و هدف را مشخص کنید: کدام طرف توسط متقاضی نمایندگی می شود، چه نوع نتیجه ای مورد استفاده قرار گیرد (پشت نامه ، بررسی اطلاعیه ، طرح قرارداد ، نظر) که چگونه عمل یا سند وجود دارد؟
+- مهلت های تعویض شده: که به صورت واجبتی از قبل مهلتهای مربوطه در زمینه ی تخصصی و عملی را مشخص می کنند، نه اینکه با دانش مدل ای نهایی شوند.
+- انتخاب رشته: این برنامه در Word Legal Ai Plugin و Skill For German است که به طور مستقیم از استاندارد های مربوطه حرفه ای استفاده می شود. gesetze-im-internet.de و dejure.org در این زمینه، به صورت واقعی و با توجه به واقعیت ها را بر روی یک گروه علمی قرار دهید.
+- مقام اختصاصی: متقاضی، مخالفان، دادگاه یا اداره مجاز و هرگاه که این موضوع را مطرح کنند.
+- فقط این سوال ها را بپرسید که واقعاً مسیر بعدی رو تغییر می دهد.
+
+## لنگر کیفیت
+
+- قوانین و قضیه `references/quellenhygiene.md` و `references/zitierweise.md` درمان می کنند.
+- وقتی یک سوال خاص ظاهر می شود، مهارت مناسب را نام دهید و به طور خلاصه توضیح بدهید که چرا این روش کار درست است.
+- در صورت فشار زمان، ابتدا مهلت، صلاحیت، شکل و بار اثبات را تضمین کنید.

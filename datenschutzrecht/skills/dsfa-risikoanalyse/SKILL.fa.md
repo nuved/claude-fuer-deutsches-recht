@@ -1,0 +1,111 @@
+---
+name: dsfa-risikoanalyse
+description: "Wenn es um Risikoanalyse Eintrittswahrscheinlichkeit mal Schadenschwere in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+---
+
+> <div dir="rtl">
+>
+> **ترجمهٔ فارسی (لایهٔ افزوده) — نسخهٔ آلمانی معتبر و ملاک است.**
+> این متن ترجمهٔ ماشینیِ کمکی و صرفاً برای **جهت‌یابی** است، نه ترجمهٔ رسمی و نه مشاورهٔ حقوقی. اصطلاح‌های حقوقی، شمارهٔ مادّه‌ها (مثل «§ 305 BGB»)، نام دادگاه‌ها و شمارهٔ پرونده‌ها **عیناً به آلمانی** نگه داشته شده‌اند؛ بخش‌هایی که مطمئن ترجمه نشده‌اند به آلمانی می‌مانند. **خروجیِ کارِ این اسکیل باید به زبان آلمانی تولید شود.** متن اصلی و معتبر: [`SKILL.md`](./SKILL.md).
+>
+> </div>
+
+# تجزیه و تحلیل خطر احتمال وقوع در برابر آسیب
+
+## این ماژول کِی کمک می‌کند
+
+- در هر DSFA کامل
+- در حال بروزرسانی DSFA پس از تغییر اساسی
+- در صورت اتخاذ نظر DSB، اگر ارزیابی ریسک کامل باقی ماند
+- در صورت عدم نظارت، زمانی که روش ریسک باید ایجاد شود
+
+## چارچوب حقوقی
+
+- Art. 35 Abs. 7 lit. c DSGVO: ارزیابی خطرات مربوط به حقوق و آزادی های افراد مورد توجه.
+- دستورالعمل های EDSA WP 248 rev.01 با مقیاس ریسک
+- این روش برای بررسی احتمال وقوع و میزان آسیب ها در سال های اخیر است.
+- دلیل بررسی 75 DSGVO: نمونه هایی از آسیب های مادی و غیرمادی (تجزیه، دزدی هویت، فقدان مالی، تخریب حرفه ای، دست دادن محرمانه بودن اطلاعات خاص)
+- دلیل 76 DSGVO: ریسک باید از طریق ارزیابی معروضی مورد بررسی قرار گیرد.
+
+## روش 6 مرحله
+
+1. **صفحه پردازش.** جریان داده ها، انواع اطلاعات، گیرنده های آن، ذخیره سازی، تکنولوژی - به عنوان پایه ی تحلیل تهدید.
+2. **آزمایش تناسب پذیری.** کدام اهداف حفاظت مورد توجه قرار می گیرند (امتیاد، صداقت، دسترسی، شفافیت، مداخله ای، عدم شبکه سازی و کاهش داده ها) ؟
+3. **تحقیق ریسک* * برای هر هدف از حفاظت، سناریوهای تهدیدی را تعریف کنید:
+ - رازداری: دسترسی غیر مجاز، دزدی داده ها, ورود به داخل
+ - سالمیت: تغییر ناشناخته، دستکاری
+ - دسترسی: خاموش شدن، حذف کردن, رانسومور
+ - شفافیت: پردازش مخفی، عدم اطلاع
+ - قابلیت مداخله: مانع حذف یا اصلاح
+ - غیرمسلس: یک ترکیب نامطلوب
+ - کاهش داده ها: ذخیره سازی بیش از حد
+ هر سناریو: احتمال وقوع (کم/متوسط / بالا) و شدت آسیب برای افراد مبتلا (محدود / متوسط / بلند).
+4. ** اقدامات* * تاثیر تدبیر های برنامه ریزی شده بر احتمال و شدت؛ بررسی کاهش سطح خطر.
+5. **خطر خطر* *خطرات ریسک در هر مورد، به صورت سناریویی مستند شده. Art. 36.
+6. **مشاوره/موافقیت* *قرار دادن DSB؛ نقش اصلی مدیریت را به عنوان یک سند کنترل در DSA شامل کردن.
+
+## ماتریس ارزیابی (3x3)
+
+```
+ Schadenschwere
+ gering mittel hoch
+Wahrscheinlichkeit
+ hoch GELB ORANGE ROT
+ mittel GRUEN GELB ORANGE
+ gering GRUEN GRUEN GELB
+```
+
+- گرین - کم خطر، مستند
+- مبلغ مالی - متوسط ریسک، بررسی اقدامات
+- ORANGE - ریسک بالا، اقدامات لازم ggf. پیش از این مشورت
+- ROT - خطر بسیار بالا بدون تعدیل اقدامات هیچ تخفیف
+
+## متن نمونه / قالب
+
+```
+RISIKOMATRIX DSFA [DATUM]
+
+Verarbeitung: [BEZEICHNUNG]
+Verantwortlicher: [NAME]
+Methode: 3x3 Eintrittswahrscheinlichkeit x Schadenschwere
+
+Szenario | W | S | Risiko vor | Massnahme | W' | S' | Risiko nach
+1 Unbefugter Zugriff | h | h | ROT | [...] | g | h | GELB
+2 Unbemerkte Datenmanipulation | m | h | ORANGE | [...] | g | m | GRUEN
+3 Datenverlust durch Ausfall | m | m | GELB | [...] | g | m | GRUEN
+4 Verdeckte Profilbildung | h | h | ROT | [...] | m | h | ORANGE
+5 Loeschungssperre | g | m | GRUEN | [...] | g | m | GRUEN
+6 Ungewollte Zusammenfuehrung | m | h | ORANGE | [...] | g | m | GRUEN
+7 Ueberspeicherung | h | g | GELB | [...] | g | g | GRUEN
+
+Begruendung Wahrscheinlichkeit: [Bedrohungsmodell, Erfahrungswerte, Statistik]
+Begruendung Schadenschwere: [Erwaegungsgrund 75 DSGVO, Schutzbeduerftigkeit]
+
+Gesamtrisiko vor Massnahmen: [HOCH]
+Gesamtrisiko nach Massnahmen: [MITTEL]
+
+Restrisiko hoch verbleibend: ja / nein
+Bei ja: Vorab-Konsultation Art. 36 DSGVO erforderlich.
+
+Unterschrift Verantwortlicher: ____________________
+Unterschrift DSB: ____________________
+```
+
+## خطاهای رایج
+
+- احتمال بدون مدل تهدید - مقادیر معده قابل نظارت نیست.
+- میزان خسارت تنها از نظر سازمان ارزیابی می شود - اندازه گیری توسط فرد مورد توجه است (حساب 75).
+- تاثیر اقدامات مشخص نشده - کالم اقدام خالی است.
+- خطر بالا بدون Art. 36 در این مورد، می توان گفت که مشورت کردن یک نقض مستقل است.
+- ماترسیز ریسک به روز نمی شود - DSFA یک سند یگانه است.
+- اهداف حفاظت به محرمانه بودن کاهش می یابد - شفافیت و مداخله پذیری فراموش می شود.
+
+## وضعیت منابع 06/2026
+
+- Art. 35 Abs. 7 lit. c DSGVO
+- دلیل 75, 76 DSGVO
+- دستورالعمل های EDSA WP 248 rev.01
+- ENISA - راهنمای DSFA
+- SDM V3.0 - اهداف حفاظت
+- قضیه: اقتباس از تصمیم به دانش مدل نیست؛ قبل از انتشار تایید
+- ادبیات: مکان های نظرات و مقالات فقط با منبع خود
