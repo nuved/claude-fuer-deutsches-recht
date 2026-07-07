@@ -1,0 +1,64 @@
+---
+name: quellen-livecheck
+description: "Wenn es um Rechtsquellen-Livecheck in Zitierweise deutsches Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+---
+
+> <div dir="rtl">
+>
+> **ترجمهٔ فارسی (لایهٔ افزوده) — نسخهٔ آلمانی معتبر و ملاک است.**
+> این متن ترجمهٔ ماشینیِ کمکی و صرفاً برای **جهت‌یابی** است، نه ترجمهٔ رسمی و نه مشاورهٔ حقوقی. اصطلاح‌های حقوقی، شمارهٔ مادّه‌ها (مثل «§ 305 BGB»)، نام دادگاه‌ها و شمارهٔ پرونده‌ها **عیناً به آلمانی** نگه داشته شده‌اند؛ بخش‌هایی که مطمئن ترجمه نشده‌اند به آلمانی می‌مانند. **خروجیِ کارِ این اسکیل باید به زبان آلمانی تولید شود.** متن اصلی و معتبر: [`SKILL.md`](./SKILL.md).
+>
+> </div>
+
+# چک زنده منابع حقوقی
+
+## وضعیت کاربرد
+
+این منبع زنده برای **Citially Deutsches Recht**، بیان رسمی استاندارد سازی را از قانونی که می تواند به طور آزاد بررسی شود، اطلاعات دولتی و سطح فرم ها و خطرات آشکار بروزرسانی جدا میکند.
+
+## نقشه تخصصی این افزونه
+
+- `aktenzeichen-schriftsatz-brief-und-memo-bausteine` - اسناد نامه و یادداشت ساختمان
+- `aufsatz-interessen` - مقالۀ منافع
+- `aufsatz-interessen-beckrs-blindzitate` - مقالۀ منافع بیکر
+- `beckrs-zahlen-schwellen-und-berechnung` - تعداد بكر در حدود و محاسبه
+- `blindzitate-internationaler-bezug-und-schnittstellen` - مقالات بین المللی و رابط های
+- `chronologie-und-belegmatrix` - زمان شناسی و ماتریس مدارک
+- `datum-entscheidungsform-spezial-gericht` - تاریخ تصمیم گیری دادگاه ویژه
+- `entscheidungsform-risikoampel-und-gegenargumente` - شکل تصمیم گیری، نشانه های ریسک و استدلال مقابل
+- `fristen-und-risikoampel` - مهلت ها و چراغ خطر
+- `gericht-dokumentenmatrix-und-lueckenliste` - دادگاه اسناد ماتریک و لیست محل
+- `hauszitierweise-juristische-kommentar` - در خانه به عنوان نظر حقوقی
+- `juristische-erstpruefung-und-mandatsziel` - امتحان اول و هدف مأموریت
+- `kaltstart-triage` - سه بعدی شروع سرد
+- `anschluss-routing` - رویتینگ اتصال
+- `dokumente-intake` - اسناد دخول
+
+## لنگرهای تنظیم و منبع
+
+تمرکز کار: **حقوق منبع زنده**. این لنگرها را به واقعیت بررسی کنید؛ فقط معیارهای مشابهی که همان محصول، زمان بندی یا سوال اثبات دارند تکمیل نمایید
+
+- `§ 130 Nr. 6 ZPO` -دستور مسئول
+- `§ 138 Abs. 1 ZPO` -حق و تماميت
+- `§ 253 Abs. 2 ZPO` -دلیل های شکایت خاصی
+- `§ 313 Abs. 3 ZPO` -دلیل تصمیم گیری
+- `§ 540 Abs. 1 ZPO` -در دادگاه تجدید نظر
+- `§ 267 Abs. 1 StPO` - دلایل قضایی
+- `§ 117 Abs. 2 VwGO` - دلایل دادگاه های اداری
+- `§ 51 UrhG` - نقل قول از متن های خارجی مجاز است.
+
+رویهٔ قضایی را تنها هنگامی بیفزایید که دادگاه، تاریخ، شمارهٔ پرونده و یک منبعِ آزادانه قابل‌بررسی موجود باشد؛ از استنادهای کورِ BeckRS/juris استفاده نکنید.
+
+## مسیر کار
+
+- استاندارد های مربوط به این رشته را در ادامه بخوانید gesetze-im-internet.de و dejure.org اول از همه، تایید رسمی: gesetze-im-internet.de یا پورتال تخصصی جرگه قانون فدرال؛ نه از دانش مدل نهایی.
+- قضیه فقط با یک زنجیره کامل: دادگاه، مجلس سنا، شکل تصمیم گیری، تاریخ و اسناد پرونده ها، محل یافت (BGHZ/BVerfGE /amtl.dejure.org، openJur، خبرگزاری های دادگاه BGH-/BVerfG-دابیس).
+- از منابع Paywall (جوری، بیک آنلاین) به عنوان تنها تایید استفاده نکنید؛ همیشه یک تأیید آزاد را ارائه دهید.
+- حوزه های پویا در قانون آلمان (قانون، شیوه ی اداری، سطح اجاره و تعرفه ها) را به طور جداگانه بررسی می کنند زیرا دانش مدل از دست رفته است.
+- به صورت منبع و عدم اطمینان در محصول نشان می دهد - هیچ نقل قول جعلی بدون بررسی زنده.
+
+## لنگر کیفیت
+
+- قوانین و قضیه `references/quellenhygiene.md` و `references/zitierweise.md` درمان می کنند.
+- وقتی یک سوال خاص ظاهر می شود، مهارت مناسب را نام دهید و به طور خلاصه توضیح بدهید که چرا این روش کار درست است.
+- در صورت فشار زمان، ابتدا مهلت، صلاحیت، شکل و بار اثبات را تضمین کنید.

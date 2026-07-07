@@ -1,0 +1,258 @@
+---
+name: fachanwalt-medizinrecht-kassenarztrecht
+description: "Wenn es um Kassenarztrecht in Fachanwalt Medizinrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. Auswahlstichwort: Fachanwalt Medizinrecht Kassenarztrecht; Arbeitsfeld: Fachanwalt Medizinrecht."
+---
+
+> <div dir="rtl">
+>
+> **ترجمهٔ فارسی (لایهٔ افزوده) — نسخهٔ آلمانی معتبر و ملاک است.**
+> این متن ترجمهٔ ماشینیِ کمکی و صرفاً برای **جهت‌یابی** است، نه ترجمهٔ رسمی و نه مشاورهٔ حقوقی. اصطلاح‌های حقوقی، شمارهٔ مادّه‌ها (مثل «§ 305 BGB»)، نام دادگاه‌ها و شمارهٔ پرونده‌ها **عیناً به آلمانی** نگه داشته شده‌اند؛ بخش‌هایی که مطمئن ترجمه نشده‌اند به آلمانی می‌مانند. **خروجیِ کارِ این اسکیل باید به زبان آلمانی تولید شود.** متن اصلی و معتبر: [`SKILL.md`](./SKILL.md).
+>
+> </div>
+
+# حقوق کاسب
+
+## سوالات شروع سرد
+
+1. چه روش هایی - روند مجوز، درخواست اعتبار، بررسی احتمالات احتمالی، ارزیابی اقتصادی، اقدام تنبیعی و بازپسین؟
+2. چه کسی در این پرونده شرکت می کند؟ KV (جمعیت پزشکی کاسین) ، کمیته پذیرش، کمیته تجدید نظر، MD (خدمات بهداشتی), صندوق های درمانی.
+3. چه اطلاعیه ای در پیش است (ساره، نشانه های پرونده) و چه زمانهایی می گذرد § 96 SGB یک ماه؟
+4. آیا ویژگی های عملی یا ساختار بیمار غیرمعمولی وجود دارد (عملیات معلولین، تمرین شروع کننده ها و گروه های ویژه) ؟
+5. چه عواقب اقتصادی در پیش دارند؟ بازخواهی، کاهش حقوق، از دست دادن مجوزها و قانونی.
+- ** چه چیزی را واقعاً می خواهد مشتری به دست آورد؟** (نه، آنچه که در راه استاندارد نوشته شده است بلکه: کدام نتیجه برای مشتریان از نظر شخصی/اقتصادی بهترین است ؟ گاهی اوقات مقایسه سریع تر بهتر از روش رسمی "صواب" است.)
+
+## اساس حقوق و روش
+
+- مجوز § 95 SGB V - شرایط ثبت نام پزشکی § 95aبرنامه ریزی نیاز § 99 SGB V؛ در مورد مناطق محدود مجوز، روش های انتخابی.
+- توزیع حقوق - میزان تقسیم حقوق § 87b SGB V با حجم معمول، مقدار اضافی واجد شرایط و خدمات آزاد.
+- بررسی قابل قبولیت § 106d SGB V - نمونه یا عكس؛ KV درستگي فاكتوري را بررسي مي كند § 106d Abs. 2 SGB V.
+- بررسی اقتصادی § 106 SGB V - مقایسه با گروه مقایسه (متوسط گروهی متخصص) در مورد رفتار و روش درمان تجویز شده؛ توافق آزمایشی شرکا.
+- ویژگی های عملی - می تواند بیش از حد را توجیه کند؛ بیمار با وضعیت بیماری خاص، مشتری بیماران.
+- روش های آموزشی § 81 Abs. 5 SGB V - در صورت نقض واجب؛ اقدامات هشدار، تحويل، جریمه و بازنشستگی موقت.
+- قضیه: هیچ تصمیمی را از دانش نمونه ای نقل نکنید؛ قبل از انتشار با دادگاه، شکل تصمیم گیری و تاریخ آن ها، نشانه های پرونده یا اظهارات قابل اثبات را توسط منبع رسمی یا آزاد تأیید کنید.
+- راه قانونی § 51 Abs. 1 Nr. 2 SGG دادگاه اجتماعی - مقدمات اعتراض در کمیته تجدید نظر آغاز شده § 96 SGB V: بعد از تصمیم کمیته تجدید نظر، شکایت کنید.
+
+قانون منبع: هیچ جای برای یافتن نظرات، کتابچه یا مقاله از دانش مدل؛ ادبیات فقط با منابع کاربر و یا زیرنویس زنده مجوزff.
+
+## بار اثبات
+
+- KV بار اثبات طلبی از حقوق مشترک را دارد - واقعیت های نادرست، نقص واقعی و حسابداری.
+- پزشک قرارداد به عنوان توجیهی برای ویژگی های عملی و ساختار بیمار غیرمعمول، بار اثبات را دارد.
+- در صورت پرونده های تنبیعی، KV مسئولیت اثبات نقض وظیفه را بر عهده دارد؛ پزشک قرارداد می تواند مقصرین را رد کند.
+
+## ماتریس استراتژی
+
+| روش ها | اقدام |
+|---|---|
+| بررسی قابل قبولیت | جلسه gem. § 24 SGB استفاده از X، بررسی پرونده ها و نشان دادن نمونه های بیمار |
+| بررسی اقتصادی | مشخصه های عملی را به صورت واقعی نشان دهید، گروه مقایسه ای |
+| روش های آموزشی | در این زمینه، باید به نظر برسد که اقدامات معتدل تر از استراحت |
+| بازپرداخت | قانون اساسی، شرایط |
+| برنامه ریزی نیاز | نیاز های ویژه، امکان استخدام § 101 SGB V |
+
+## گزینه های استراتژیک (پیش از انتخاب قالب)
+
+قبل از اینکه یک به یک پر کنید، باید بررسی کرد که کدام نوع برای کنسلتیون مشتری مناسب است. این قالب شکل احتمالی ای ـه - تنها نیست
+
+| ستاره شناسی | راه توصیه شده |
+|---|---|
+| استاندارد - روش های پزشکی در امور مالی | در نظر گرفتن این موضوع، باید از طریق یک روش دقیق و با دقت بررسی شود. |
+| گزینه A - متقاضی می خواهد مجوز را رد کند | ترازنامه انکار مجوز در مقابل فروش عملی |
+| گزینه B - مجوز نیاز ویژه | برنامه ریزی نیاز § 101 SGB V بررسی GBA-درسیه |
+| گزینه C - از خدمات درمانی قراردادی محروم | اجازه مجدد فوری در مقابل درخواست جدید پس از زمان انتظار |
+
+اگر کنستلاسیون مشتری ** نمی تواند به طرح استاندارد مطابقت داشته باشد، باید قالب را تغییر دهید یا با مهارت دیگری جایگزین کنید - نه اینکه دستورات را در schema فشار بدهید.
+
+
+## طرح نامه ای اعتراض در کمیته تجدید نظر
+
+```
+An den Berufungsausschuss der KV [Bundesland]
+[Anschrift]
+
+In der vertragsaerztlichen Angelegenheit
+[Praxis] [Adresse]
+gegen den Bescheid des Zulassungsausschusses der KV [Bundesland]
+vom [Datum] Aktenzeichen [Az]
+
+Widerspruch § 96 SGB V
+
+Antraege
+
+1. Den Bescheid aufzuheben.
+
+2. Hilfsweise eine Honorarrueckforderung auf hoechstens EUR ____
+   zu beschraenken.
+
+3. Aussetzung der Vollziehung § 86b Abs. 1 SGG bis zur Entscheidung
+   des Berufungsausschusses anzuordnen.
+
+Begruendung
+
+I. Sachverhalt
+[Praxisstruktur Patientenklientel Schwerpunkte]
+
+II. Plausibilitaetspruefung
+1. Vergleichsgruppe nicht repraesentativ — Praxisbesonderheiten
+   Patientenklientel [konkret] werden nicht beruecksichtigt.
+2. Patientenstruktur atypisch — [Behinderte, palliative Versorgung,
+   Migrationsbevoelkerung].
+3. Stichprobe nicht repraesentativ — Quartal [X] enthielt
+   Sondereffekte [konkret].
+
+III. Wirtschaftlichkeit
+Patientenklientel mit ueberdurchschnittlichem Behandlungsbedarf
+rechtfertigt Behandlungsmuster. Belege als Anlagen.
+
+IV. Verfahrensruegen
+1. Anhoerung § 24 SGB X unterblieben oder mangelhaft.
+2. Begruendung § 35 SGB X unzureichend.
+
+V. Aussetzung Vollziehung
+Vollzug haette existenzgefaehrdende Wirkung — Antrag § 86b SGG.
+
+Anlagen
+- Praxisstatistik
+- Patientenstrukturanalyse
+- Verordnungsprofile
+- Vollmacht
+```
+
+--- قبل از ارسال
+1. هدف مذاکره کسل کننده چیست؟ [Bestand / Abfindung / Reputation / Schnelle Loesung]
+2. چه خط های سازشی مطلق هستند؟ [Mindestabfindung / Freistellung / Zeugnisformulierung]
+3. آیا راه های اتصال مطلوب هستند؟ [Mediation / Direktgespraech / Settlement vor Klageerhebung]
+
+## انتقال
+
+- در صورت شکست مقدماتی که به اعتراض می رسد، شکایت از سوی دادگاه اجتماعی § 51 SGG; ادامه درخواست دادگستری اجتماعی کشور § 143 SGG; بازبینی § 160 SGG در اصل اهمیت دارد.
+- در صورت خطر از دست دادن مجوز، به طور همزمان حمایت موقت § 86b Abs. 1 SGG.
+- در مورد قضیه کیفری (تزویر حسابداری) § 263 StGB) مهارت های موازی `fachanwalt-strafrecht-akteneinsicht-beantragen`.
+- در مورد مجوزها، متخصصین حقوقی نقدی و ggf. مشاوران مالیاتی را در این کار قرار دهید.
+
+## در این زمینه، بررسی کنید که چه قوانینی و قوانین فعلی وجود دارد.
+
+### نقل قول های اصلی
+
+قضیه: هیچ تصمیمی را از دانش نمونه ای نقل نکنید؛ قبل از انتشار با دادگاه، شکل تصمیم گیری و تاریخ آن ها، نشانه های پرونده یا اظهارات قابل اثبات را توسط منبع رسمی یا آزاد تأیید کنید.
+
+قضیه: هیچ تصمیمی را از دانش نمونه ای نقل نکنید؛ قبل از انتشار با دادگاه، شکل تصمیم گیری و تاریخ آن ها، نشانه های پرونده یا اظهارات قابل اثبات را توسط منبع رسمی یا آزاد تأیید کنید.
+
+قضیه: هیچ تصمیمی را از دانش نمونه ای نقل نکنید؛ قبل از انتشار با دادگاه، شکل تصمیم گیری و تاریخ آن ها، نشانه های پرونده یا اظهارات قابل اثبات را توسط منبع رسمی یا آزاد تأیید کنید.
+
+قضیه: هیچ تصمیمی را از دانش نمونه ای نقل نکنید؛ قبل از انتشار با دادگاه، شکل تصمیم گیری و تاریخ آن ها، نشانه های پرونده یا اظهارات قابل اثبات را توسط منبع رسمی یا آزاد تأیید کنید.
+
+### زنجیره پاراگراف
+
+§ 95 SGB V (آموزش) → § 95 Abs. 6 SGB V (خراج) → § 87b SGB V (مقدار توزیع حقوق) → § 106 SGB V (مطالعه اقتصادی) → § 106d SGB V (مطابق بودن، اصلاحات واقعی) § 81 Abs. 5 SGB V (کار های آموزشی) § 96 SGB V i.V.m. § 51 SGG (در دادگاه، پرونده های تجدید نظر) § 86b Abs. 1 SGG (حمايت موقت) § 24 SGB X (مذاکرات) Art. 12 Abs. 1 GG (آزادی از کار نسبت)
+
+### قاعدهٔ منابع
+
+قانون منبع: هیچ جای برای یافتن نظرات، کتابچه یا مقاله از دانش مدل؛ ادبیات فقط با منابع کاربر و یا زیرنویس زنده مجوزff.
+### برآورد مهلت ها
+
+| روش ها | مهلت | استاندارد |
+|---|---|---|
+| اعتراض به تصمیم کمیته امتیاز | یک ماه | § 96 Abs. 4 SGB V |
+| شکایت در دادگاه اجتماعی (به دنبال کمیته تجدید نظر) | یک ماه | § 87 SGG |
+| درخواست حمایت موقت § 86b SGG | قبل از اجراء | § 86b Abs. 1 SGG |
+| درخواست دادخواست | 1 ماه پس از تحویل | § 151 SGG |
+| بازبینی BSG (مطالبات عدم مجوز) | یک ماه | § 160a SGG |
+| ممانعت حقوق | ۴ سال (§ 45 SGB I analog) | BSG-چرا؟ |
+
+## سه بعدی - بررسی فوری
+
+1. ** آیا اطلاعیه ارائه می شود؟**§ 96 Abs. 4 SGB V)
+2. **آیا این یک کلاهبرداری است یا فقط آموزش؟**
+   - کشتن مجوز Art. 12 Abs. 1 GG, تناسب, معتدلانه; درخواست فوری § 86b SGG بررسی کنید.
+   - نظم و ضبط (توصیه، جریمه) → روش های مخالفت
+3. **آزمایش پلاسبیتی یا بررسی اقتصادی؟**
+   - بررسی قابل قبولیت § 106d → کلوپری ثابت کردن که اشتباه است، نمونه ای نماینده؟
+   - بررسی اقتصادی § 106 → مشخصه های عملی را به طور خاص مستند کنید (به لحاظ تشخیصی).
+4. **آزمایش ساختار بیمار، آمار تشخیصی؛ در غیر این صورت بلافاصله درخواست کنید.
+5. ** تهدید به وجود (تغییر مجدد > 3 ماهه حقوق) ؟** § 86b Abs. 1 SGG + تعادل دنباله ی انجام
+
+** درخت تصمیم:**
+```
+Bescheid eingegangen?
+├─ Ja → Frist (1 Monat) im Kalender → Widerspruch vorbereiten
+│        └─ Zulassungsentziehung? → Eilantrag § 86b SGG sofort
+└─ Nein → Anhörung § 24 SGB X → Stellungnahme innerhalb der Frist
+```
+
+## روند کار مرحله به قدم
+
+1. **تحلیلی تصمیم:** دلیل، توجیهات و درخواست های حقوقی تاریخ اعلام - مهلت ثبت شده در تقویم.
+2. ** برای بررسی اکتین** در کمیته های آمادگی/کوهشگاه (§ 25 SGB X) - تمام پروتکل های آزمایش، نمونه گیری و داده ها را برای مقایسه گروه مورد نیاز است.
+3. **تحلیل ساختار عمل:** تشخیص بیماران، پروفایل عملکردها و داده های مقررات مربوط به سه ماهه مورد توجه؛ در موارد تخصصی از متخصصان استفاده کنید.
+4. **آزامات قانونی:** گروه مقایسه صحیح؟ § 24 SGB X، دلیل § 35 SGB X)
+5. **از مخالفت با این موضوع به کمیته تجدید نظر مراجعه کنید**§ 96 SGB V: واقعیت، جزئیات عملی به طور خاص، دروغ های قانونی, درخواست تعلیق.
+6. ** آماده کردن جلسات شفاهی در کمیته تجدید نظر: مرتب سازی اسناد، ساخت و ساز سخنرانی های واقعی.
+7. **در صورت عدم موفقیت:** شکایت دادگاه اجتماعی - درخواست نظر کارشناسان در مورد اقتصادی.
+8. **در صورت بازپسین:** در برابر درخواست های فوری اداری § 86b SGG و همگام دادخواست های اصلی را ترکیب کنید.
+
+## نماد محصول - اعتراض کمیته تجدید نظر (مطلع)
+
+```
+An den Berufungsausschuss der KV [BUNDESLAND]
+[ANSCHRIFT]
+
+Datum: [DATUM]
+Betreff: Widerspruch gemäß § 96 SGB V
+Unser Zeichen: [AKTENZEICHEN KANZLEI]
+Ihr Zeichen: [AZ ZULASSUNGSAUSSCHUSS]
+
+Mandant: [NAME PRAXIS / ARZT], [ADRESSE]
+
+I. WIDERSPRUCH
+
+Im Namen und in Vollmacht meines Mandanten [NAME] lege ich hiermit Widerspruch
+gegen den Bescheid des Zulassungsausschusses der KV [BUNDESLAND]
+vom [DATUM BESCHEID], Aktenzeichen [AZ], ein.
+
+II. ANTRÄGE
+
+1. Den Bescheid vom [DATUM] aufzuheben.
+2. Hilfsweise: die [Honorarrückforderung / Disziplinarmaßnahme] auf
+   höchstens [BETRAG] EUR herabzusetzen.
+3. Die aufschiebende Wirkung des Widerspruchs anzuordnen,
+   § 86b Abs. 1 Satz 1 SGG.
+
+III. BEGRÜNDUNG
+
+1. Sachverhalt
+[Praxis-Beschreibung, Patientenklientel, Schwerpunkte,
+Behandlungsschwerpunkte mit Diagnosegruppen]
+
+2. Praxisbesonderheiten (§ 106 SGB V)
+Unsere Praxis behandelt überdurchschnittlich [Patientengruppe].
+Die diagnosebezogenen Mehraufwendungen sind in den Anlagen
+[K1 - Patientenstrukturanalyse, K2 - Diagnosestatistik] dargestellt.
+
+3. Verfahrensrügen
+3.1 Anhörung § 24 SGB X wurde nicht / unzureichend gewährt.
+3.2 Begründung § 35 SGB X fehlt / ist unzureichend.
+3.3 Stichprobe nicht repräsentativ: [konkrete Rüge].
+
+4. Vollziehungsaussetzung
+Der Vollzug führt zur Existenzgefährdung der Praxis
+[Umsatz, Rückforderungsbetrag im Verhältnis]. Erfolgsaussichten
+überwiegen das Vollziehungsinteresse.
+
+IV. BEWEISANGEBOTE
+- Anlage K1: Patientenstrukturanalyse
+- Anlage K2: Diagnoseprofil Quartal [X]
+- Anlage K3: Sachverständigengutachten Dr. [NAME]
+- Anlage K4: Vollmacht
+
+[KANZLEI, UNTERSCHRIFT, DATUM]
+```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **الزامِ تمام‌نویسی و استانداردِ قالب.** محصولِ نهایی در **جمله‌های کامل و تمام‌نوشته** تحویل می‌شود — نه اسکلتِ کلیدواژه، نه تنهٔ خالیِ شرط، نه صرفِ فهرست. شرط‌ها به‌صورتِ جمله‌های تمام‌نوشتهٔ بیان‌گرِ اثرِ حقوقی می‌آیند؛ جای‌گیرها مانند `[Name der Mandantin]` روشن علامت می‌خورند و متنِ پیرامون کامل می‌ماند.
+>
+> **شکلِ نوشتار:** هرگاه لایحه، قرارداد، یادداشت، تصمیم، ومرک یا هر سندِ نهاییِ دیگر به‌صورتِ DOCX، PDF یا متنِ قالب‌بندی‌شده بیرون داده شود، باید **Times New Roman ۱۱ pt** به‌عنوانِ قلمِ پایه به‌کار رود. عنوان‌ها در همان قلم می‌مانند و تنها می‌توانند سیاه (بولد) یا پلکانی باشند. در خروجیِ صرفاً Markdown یا چت، این خواستهٔ قالب به‌عنوانِ یادداشتِ برون‌سپاری درج می‌شود.
+>
+> **شماره‌گذاری:** ساختاربندی منحصراً اعشاری (`1`، `1.1`، `1.1.1` و به همین ترتیب). بدون اعداد رومی، بدون ساختاربندی حرفی یا آمیخته.
+<!-- END ausformulierungspflicht (autogen) -->
+

@@ -1,0 +1,49 @@
+---
+name: quellen-livecheck
+description: "Wenn es um Rechtsquellen-Livecheck in Fachanwalt Verwaltungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+---
+
+> <div dir="rtl">
+>
+> **ترجمهٔ فارسی (لایهٔ افزوده) — نسخهٔ آلمانی معتبر و ملاک است.**
+> این متن ترجمهٔ ماشینیِ کمکی و صرفاً برای **جهت‌یابی** است، نه ترجمهٔ رسمی و نه مشاورهٔ حقوقی. اصطلاح‌های حقوقی، شمارهٔ مادّه‌ها (مثل «§ 305 BGB»)، نام دادگاه‌ها و شمارهٔ پرونده‌ها **عیناً به آلمانی** نگه داشته شده‌اند؛ بخش‌هایی که مطمئن ترجمه نشده‌اند به آلمانی می‌مانند. **خروجیِ کارِ این اسکیل باید به زبان آلمانی تولید شود.** متن اصلی و معتبر: [`SKILL.md`](./SKILL.md).
+>
+> </div>
+
+# چک زنده منابع حقوقی
+
+## وضعیت کاربرد
+
+این منبع زنده برای **شخصیت وکیل حقوق مدیریت**، بیان رسمی استاندارد سازی، قانونی که می تواند به طور آزاد بررسی شود، اطلاعات دولتی، سطح فرم و خطرات آشکار بروزرسانی را جدا میکند.
+
+## نقشه تخصصی این افزونه
+
+- `amtshaftung-paragraf-839-bgb-art-34-gg` - مسئولیت اداری: ماده 839 BGB ART 34 GG
+- `anfechtungs-risikoampel-und-gegenargumente` - اعتراضات حریم عاجل ABS
+- `anhoerung-paragraf-28-vwvfg` - درخواست در مورد ماده 28
+- `anordnung-quellenkarte` - نقشه منبع
+- `drittanfechtung-umwelt` - بازجویی سوم
+- `eilrechtsschutz-paragraf-80-vwgo` - حفاظت از حقوق فوری ماده 80
+- `einstweilige-verhandlung-vergleich-und-eskalation` - اداری حقوقی مستقل
+- `ermessen-paragraf-40-vwvfg` - بر اساس ماده 40
+- `erstgespraech-mandatsannahme` - اولین مصاحبه پذیرش فرماندهی
+- `workflow-mandantenkommunikation` - قانون اداری شرکت مدنی Redteam Gate
+- `einstieg-schnelltriage-fallrouting` - قانون اداری FA شروع زمان بندی
+- `klagefrist-paragraf-58-vwgo-bverwg-4-c-1-19` - زمان درخواست § 58 Vwgo Bverwg 4 C 1 19
+- `kommunalrecht-paragraf-2-go` - قانون محلی § 2 GO
+- `anschluss-routing` - رویتینگ اتصال
+- `dokumente-intake` - اسناد دخول
+
+## مسیر کار
+
+- استاندارد های مربوطه (VwGO, VwVfG, § 80 بخش 5 VwGO در این مورد، اولین بار به طور رسمی تایید: gesetze-im-internet.de یا پورتال تخصصی جرگه قانون فدرال؛ نه از دانش مدل نهایی.
+- قضیه فقط با یک زنجیره کامل: دادگاه، مجلس سنا، شکل تصمیم گیری، تاریخ و اسناد پرونده ها، محل یافت (BGHZ/BVerfGE /amtl.dejure.org، openJur، خبرگزاری های دادگاه BGH-/BVerfG-دابیس).
+- از منابع Paywall (جوری، بیک آنلاین) به عنوان تنها تایید استفاده نکنید؛ همیشه یک تأیید آزاد را ارائه دهید.
+- حوزه های پویا در قانون مدیریت (قانونیات، شیوه ی اداری، میزان اجاره ها و تعرفه) را به طور جداگانه روزانه بررسی می کنند زیرا دانش مدل از دست رفته است.
+- به صورت منبع و عدم اطمینان در محصول نشان می دهد - هیچ نقل قول جعلی بدون بررسی زنده.
+
+## لنگر کیفیت
+
+- قوانین و قضیه `references/quellenhygiene.md` و `references/zitierweise.md` درمان می کنند.
+- وقتی یک سوال خاص ظاهر می شود، مهارت مناسب را نام دهید و به طور خلاصه توضیح بدهید که چرا این روش کار درست است.
+- در صورت فشار زمان، ابتدا مهلت، صلاحیت، شکل و بار اثبات را تضمین کنید.

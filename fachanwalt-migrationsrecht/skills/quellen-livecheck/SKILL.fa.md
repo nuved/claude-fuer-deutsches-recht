@@ -1,0 +1,49 @@
+---
+name: quellen-livecheck
+description: "Wenn es um Rechtsquellen-Livecheck in Fachanwalt Migrationsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+---
+
+> <div dir="rtl">
+>
+> **ترجمهٔ فارسی (لایهٔ افزوده) — نسخهٔ آلمانی معتبر و ملاک است.**
+> این متن ترجمهٔ ماشینیِ کمکی و صرفاً برای **جهت‌یابی** است، نه ترجمهٔ رسمی و نه مشاورهٔ حقوقی. اصطلاح‌های حقوقی، شمارهٔ مادّه‌ها (مثل «§ 305 BGB»)، نام دادگاه‌ها و شمارهٔ پرونده‌ها **عیناً به آلمانی** نگه داشته شده‌اند؛ بخش‌هایی که مطمئن ترجمه نشده‌اند به آلمانی می‌مانند. **خروجیِ کارِ این اسکیل باید به زبان آلمانی تولید شود.** متن اصلی و معتبر: [`SKILL.md`](./SKILL.md).
+>
+> </div>
+
+# چک زنده منابع حقوقی
+
+## وضعیت کاربرد
+
+این منبع زنده برای **محام مهاجرتی**، بیان رسمی استاندارد سازی را از قوانین آزادانه قابل بررسی و اطلاعات دولتی، سطح فرم ها و خطرات آشکار بروزرسانی جدا می کند.
+
+## نقشه تخصصی این افزونه
+
+- `abschiebehaft-paragraf-62-aufenthg` - به عنوان یک نفر از اعضای گروه "مرد"
+- `einstieg-schnelltriage-fallrouting` - دفاع از اخراج فوری کارفرمایان
+- `arbeitgeberwechsel` - تغییر کارگاه پناهندگی درخواست پناهندگی
+- `asylantrag-folgeverfahren-paragraf-71-asylg` - درخواست پناهندگی روش های بعدی
+- `aufenthalt-paragraf-25a-aufenthg` - اقامت § 25A
+- `aufenthaltstitel-antrag` - مجوز اقامت
+- `workflow-aufenthaltstitel-router` - اقامت نام اخراج شروع
+- `aufenthaltstitel-pruefung` - مجوز اقامت اولین زبان پذیرش فرمان
+- `ausweisung-paragrafe-53-55-aufenthg` - اخراج § 53 55 اقامت
+- `ba-zustimmung-beschaeftigung` - BA موافقت به کار
+- `blaue-karte-eu-mobilitaet` - کارت آبی حق اقامت 25A فرصت ماندن
+- `workflow-botschaft-visumtermin` - سفارت نامه تاریخ ویزا
+- `datenschutz-sicherheit-migration` - حفاظت از اطلاعات امنیت اقامت دائم در اتحادیه اروپا
+- `anschluss-routing` - رویتینگ اتصال
+- `dokumente-intake` - اسناد دخول
+
+## مسیر کار
+
+- استاندارد های مربوط به این رشته را در ادامه بخوانید gesetze-im-internet.de و dejure.org اول از همه، تایید رسمی: gesetze-im-internet.de یا پورتال تخصصی جرگه قانون فدرال؛ نه از دانش مدل نهایی.
+- قضیه فقط با یک زنجیره کامل: دادگاه، مجلس سنا، شکل تصمیم گیری، تاریخ و اسناد پرونده ها، محل یافت (BGHZ/BVerfGE /amtl.dejure.org، openJur، خبرگزاری های دادگاه BGH-/BVerfG-دابیس).
+- از منابع Paywall (جوری، بیک آنلاین) به عنوان تنها تایید استفاده نکنید؛ همیشه یک تأیید آزاد را ارائه دهید.
+- حوزه های پویا در قانون مهاجرت (قانونیات، شیوه ی اداری، میزان اجاره و تعرفه ها) را به طور جداگانه روزانه بررسی کنید زیرا دانش مدل از دست رفته است.
+- به صورت منبع و عدم اطمینان در محصول نشان می دهد - هیچ نقل قول جعلی بدون بررسی زنده.
+
+## لنگر کیفیت
+
+- قوانین و قضیه `references/quellenhygiene.md` و `references/zitierweise.md` درمان می کنند.
+- وقتی یک سوال خاص ظاهر می شود، مهارت مناسب را نام دهید و به طور خلاصه توضیح بدهید که چرا این روش کار درست است.
+- در صورت فشار زمان، ابتدا مهلت، صلاحیت، شکل و بار اثبات را تضمین کنید.

@@ -12,4 +12,10 @@ __pycache__/
 .venv-*/
 venv/
 
+# Persische Übersetzungspipeline: abgeleiteter Laufzustand (nicht einchecken).
+# Deckt .fa-translation-memory.jsonl, .fa-run.log, .fa-warm.log, *.pid,
+# .fa-orchestrate.sh ab. Die Pipeline-Skripte selbst (translate-*.py,
+# warm-fa-cache.py, README-fa-uebersetzung.md) beginnen NICHT mit ".fa-".
+scripts/.fa-*
+
 testakten/**/*.zip

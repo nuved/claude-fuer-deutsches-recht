@@ -1,0 +1,49 @@
+---
+name: quellen-livecheck
+description: "Wenn es um Rechtsquellen-Livecheck in Regulatorisches Recht – Plugin für deutsches geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten."
+---
+
+> <div dir="rtl">
+>
+> **ترجمهٔ فارسی (لایهٔ افزوده) — نسخهٔ آلمانی معتبر و ملاک است.**
+> این متن ترجمهٔ ماشینیِ کمکی و صرفاً برای **جهت‌یابی** است، نه ترجمهٔ رسمی و نه مشاورهٔ حقوقی. اصطلاح‌های حقوقی، شمارهٔ مادّه‌ها (مثل «§ 305 BGB»)، نام دادگاه‌ها و شمارهٔ پرونده‌ها **عیناً به آلمانی** نگه داشته شده‌اند؛ بخش‌هایی که مطمئن ترجمه نشده‌اند به آلمانی می‌مانند. **خروجیِ کارِ این اسکیل باید به زبان آلمانی تولید شود.** متن اصلی و معتبر: [`SKILL.md`](./SKILL.md).
+>
+> </div>
+
+# چک زنده منابع حقوقی
+
+## وضعیت کاربرد
+
+این چک زنده منابع برای قانون تنظیمگرایی، بیان رسمی استاندارد ها را از قوانین آزاد و قابل بررسی جدا می کند.
+
+## نقشه تخصصی این افزونه
+
+- `anhoerung-red-team-und-qualitaetskontrolle` - RED تیم و کنترل کیفیت
+- `anschluss-router` - روتر وصل
+- `aufsichts-feed-monitor` - نظارت بر فد مانیتور
+- `aufsichtskommunikation-grundregeln` - ارتباطات نظارتی قوانین اساسی
+- `aufsichtsrecht-erstpruefung-und-mandatsziel` - حقوق نظارت، اولین بررسی و هدف مأموریت
+- `aufsichtssanktion-revision-spezial` - تحریم های نظارتی
+- `aufsichtsverfahren-anhoerung-gwg` - بازرسی های نظارت
+- `aufsichtsverfahren-formular-portal-und-einreichung` - روش های نظارت فورمه و ارسال
+- `dora-ikt-vertragspruefung` - Dora IKT بررسی قرارداد
+- `dora-stellvertreter-und-konzern` - دورا معاون و شرکت ها
+- `enwg-feeds-heilmwerbg` - ENWG Feeds درمان فروش
+- `feeds-compliance-dokumentation-und-akte` - فید ها اسناد و مدارک مطابقت
+- `fristen-risikoampel-mandantenkommunikation` - مهلت های خطر و نوردهی ارتباطات مشتری
+- `dokumente-intake` - اسناد دخول
+- `einstieg-routing` - راه اندازی رویتینگ
+
+## مسیر کار
+
+- استاندارد های حمل و نقل (EnWG، GwG، KWG، RDG، TKG, WpHG, ZAG) اول از همه تایید رسمی: gesetze-im-internet.de یا پورتال تخصصی جرگه قانون فدرال؛ نه از دانش مدل نهایی.
+- قضیه فقط با یک زنجیره کامل: دادگاه، مجلس سنا، شکل تصمیم گیری، تاریخ و اسناد پرونده ها، محل یافت (BGHZ/BVerfGE /amtl.dejure.org، openJur، خبرگزاری های دادگاه BGH-/BVerfG-دابیس).
+- از منابع Paywall (جوری، بیک آنلاین) به عنوان تنها تایید استفاده نکنید؛ همیشه یک تأیید آزاد را ارائه دهید.
+- حوزه های پویا در قانون نظارتی (قانونی، شیوه ی اداری، سطح اجاره و تعرفه) را به طور جداگانه بررسی می کنند زیرا دانش مدل ها قدیمی شده است.
+- به صورت منبع و عدم اطمینان در محصول نشان می دهد - هیچ نقل قول جعلی بدون بررسی زنده.
+
+## لنگر کیفیت
+
+- قوانین و قضیه `references/quellenhygiene.md` و `references/zitierweise.md` درمان می کنند.
+- وقتی یک سوال خاص ظاهر می شود، مهارت مناسب را نام دهید و به طور خلاصه توضیح بدهید که چرا این روش کار درست است.
+- در صورت فشار زمان، ابتدا مهلت، صلاحیت، شکل و بار اثبات را تضمین کنید.

@@ -1,0 +1,89 @@
+---
+name: betreuungsgericht-kommunikation-angehoerige
+description: "Wenn es um Betreuungsgericht-Kommunikation für Angehörige in Betreuungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Betreuungsgericht Kommunikation Angehoerige; Arbeitsfeld: Betreuungsrecht."
+---
+
+> <div dir="rtl">
+>
+> **ترجمهٔ فارسی (لایهٔ افزوده) — نسخهٔ آلمانی معتبر و ملاک است.**
+> این متن ترجمهٔ ماشینیِ کمکی و صرفاً برای **جهت‌یابی** است، نه ترجمهٔ رسمی و نه مشاورهٔ حقوقی. اصطلاح‌های حقوقی، شمارهٔ مادّه‌ها (مثل «§ 305 BGB»)، نام دادگاه‌ها و شمارهٔ پرونده‌ها **عیناً به آلمانی** نگه داشته شده‌اند؛ بخش‌هایی که مطمئن ترجمه نشده‌اند به آلمانی می‌مانند. **خروجیِ کارِ این اسکیل باید به زبان آلمانی تولید شود.** متن اصلی و معتبر: [`SKILL.md`](./SKILL.md).
+>
+> </div>
+
+# ارتباطات دادگاه مراقبت برای افراد خانواده
+
+## لنگرهای قانونی
+
+تمرکز کار: **بزرگ های مربوط به دادگاه مراقبت**. این لنگرها را در مورد واقعیت بررسی کنید؛ فقط معیارهای مشابهی که همان محصول، مدت زمان یا سوال اثبات دارند تکمیل نمایید
+
+- `§ 1814 Abs. 1 BGB` -حاجت مراقبت
+- `§ 1815 Abs. 1 BGB` -مهمت ها
+- `§ 1816 BGB` - انتخاب نگهبان .
+- `§ 1821 Abs. 1 BGB` -حتی آرزوی من رو برآورده می کنه
+- `§ 274 FamFG` -مشارك شده
+- `§ 278 FamFG` -درباره شنیدن شخصی
+- `§ 280 FamFG` -آنها از نظر کارشناسان هستند.
+- `§ 293 FamFG` - گسترش یا محدود کردن مراقبت.
+- `§ 5 BtOG` -مشاورت و حمایت
+- `§ 23 BtOG` - ثبت کارگزاران حرفه ای
+
+رویهٔ قضایی را تنها هنگامی بیفزایید که دادگاه، تاریخ، شمارهٔ پرونده و یک منبعِ آزادانه قابل‌بررسی موجود باشد؛ از استنادهای کورِ BeckRS/juris استفاده نکنید.
+
+## صدای اصلی
+
+- در واقع
+- اثبات شده
+- در این لحظه
+- بدون هیچ گونه سرزنش
+- بدون جزئیات پزشکی که برای سوال خاص لازم نیست،
+- با درخواست واضح: اطلاعات، مجوز، تمدید وقت، تایید، اشاره.
+
+## خروجی های معمول
+
+- اولين نامه بعد از سفارش
+- لطفاً مصاحبه ی مقدماتی رو انجام بده.
+- سوال: این دادگاه چه فرم ها/ چاپ هایی را استفاده می کند؟
+- تمدید زمان برای ثبت دارایی یا گزارش
+- درخواست مجوز در مورد مسکونی، زمین، میراث، محل خطرناکی، قرارداد خانه، بسته شدن حساب.
+- در صورت تغییر عمده، اطلاعیه ی وضعیت.
+- لطفاً توجه کنید که آیا یک اقدام ممکن است نیاز به تأیید داشته باشد.
+
+## ساختار نامه
+
+```text
+Amtsgericht [Ort] - Betreuungsgericht
+Az.: [...]
+Betreuung: [Name, Geburtsdatum]
+
+Sehr geehrte Damen und Herren,
+
+ich bin mit Beschluss vom [Datum] als ehrenamtliche/r Betreuer/in bestellt.
+Mein Aufgabenkreis umfasst: [...]
+
+Anlass dieser Nachricht:
+[ein bis drei Sätze]
+
+Ich bitte um:
+[konkrete Bitte]
+
+Beigefügte Unterlagen:
+1. [...]
+2. [...]
+
+Mit freundlichen Grüßen
+```
+
+## قواعد ایمنی
+
+- در مورد اطلاعات مضر علیه خود یا اعضای خانواده، کوتاه مدت نگه دارید و ggf. توصیه می کنم که وکیل را انتخاب کنید.
+- اجازه دادن به کار خود را "خطای راه" نیست؛ در صورت عدم اطمینان، پرسیدن آشکار.
+- خواسته های فرد تحت مراقبت: چه چیزی می خواهد، چگونه مشخص شد؟
+- در صورت لزوم فوری، اول از همه با دادگاه یا اداره تماس تلفنی بگیرید و سپس یک یادداشت ثبت کنید.
+
+## اسکیل‌های پیوسته
+
+- `genehmigungspflicht-pruefung`
+- `jahresbericht-betreuungsgericht`
+- `vermoegensverzeichnis-pruefung`
+- `familienbetreuer-alltagscockpit`
+- `kalender-reminder-und-fristenmanagement`
