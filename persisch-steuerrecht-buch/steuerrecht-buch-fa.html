@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>کتاب حقوق مالیاتی آلمان — راهنمای جامع فارسی</title>
+<style>
+  :root{
+    --bg:#fbfaf7; --paper:#ffffff; --ink:#1f2328; --muted:#5b6470;
+    --accent:#7a1f2b; --accent2:#0b5d69; --line:#e6e2da; --soft:#f3f0ea;
+    --code:#f5f3ee;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Vazirmatn","Sahel","Segoe UI","Tahoma","Iranian Sans",sans-serif;
+    line-height:2; font-size:18px; direction:rtl; text-align:right;
+  }
+  .wrap{max-width:920px; margin:0 auto; padding:0 22px}
+  header.cover{
+    background:linear-gradient(135deg,#7a1f2b 0%,#5a1620 100%);
+    color:#fff; padding:64px 22px 54px; text-align:center;
+    border-bottom:6px solid #d4af37;
+  }
+  header.cover h1{font-size:2.4rem; margin:0 0 10px; line-height:1.4}
+  header.cover p{font-size:1.05rem; opacity:.92; margin:6px 0}
+  header.cover .flag{font-size:2.2rem; letter-spacing:6px; margin-bottom:14px}
+  main{background:var(--paper); margin:0 auto; padding:34px 0 70px}
+  h2{
+    color:var(--accent); font-size:1.7rem; margin:54px 0 14px;
+    padding-bottom:8px; border-bottom:2px solid var(--line);
+  }
+  h3{color:var(--accent2); font-size:1.28rem; margin:30px 0 10px}
+  h4{color:#374151; font-size:1.08rem; margin:20px 0 8px}
+  p{margin:10px 0}
+  a{color:var(--accent2); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .lead{font-size:1.1rem; color:var(--muted)}
+  ul,ol{padding-right:26px; margin:10px 0}
+  li{margin:7px 0}
+  code,.norm{
+    font-family:"Consolas","Menlo",monospace; direction:ltr; unicode-bidi:embed;
+    background:var(--code); padding:1px 6px; border-radius:5px; font-size:.92em;
+    color:#7a1f2b; display:inline-block;
+  }
+  .toc{background:var(--soft); border:1px solid var(--line); border-radius:14px; padding:22px 26px; margin:24px 0}
+  .toc h2{margin-top:0; border:0; color:var(--ink); font-size:1.4rem}
+  .toc ol{counter-reset:item; list-style:none; padding-right:0}
+  .toc ol li{counter-increment:item; margin:6px 0; padding-right:34px; position:relative}
+  .toc ol li::before{
+    content:counter(item); position:absolute; right:0; top:2px;
+    background:var(--accent); color:#fff; width:24px; height:24px; border-radius:50%;
+    text-align:center; font-size:.85rem; line-height:24px;
+  }
+  table{border-collapse:collapse; width:100%; margin:18px 0; font-size:.95rem}
+  th,td{border:1px solid var(--line); padding:9px 12px; text-align:right; vertical-align:top}
+  th{background:var(--accent); color:#fff; font-weight:600}
+  tr:nth-child(even) td{background:#faf8f4}
+  .callout{border-radius:12px; padding:14px 18px; margin:18px 0; border-right:5px solid}
+  .note{background:#eef6f7; border-color:var(--accent2)}
+  .warn{background:#fcf1ec; border-color:#c2410c}
+  .tip{background:#f1f7ee; border-color:#3f7d20}
+  .callout b{display:block; margin-bottom:4px}
+  .deadline{background:#fff7e6; border:1px solid #f0d48a; border-radius:12px; padding:12px 16px; margin:16px 0}
+  blockquote{border-right:4px solid var(--accent); background:var(--soft); margin:16px 0; padding:10px 18px; color:var(--muted)}
+  .chip{display:inline-block; background:var(--soft); border:1px solid var(--line); border-radius:20px; padding:2px 12px; font-size:.82rem; margin:2px}
+  footer{background:#2a2f36; color:#cbd2da; padding:34px 22px; text-align:center; font-size:.9rem}
+  footer a{color:#9fd0d8}
+  .backtop{display:block; text-align:left; margin-top:8px; font-size:.82rem}
+  hr{border:0; border-top:1px solid var(--line); margin:40px 0}
+  .small{font-size:.85rem; color:var(--muted)}
+  @media print{header.cover{background:#7a1f2b !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style>
+</head>
+<body>
+
+<header class="cover">
+  <div class="flag">🇩🇪 ⚖️ 🇮🇷</div>
+  <h1>کتاب حقوق مالیاتی آلمان</h1>
+  <p>راهنمای جامع فارسی برای وکلا، مشاوران مالیاتی و فعالان اقتصادی</p>
+  <p class="small">بر پایهٔ پلاگین <span dir="ltr">steuerrecht-anwalt-und-berater</span> — وضعیت قانونی: ۲۰۲۶</p>
+</header>
+
+<main>
+<div class="wrap">
+
+<p class="lead">این کتاب نمای کلیِ نظام حقوق مالیاتی آلمان (<span dir="ltr">deutsches Steuerrecht</span>) را به زبان فارسی و با چینش راست‌به‌چپ ارائه می‌دهد. اصطلاحات تخصصی و شمارهٔ مواد قانونی عمداً به آلمانی نگه داشته شده‌اند، زیرا در عمل باید دقیقاً به همان شکل به‌کار روند؛ در کنار هرکدام توضیح فارسی آمده است.</p>
+
+<div class="callout warn">
+  <b>هشدار حقوقی</b>
+  این متن یک راهنمای آموزشی و مرجع ساختاری است، نه مشاورهٔ حقوقی یا مالیاتی در یک پروندهٔ مشخص. هر ارزیابی واقعی باید توسط وکیل، وکیل متخصص حقوق مالیاتی (<span dir="ltr">Fachanwalt für Steuerrecht</span>) یا مشاور مالیاتی (<span dir="ltr">Steuerberater</span>) و با راستی‌آزمایی منابع رسمی انجام شود. ارجاع‌ها فقط به مواد قانونی (که متن واقعی قانون‌اند) داده شده‌اند؛ هیچ شمارهٔ پرونده یا منبع ساختگی استفاده نشده است.
+</div>
+
+<!-- ===================== TOC ===================== -->
+<nav class="toc">
+  <h2>فهرست مطالب</h2>
+  <ol>
+    <li><a href="#c1">ساختار نظام مالیاتی آلمان</a></li>
+    <li><a href="#c2">آیین دادرسی مالیاتی (<span dir="ltr">AO</span>) و راه‌های اعتراض</a></li>
+    <li><a href="#c3">مالیات بر درآمد (<span dir="ltr">EStG</span>)</a></li>
+    <li><a href="#c4">مالیات بر شرکت‌ها (<span dir="ltr">KStG</span>) و Organschaft</a></li>
+    <li><a href="#c5">مالیات بر ارزش افزوده (<span dir="ltr">UStG</span>)</a></li>
+    <li><a href="#c6">مالیات بر ارث و هبه (<span dir="ltr">ErbStG</span>)</a></li>
+    <li><a href="#c7">مالیات نقل‌وانتقال املاک (<span dir="ltr">GrEStG</span>) و Share Deal</a></li>
+    <li><a href="#c8">مالیات سالانهٔ املاک (<span dir="ltr">Grundsteuer</span>) و اصلاحات</a></li>
+    <li><a href="#c9">حقوق مالیات بین‌المللی (<span dir="ltr">DBA</span>، خروج، Pillar 2)</a></li>
+    <li><a href="#c10">حقوق کیفری مالیاتی و اعلام داوطلبانه</a></li>
+    <li><a href="#c11">حسابداری، ترازنامه و GoBD</a></li>
+    <li><a href="#c12">حقوق و دستمزد و مالیات حقوق (<span dir="ltr">Lohn</span>)</a></li>
+    <li><a href="#c13">بحران شرکت، سود ناشی از بازسازی و ورشکستگی</a></li>
+    <li><a href="#c14">حقوق حرفه‌ای مشاوران مالیاتی (<span dir="ltr">StBerG</span>)</a></li>
+    <li><a href="#c15">مهلت‌های کلیدی — جدول مرجع</a></li>
+    <li><a href="#c16">واژه‌نامهٔ آلمانی–فارسی</a></li>
+  </ol>
+</nav>
+
+<!-- ===================== 1 ===================== -->
+<h2 id="c1">۱. ساختار نظام مالیاتی آلمان</h2>
+<p>مالیات‌ها در آلمان در سه سطح وضع و توزیع می‌شوند: فدرال (<span dir="ltr">Bund</span>)، ایالت‌ها (<span dir="ltr">Länder</span>) و شهرداری‌ها (<span dir="ltr">Gemeinden</span>). مبنای آیین رسیدگی، «قانون عمومی مالیات‌ها» یعنی <span class="norm">Abgabenordnung (AO)</span> است که نقش «قانون اساسیِ» حقوق مالیاتی را دارد.</p>
+
+<h3>دسته‌بندی مالیات‌ها</h3>
+<table>
+  <tr><th>نوع</th><th>قانون</th><th>توضیح فارسی</th></tr>
+  <tr><td>مالیات بر درآمد</td><td><span class="norm">EStG</span></td><td>درآمد اشخاص حقیقی</td></tr>
+  <tr><td>مالیات بر شرکت‌ها</td><td><span class="norm">KStG</span></td><td>درآمد اشخاص حقوقی (<span dir="ltr">GmbH, AG</span>)</td></tr>
+  <tr><td>مالیات کسب‌وکار</td><td><span class="norm">GewStG</span></td><td>مالیات شهرداری بر فعالیت تجاری</td></tr>
+  <tr><td>مالیات بر ارزش افزوده</td><td><span class="norm">UStG</span></td><td>مالیات بر مصرف، هماهنگ با اتحادیهٔ اروپا</td></tr>
+  <tr><td>ارث و هبه</td><td><span class="norm">ErbStG</span></td><td>انتقال دارایی به‌صورت بلاعوض</td></tr>
+  <tr><td>نقل‌وانتقال املاک</td><td><span class="norm">GrEStG</span></td><td>خرید زمین و ملک</td></tr>
+  <tr><td>مالیات سالانهٔ املاک</td><td><span class="norm">GrStG</span></td><td>مالیات شهرداری بر مالکیت ملک</td></tr>
+</table>
+
+<div class="callout note">
+  <b>سه ضلع رسیدگی</b>
+  ادارهٔ مالیات (<span dir="ltr">Finanzamt</span>) برگ تشخیص (<span dir="ltr">Steuerbescheid</span>) صادر می‌کند ← مؤدی می‌تواند اعتراض (<span dir="ltr">Einspruch</span>) کند ← در نهایت دعوا در دادگاه مالی (<span dir="ltr">Finanzgericht</span>) و سپس دیوان مالی فدرال (<span dir="ltr">Bundesfinanzhof, BFH</span>) مطرح می‌شود.
+</div>
+<a class="backtop" href="#">↑ بازگشت به فهرست</a>
+
+<!-- ===================== 2 ===================== -->
+<h2 id="c2">۲. آیین دادرسی مالیاتی (<span dir="ltr">AO</span>) و راه‌های اعتراض</h2>
+<p>مهم‌ترین بخش کاربردی هر پروندهٔ مالیاتی، واکنش به برگ تشخیص است. ساختار مرحله‌به‌مرحله چنین است:</p>
+
+<h3>۲.۱ تحلیل برگ تشخیص (<span dir="ltr">Steuerbescheid-Analyse</span>)</h3>
+<p>پیش از هر اقدام، برگ تشخیص باید نظام‌مند بررسی شود: نوع مالیات، سال، مبلغ، تاریخ ابلاغ، و مهم‌تر از همه «قید بازبینی» (<span class="norm">Vorbehalt der Nachprüfung, § 164 AO</span>) یا «موقتی‌بودن» (<span class="norm">Vorläufigkeit, § 165 AO</span>).</p>
+
+<h3>۲.۲ اعتراض (<span dir="ltr">Einspruch</span>)</h3>
+<ul>
+  <li>مبنا: <span class="norm">§ 347 AO</span></li>
+  <li>مهلت: یک ماه از ابلاغ (<span class="norm">§ 355 AO</span>).</li>
+  <li>نکتهٔ خطرناک: اعتراض می‌تواند به ضرر مؤدی هم تمام شود (<span dir="ltr">Verböserung</span>, <span class="norm">§ 367 Abs. 2 AO</span>).</li>
+</ul>
+
+<h3>۲.۳ تعلیق اجرا (<span dir="ltr">Aussetzung der Vollziehung, AdV</span>)</h3>
+<p>اعتراض، اجرای مالیات را متوقف نمی‌کند. برای جلوگیری از وصول باید درخواست تعلیق اجرا داد — دومرحله‌ای:</p>
+<ul>
+  <li>نخست نزد ادارهٔ مالیات: <span class="norm">§ 361 AO</span></li>
+  <li>سپس نزد دادگاه مالی: <span class="norm">§ 69 Abs. 3 FGO</span></li>
+</ul>
+
+<h3>۲.۴ دعوا در دادگاه مالی (<span dir="ltr">Finanzgerichtsklage</span>)</h3>
+<ul>
+  <li>مبنا: <span class="norm">§§ 40 ff. FGO</span>؛ شرایط شکلی <span class="norm">§ 65 FGO</span>.</li>
+  <li>مهلت: یک ماه پس از ابلاغ تصمیم اعتراض (<span class="norm">§ 47 FGO</span>).</li>
+  <li>فرجام نزد <span dir="ltr">BFH</span>: <span class="norm">Revision §§ 115 ff. FGO</span>.</li>
+</ul>
+
+<h3>۲.۵ دسترسی به پرونده و حق اطلاع</h3>
+<p><span class="norm">§ 364 AO</span> (اطلاع از مبانی)، <span class="norm">§ 78 FGO</span> (دسترسی در مرحلهٔ دادگاه) و <span class="norm">Art. 15 DSGVO</span> (حق دسترسی بر اساس مقررات حفاظت داده).</p>
+
+<h3>۲.۶ نرمش‌های وصول</h3>
+<table>
+  <tr><th>ابزار</th><th>ماده</th><th>کارکرد</th></tr>
+  <tr><td>تقسیط/امهال</td><td><span class="norm">§ 222 AO</span></td><td>به تعویق انداختن پرداخت</td></tr>
+  <tr><td>بخشودگی</td><td><span class="norm">§ 227 / § 163 AO</span></td><td>صرف‌نظر از مالیات در موارد ناعادلانه</td></tr>
+  <tr><td>توقف اجرای وصول</td><td><span class="norm">§ 258 AO</span></td><td>تعویق موقت اجرا</td></tr>
+</table>
+
+<div class="deadline">⏰ <b>مهلت طلایی:</b> مهلت یک‌ماههٔ اعتراض (<span class="norm">§ 355 AO</span>) و مرور زمان تشخیص (<span dir="ltr">Festsetzungsverjährung</span>, <span class="norm">§§ 169 ff. AO</span> — معمولاً ۴ سال، در فرار مالیاتی ۱۰ سال) مهم‌ترین تاریخ‌های پرونده‌اند.</div>
+<a class="backtop" href="#">↑ بازگشت به فهرست</a>
+
+<!-- ===================== 3 ===================== -->
+<h2 id="c3">۳. مالیات بر درآمد (<span dir="ltr">EStG</span>)</h2>
+<p>مالیات بر درآمد اشخاص حقیقی بر هفت نوع درآمد (<span dir="ltr">Einkunftsarten</span>) وضع می‌شود؛ از جمله درآمد کسب‌وکار، کار وابسته، سرمایه و اجاره.</p>
+
+<h3>۳.۱ هزینه‌های قابل کسر</h3>
+<ul>
+  <li>هزینه‌های کسب‌وکار (<span dir="ltr">Betriebsausgaben</span>): <span class="norm">§ 4 Abs. 4 EStG</span>.</li>
+  <li>هزینه‌های تحصیل درآمد (<span dir="ltr">Werbungskosten</span>): <span class="norm">§ 9 EStG</span> — برای کارمندان.</li>
+</ul>
+
+<h3>۳.۲ مالیات سرمایه</h3>
+<p>مالیات تکلیفی بر درآمد سرمایه (<span dir="ltr">Abgeltungsteuer</span>) ۲۵٪ بر اساس <span class="norm">§ 20 EStG</span>؛ سود فروش دارایی خصوصی <span class="norm">§ 23 EStG</span> (از جمله رمزارز در صورت نگهداری کمتر از یک سال).</p>
+
+<div class="callout tip">
+  <b>رمزارز (<span dir="ltr">Krypto</span>)</b>
+  فروش رمزارز پس از یک سال نگهداری معاف است (<span class="norm">§ 23 EStG</span>). برای استیکینگ و وام‌دهی غیرمتمرکز، بخش‌نامهٔ وزارت دارایی (<span dir="ltr">BMF</span>) معیار است؛ پیش از استناد باید نسخهٔ روز آن بررسی شود.
+</div>
+
+<h3>۳.۳ مالیات تکلیفی بر غیرمقیمان</h3>
+<p>کسر در منبع برای هنرمندان، ورزشکاران و حق‌امتیاز: <span class="norm">§ 50a EStG</span>؛ استرداد و معافیت از طریق ادارهٔ مرکزی مالیات (<span dir="ltr">BZSt</span>).</p>
+<a class="backtop" href="#">↑ بازگشت به فهرست</a>
+
+<!-- ===================== 4 ===================== -->
+<h2 id="c4">۴. مالیات بر شرکت‌ها (<span dir="ltr">KStG</span>) و Organschaft</h2>
+<p>اشخاص حقوقی (مانند <span dir="ltr">GmbH</span> و <span dir="ltr">AG</span>) مشمول مالیات بر شرکت‌ها (نرخ ۱۵٪ به‌علاوهٔ عوارض همبستگی) و مالیات کسب‌وکارند.</p>
+
+<h3>۴.۱ واحد مالیاتی گروهی (<span dir="ltr">Organschaft</span>)</h3>
+<p>امکان تجمیع سود و زیان شرکت‌های یک گروه: <span class="norm">§ 14 KStG</span> (مالیات بر درآمد)، <span class="norm">§ 2 Abs. 2 UStG</span> (ارزش افزوده)، <span class="norm">§ 2 Abs. 2 GewStG</span> (کسب‌وکار). شرط اصلی: قرارداد انتقال سود و زیان (<span dir="ltr">Gewinnabführungsvertrag</span>).</p>
+
+<h3>۴.۲ توزیع پنهان سود (<span dir="ltr">verdeckte Gewinnausschüttung, vGA</span>)</h3>
+<p>پرداخت‌های غیرمتعارف به سهامدار-مدیر (مثلاً حقوق نامتناسب) به‌عنوان توزیع سود بازطبقه‌بندی و مشمول مالیات می‌شود. برای آن «شبکهٔ بررسی» (<span dir="ltr">vGA-Prüfraster</span>) به‌کار می‌رود.</p>
+
+<h3>۴.۳ تبدیل و ادغام شرکت‌ها</h3>
+<p>قانون مالیات تبدیل شرکت‌ها (<span class="norm">UmwStG</span>): تغییر شکل حقوقی (<span dir="ltr">Formwechsel</span>) و تبادل سهام (<span class="norm">Anteilstausch § 21 UmwStG</span>).</p>
+<a class="backtop" href="#">↑ بازگشت به فهرست</a>
+
+<!-- ===================== 5 ===================== -->
+<h2 id="c5">۵. مالیات بر ارزش افزوده (<span dir="ltr">UStG</span>)</h2>
+<p>مالیات بر ارزش افزوده با حقوق اتحادیهٔ اروپا هماهنگ است (<span dir="ltr">MwSt-SystRL</span>). نرخ استاندارد ۱۹٪ و نرخ کاهش‌یافته ۷٪.</p>
+
+<h3>۵.۱ کسر مالیات ورودی (<span dir="ltr">Vorsteuerabzug</span>)</h3>
+<ul>
+  <li>مبنا: <span class="norm">§ 15 UStG</span>.</li>
+  <li>پیش‌شرط: صورتحساب صحیح با تمام اقلام الزامی <span class="norm">§ 14 UStG</span>.</li>
+</ul>
+
+<h3>۵.۲ صورتحساب الکترونیکی (<span dir="ltr">E-Rechnung</span>)</h3>
+<div class="callout warn">
+  <b>تحول مهم از ۲۰۲۵</b>
+  از اول ژانویهٔ ۲۰۲۵ پذیرش صورتحساب الکترونیکی در روابط <span dir="ltr">B2B</span> الزامی شد و در سال‌های ۲۰۲۶/۲۰۲۷ صدور آن نیز به‌تدریج اجباری می‌شود. عدم رعایت می‌تواند کسر مالیات ورودی را به خطر بیندازد.
+</div>
+
+<h3>۵.۳ معاملات درون‌اتحادیه‌ای</h3>
+<p>تحویل معاف درون‌اتحادیه‌ای: <span class="norm">§ 6a UStG</span>؛ واحد مالیاتی ارزش افزوده: <span class="norm">§ 2 Abs. 2 UStG</span>.</p>
+<a class="backtop" href="#">↑ بازگشت به فهرست</a>
+
+<!-- ===================== 6 ===================== -->
+<h2 id="c6">۶. مالیات بر ارث و هبه (<span dir="ltr">ErbStG</span>)</h2>
+<p>انتقال دارایی به‌صورت بلاعوض (ارث یا هبه) مشمول مالیات است؛ نرخ و معافیت به طبقهٔ خویشاوندی (<span dir="ltr">Steuerklasse</span>) بستگی دارد.</p>
+
+<h3>۶.۱ معافیت دارایی بنگاه</h3>
+<p>تخفیف چشمگیر برای انتقال دارایی تولیدی: <span class="norm">§§ 13a, 13b ErbStG</span> — مشروط به حفظ اشتغال و ادامهٔ فعالیت.</p>
+
+<h3>۶.۲ قاعدهٔ ده‌ساله</h3>
+<p>هبه‌های یک شخص به شخص دیگر هر ۱۰ سال یک‌بار از سقف معافیت جدید بهره‌مند می‌شوند (<span dir="ltr">Zehnjahresfrist</span>) — ابزار اصلی برنامه‌ریزی انتقال نسلی دارایی.</p>
+
+<h3>۶.۳ ارزش‌گذاری املاک</h3>
+<p>ارزش‌گذاری برای مقاصد مالیاتی بر اساس قانون ارزش‌گذاری (<span class="norm">BewG</span>) انجام می‌شود.</p>
+<a class="backtop" href="#">↑ بازگشت به فهرست</a>
+
+<!-- ===================== 7 ===================== -->
+<h2 id="c7">۷. مالیات نقل‌وانتقال املاک (<span dir="ltr">GrEStG</span>) و Share Deal</h2>
+<p>خرید ملک مشمول مالیات نقل‌وانتقال است (نرخ بسته به ایالت بین ۳٫۵٪ تا ۶٫۵٪).</p>
+
+<h3>۷.۱ معاملهٔ دارایی در برابر معاملهٔ سهام</h3>
+<table>
+  <tr><th>نوع</th><th>توضیح</th></tr>
+  <tr><td><span dir="ltr">Asset Deal</span></td><td>خرید مستقیم خود ملک</td></tr>
+  <tr><td><span dir="ltr">Share Deal</span></td><td>خرید سهام شرکت مالک ملک — برای کاهش/اجتناب از مالیات</td></tr>
+</table>
+
+<h3>۷.۲ آستانهٔ ۹۰ درصد</h3>
+<div class="callout note">
+  <b>اصلاح ۲۰۲۱</b>
+  از اول ژوئیهٔ ۲۰۲۱ آستانهٔ مالیات‌ساز در معاملات سهام از ۹۵٪ به <b>۹۰٪</b> کاهش و دورهٔ نگهداری به <b>۱۰ سال</b> افزایش یافت: <span class="norm">§ 1 Abs. 2a, 2b, 3, 3a GrEStG</span>. تکلیف اعلام: <span class="norm">§ 19 GrEStG</span>.
+</div>
+
+<h3>۷.۳ معافیت گروهی و امضا/تکمیل</h3>
+<ul>
+  <li>معافیت تجدید ساختار درون‌گروهی: <span class="norm">§ 6a GrEStG</span>.</li>
+  <li>مسئلهٔ امضا/بستن معامله (<span dir="ltr">Signing/Closing</span>) و خطر تعیین مضاعف مالیات.</li>
+  <li>تصحیح/استرداد: <span class="norm">§ 16 GrEStG</span>.</li>
+</ul>
+<a class="backtop" href="#">↑ بازگشت به فهرست</a>
+
+<!-- ===================== 8 ===================== -->
+<h2 id="c8">۸. مالیات سالانهٔ املاک (<span dir="ltr">Grundsteuer</span>) و اصلاحات</h2>
+<p>پس از رأی دادگاه قانون اساسی فدرال (<span dir="ltr">BVerfG</span>) در سال ۲۰۱۸ که نظام پیشین را مغایر قانون اساسی دانست، نظام مالیات املاک به‌طور بنیادی اصلاح شد و از سال ۲۰۲۵ اجرا می‌شود.</p>
+
+<h3>۸.۱ مدل فدرال و مدل‌های ایالتی</h3>
+<p>برخی ایالت‌ها مدل فدرال (<span dir="ltr">Bundesmodell</span>) و برخی مدل خاص خود را برگزیده‌اند: بادن-وورتمبرگ، بایرن، هامبورگ، هسن و نیدرزاکسن.</p>
+
+<h3>۸.۲ زنجیرهٔ سه برگه</h3>
+<ol>
+  <li>ارزش املاک (<span dir="ltr">Grundsteuerwert</span>) — ادارهٔ مالیات، بر اساس <span class="norm">§§ 218 ff. BewG</span>.</li>
+  <li>مبلغ پایه (<span dir="ltr">Messbetrag</span>) — ادارهٔ مالیات.</li>
+  <li>برگ نهایی شهرداری با ضریب شهرداری (<span dir="ltr">Hebesatz</span>).</li>
+</ol>
+
+<h3>۸.۳ اعتراض و ارزش واقعی پایین‌تر</h3>
+<p>امکان اثبات «ارزش متعارف پایین‌تر» (<span dir="ltr">niedrigerer gemeiner Wert</span>) با ارائهٔ کارشناسی، در راستای خط دیوان مالی فدرال.</p>
+<a class="backtop" href="#">↑ بازگشت به فهرست</a>
+
+<!-- ===================== 9 ===================== -->
+<h2 id="c9">۹. حقوق مالیات بین‌المللی</h2>
+
+<h3>۹.۱ قراردادهای اجتناب از مالیات مضاعف (<span dir="ltr">DBA</span>)</h3>
+<p>آلمان با حدود ۶۰ کشور قرارداد اجتناب از مالیات مضاعف دارد. این قراردادها معمولاً از الگوی <span dir="ltr">OECD-Musterabkommen</span> پیروی می‌کنند. مفاهیم کلیدی:</p>
+<ul>
+  <li>اقامت و قاعدهٔ شکستن تساوی (<span dir="ltr">Tie-breaker</span>).</li>
+  <li>اقامتگاه دائم/مقر فعالیت (<span dir="ltr">Betriebsstätte, Art. 5</span>).</li>
+  <li>سود سهام (<span dir="ltr">Art. 10</span>)، حق امتیاز (<span dir="ltr">Art. 12</span>)، مستمری (<span dir="ltr">Art. 18</span>)، هنرمند/ورزشکار (<span dir="ltr">Art. 17</span>).</li>
+  <li>کارگران مرزی (<span dir="ltr">Grenzgänger</span>) با سوئیس، فرانسه و اتریش — قواعد ویژه.</li>
+</ul>
+<p class="small">پلاگین یک «ماتریس کشوری» برای حدود ۶۰ کشور دارد (وضعیت <span dir="ltr">BMF</span> اول ژانویهٔ ۲۰۲۶)، از جمله تعلیق قرارداد با روسیه از ۲۰۲۴.</p>
+
+<h3>۹.۲ مالیات خروج (<span dir="ltr">Wegzugsteuer</span>)</h3>
+<p>انتقال اقامت به خارج می‌تواند مالیات بر سود نهفتهٔ سهام را فعال کند: <span class="norm">§ 6 AStG</span>. قیمت‌گذاری انتقالی بین شرکت‌های وابسته: <span class="norm">§ 1 AStG</span>.</p>
+
+<h3>۹.۳ حداقل مالیات جهانی (<span dir="ltr">Pillar 2 / MinBestG</span>)</h3>
+<div class="callout note">
+  <b>از ۲۰۲۴</b>
+  حداقل نرخ مؤثر مالیات ۱۵٪ برای گروه‌های با گردش مالی بالای ۷۵۰ میلیون یورو؛ سازوکارهای <span dir="ltr">IIR / UTPR / QDMTT</span> و اظهارنامهٔ <span dir="ltr">GloBE</span>.
+</div>
+
+<h3>۹.۴ گزارش‌دهی پلتفرم‌ها و رمزارز</h3>
+<p><span dir="ltr">DAC7</span> (<span class="norm">PStTG</span>, از ۲۰۲۳) برای پلتفرم‌های دیجیتال و <span dir="ltr">DAC8</span> (<span class="norm">KryptoStG</span>, از ۲۰۲۶) برای ارائه‌دهندگان خدمات رمزارز.</p>
+<a class="backtop" href="#">↑ بازگشت به فهرست</a>
+
+<!-- ===================== 10 ===================== -->
+<h2 id="c10">۱۰. حقوق کیفری مالیاتی و اعلام داوطلبانه</h2>
+<p>جرایم مالیاتی در خود <span class="norm">AO</span> تنظیم شده‌اند (<span class="norm">§§ 369 ff. AO</span>).</p>
+
+<h3>۱۰.۱ فرار مالیاتی</h3>
+<p>فرار مالیاتی: <span class="norm">§ 370 AO</span>؛ شکل سبک‌تر و غیرعمدی: کاهش مالیات از روی بی‌مبالاتی <span class="norm">§ 378 AO</span>.</p>
+
+<h3>۱۰.۲ اعلام داوطلبانه (<span dir="ltr">Selbstanzeige</span>)</h3>
+<div class="callout warn">
+  <b>حوزهٔ پرخطر</b>
+  اعلام داوطلبانهٔ مؤثر (<span class="norm">§ 371 AO</span>) می‌تواند موجب معافیت از مجازات شود، اما تنها در صورت کامل و به‌موقع بودن. به‌دلیل ریسک بالا، رویهٔ کانون توصیه می‌کند بیش از یک وکیل آن را بررسی کند.
+</div>
+
+<h3>۱۰.۳ دفاع کیفری مالیاتی</h3>
+<p>امکان مختومه‌کردن با شرط (<span class="norm">§ 153a StPO</span>) یا توافق (<span class="norm">§ 257c StPO</span>). تکلیف اصلاح اظهارنامه: <span class="norm">§ 153 AO</span>. مسئولیت مدیر برای مالیات‌های پرداخت‌نشده: <span class="norm">§§ 34, 69 AO</span> و حق بیمهٔ کارکنان <span class="norm">§ 266a StGB</span>.</p>
+<a class="backtop" href="#">↑ بازگشت به فهرست</a>
+
+<!-- ===================== 11 ===================== -->
+<h2 id="c11">۱۱. حسابداری، ترازنامه و GoBD</h2>
+<p>این بخش قلب کار مشاور مالیاتی است.</p>
+
+<h3>۱۱.۱ ارزیابی اقتصادی کسب‌وکار (<span dir="ltr">BWA</span>)</h3>
+<p>گزارش دوره‌ای وضعیت مالی بنگاه بر پایهٔ سرفصل حساب‌ها (<span dir="ltr">SKR03/SKR04</span>): نتیجهٔ عملیاتی، حاشیهٔ پوششی، نقدینگی و شاخص‌های سودآوری.</p>
+
+<h3>۱۱.۲ تراز آزمایشی (<span dir="ltr">SuSa — Summen- und Saldenliste</span>)</h3>
+<p>فهرست گردش و مانده‌ها؛ بررسی فرم، تطبیق مانده‌ها و فهرست بدهکاران/بستانکاران.</p>
+
+<h3>۱۱.۳ صورت‌های مالی سالانه و ترازنامه</h3>
+<ul>
+  <li>تفاوت ترازنامهٔ تجاری و مالیاتی (<span dir="ltr">Handels- vs. Steuerbilanz</span>).</li>
+  <li>اصلاح ترازنامه: <span class="norm">§ 4 Abs. 2 EStG</span>.</li>
+  <li>ذخایر: <span class="norm">§ 249 HGB</span>.</li>
+  <li>ارسال الکترونیکی ترازنامه (<span dir="ltr">E-Bilanz</span>) و انتشار در <span dir="ltr">Bundesanzeiger</span>.</li>
+</ul>
+
+<h3>۱۱.۴ نگهداری صندوق و GoBD</h3>
+<p>اصول نگهداری منظم و قابل‌بازرسی دفاتر و اسناد به‌صورت الکترونیکی (<span dir="ltr">GoBD</span>) — به‌ویژه در نگهداری صندوق نقدی اهمیت دارد.</p>
+<a class="backtop" href="#">↑ بازگشت به فهرست</a>
+
+<!-- ===================== 12 ===================== -->
+<h2 id="c12">۱۲. حقوق و دستمزد و مالیات حقوق (<span dir="ltr">Lohn</span>)</h2>
+<p>محاسبهٔ حقوق و دستمزد یکی از بزرگ‌ترین حوزه‌های کار روزمره است. چند موضوع پرتکرار:</p>
+<table>
+  <tr><th>موضوع</th><th>قاعده/مبنا</th></tr>
+  <tr><td>اظهارنامهٔ مالیات حقوق</td><td>از طریق <span dir="ltr">ELSTER</span></td></tr>
+  <tr><td>مسئولیت کارفرما برای مالیات حقوق</td><td><span class="norm">§ 42d EStG</span></td></tr>
+  <tr><td>خودرو شرکت</td><td>قاعدهٔ ۱٪ یا دفترچهٔ سفر</td></tr>
+  <tr><td>بازنشستگی تکمیلی شغلی (<span dir="ltr">bAV</span>)</td><td><span class="norm">§ 3 Nr. 63 EStG</span></td></tr>
+  <tr><td>مزایای جزئی معاف</td><td>سقف ۵۰ یورو (<span dir="ltr">Sachbezug</span>)</td></tr>
+  <tr><td>جشن شرکت</td><td>معافیت ۱۱۰ یورو</td></tr>
+  <tr><td>مشاغل کوچک</td><td>مینی‌جاب / میدی‌جاب — سقف‌های ۲۰۲۶</td></tr>
+  <tr><td>حداقل دستمزد</td><td><span dir="ltr">Mindestlohn</span> — به‌روزرسانی ۲۰۲۶</td></tr>
+</table>
+<p>افزون بر مالیات، حق بیمهٔ تأمین اجتماعی (<span dir="ltr">Sozialversicherung</span>) و بازرسی <span dir="ltr">DRV</span> بر اساس <span class="norm">§ 28p SGB IV</span> اهمیت دارد؛ خطر کیفری در عدم پرداخت سهم کارکنان: <span class="norm">§ 266a StGB</span>.</p>
+<a class="backtop" href="#">↑ بازگشت به فهرست</a>
+
+<!-- ===================== 13 ===================== -->
+<h2 id="c13">۱۳. بحران شرکت، سود ناشی از بازسازی و ورشکستگی</h2>
+<p>هم‌مرز میان حقوق مالیاتی و حقوق ورشکستگی، یکی از حساس‌ترین حوزه‌های مسئولیت‌آور است.</p>
+
+<h3>۱۳.۱ تشخیص زودهنگام بحران</h3>
+<ul>
+  <li>بررسی ورشکستگی به‌علت ناتوانی در پرداخت: <span class="norm">§ 17 InsO</span>؛ پیش‌بینی نقدینگی سه‌هفته‌ای.</li>
+  <li>بررسی بیش‌بدهکاری: <span class="norm">§ 19 InsO</span> با پیش‌بینی تداوم فعالیت (<span dir="ltr">IDW S 6 / S 11</span>).</li>
+  <li>تکلیف اعلام ورشکستگی و ممنوعیت پرداخت: <span class="norm">§ 15a, § 15b InsO</span>.</li>
+</ul>
+
+<h3>۱۳.۲ سود ناشی از بازسازی (<span dir="ltr">Sanierungsgewinn</span>)</h3>
+<p>هنگامی که طلبکاران از مطالبات خود صرف‌نظر می‌کنند، سود حسابداری ایجاد می‌شود. معافیت آن:</p>
+<ul>
+  <li>معافیت پایه: <span class="norm">§ 3a EStG</span>؛ محدودیت کسر هزینه: <span class="norm">§ 3c Abs. 4 EStG</span>.</li>
+  <li>موازی در مالیات کسب‌وکار: <span class="norm">§ 7b GewStG</span> و <span class="norm">§ 10a GewStG</span>.</li>
+  <li>ابزارها: صرف‌نظر از طلب (<span dir="ltr">Forderungsverzicht</span>)، تبدیل بدهی به سهام (<span dir="ltr">Debt-Equity-Swap</span>)، توافق تأخر رتبه (<span dir="ltr">Rangrücktritt</span> با <span class="norm">§ 5 Abs. 2a EStG</span>).</li>
+</ul>
+
+<h3>۱۳.۳ مسئولیت مدیر بابت مالیات</h3>
+<p>برگ مسئولیت (<span dir="ltr">Haftungsbescheid</span>): <span class="norm">§§ 69, 191 AO</span>؛ مالیات‌های کسرشده و پرداخت‌نشده.</p>
+<a class="backtop" href="#">↑ بازگشت به فهرست</a>
+
+<!-- ===================== 14 ===================== -->
+<h2 id="c14">۱۴. حقوق حرفه‌ای مشاوران مالیاتی (<span dir="ltr">StBerG</span>)</h2>
+<p>مشاور مالیاتی یک حرفهٔ تحت نظارت کانون (<span dir="ltr">Steuerberaterkammer</span>) است. نکات کلیدی:</p>
+<ul>
+  <li>وظایف انحصاری (<span dir="ltr">Vorbehaltsaufgaben</span>) و فعالیت‌های قابل‌جمع (<span dir="ltr">vereinbare Tätigkeiten</span>).</li>
+  <li>تکلیف اصلاح: <span class="norm">§ 153 AO</span>.</li>
+  <li>بیمهٔ مسئولیت حرفه‌ای (<span dir="ltr">Berufshaftpflicht</span>).</li>
+  <li>دستمزد بر اساس آیین‌نامهٔ حق‌الزحمه (<span dir="ltr">StBVV</span>)؛ در منازعات مالیاتی وکالتی <span dir="ltr">RVG</span>.</li>
+  <li>نگهداری و امحای اسناد، انتقال داده به ابر و حفاظت داده (<span dir="ltr">DSGVO</span>).</li>
+  <li>محدودیت‌های به‌کارگیری ابزارهای هوش مصنوعی در دفتر (مرز حقوق حرفه‌ای).</li>
+</ul>
+<div class="callout tip">
+  <b>مرز نقش‌ها</b>
+  مشاور مالیاتی تا مرز دفاع کیفری و دعاوی پیچیدهٔ حقوقی پیش می‌رود؛ از آن پس کار به وکیل یا وکیل متخصص حقوق مالیاتی سپرده می‌شود. این دو نقش در عمل مکمل یکدیگرند.
+</div>
+<a class="backtop" href="#">↑ بازگشت به فهرست</a>
+
+<!-- ===================== 15 ===================== -->
+<h2 id="c15">۱۵. مهلت‌های کلیدی — جدول مرجع</h2>
+<table>
+  <tr><th>موضوع</th><th>مهلت</th><th>مبنا</th></tr>
+  <tr><td>اعتراض به برگ تشخیص</td><td>۱ ماه</td><td><span class="norm">§ 355 AO</span></td></tr>
+  <tr><td>دعوا در دادگاه مالی</td><td>۱ ماه</td><td><span class="norm">§ 47 FGO</span></td></tr>
+  <tr><td>فرجام نزد BFH</td><td>۱ ماه (+۲ ماه برای دلایل)</td><td><span class="norm">§§ 115 ff. FGO</span></td></tr>
+  <tr><td>مرور زمان تشخیص (عادی)</td><td>۴ سال</td><td><span class="norm">§ 169 AO</span></td></tr>
+  <tr><td>مرور زمان در فرار مالیاتی</td><td>۱۰ سال</td><td><span class="norm">§ 169 Abs. 2 AO</span></td></tr>
+  <tr><td>قاعدهٔ ده‌سالهٔ هبه</td><td>۱۰ سال</td><td><span class="norm">ErbStG</span></td></tr>
+  <tr><td>دورهٔ نگهداری در Share Deal</td><td>۱۰ سال</td><td><span class="norm">§ 1 GrEStG</span></td></tr>
+  <tr><td>معافیت سود فروش رمزارز</td><td>۱ سال نگهداری</td><td><span class="norm">§ 23 EStG</span></td></tr>
+  <tr><td>اعلام ورشکستگی</td><td>بدون تأخیر</td><td><span class="norm">§ 15a InsO</span></td></tr>
+</table>
+<p class="small">⚠️ این جدول صرفاً جهت جهت‌یابی است؛ هر مهلت در پروندهٔ واقعی باید بر اساس متن قانون روز و تاریخ ابلاغ دقیق محاسبه شود.</p>
+<a class="backtop" href="#">↑ بازگشت به فهرست</a>
+
+<!-- ===================== 16 ===================== -->
+<h2 id="c16">۱۶. واژه‌نامهٔ آلمانی–فارسی</h2>
+<table>
+  <tr><th>آلمانی</th><th>فارسی</th></tr>
+  <tr><td><span dir="ltr">Abgabenordnung (AO)</span></td><td>قانون عمومی مالیات‌ها (آیین رسیدگی)</td></tr>
+  <tr><td><span dir="ltr">Finanzamt</span></td><td>ادارهٔ مالیات</td></tr>
+  <tr><td><span dir="ltr">Steuerbescheid</span></td><td>برگ تشخیص مالیات</td></tr>
+  <tr><td><span dir="ltr">Einspruch</span></td><td>اعتراض اداری</td></tr>
+  <tr><td><span dir="ltr">Aussetzung der Vollziehung</span></td><td>تعلیق اجرا</td></tr>
+  <tr><td><span dir="ltr">Finanzgericht / BFH</span></td><td>دادگاه مالی / دیوان مالی فدرال</td></tr>
+  <tr><td><span dir="ltr">Betriebsausgaben</span></td><td>هزینه‌های کسب‌وکار</td></tr>
+  <tr><td><span dir="ltr">Werbungskosten</span></td><td>هزینه‌های تحصیل درآمد</td></tr>
+  <tr><td><span dir="ltr">Vorsteuerabzug</span></td><td>کسر مالیات ورودی (ارزش افزوده)</td></tr>
+  <tr><td><span dir="ltr">Organschaft</span></td><td>واحد مالیاتی گروهی</td></tr>
+  <tr><td><span dir="ltr">verdeckte Gewinnausschüttung</span></td><td>توزیع پنهان سود</td></tr>
+  <tr><td><span dir="ltr">Grunderwerbsteuer</span></td><td>مالیات نقل‌وانتقال املاک</td></tr>
+  <tr><td><span dir="ltr">Grundsteuer</span></td><td>مالیات سالانهٔ املاک</td></tr>
+  <tr><td><span dir="ltr">Doppelbesteuerungsabkommen (DBA)</span></td><td>قرارداد اجتناب از مالیات مضاعف</td></tr>
+  <tr><td><span dir="ltr">Wegzugsteuer</span></td><td>مالیات خروج</td></tr>
+  <tr><td><span dir="ltr">Steuerhinterziehung</span></td><td>فرار مالیاتی</td></tr>
+  <tr><td><span dir="ltr">Selbstanzeige</span></td><td>اعلام داوطلبانه</td></tr>
+  <tr><td><span dir="ltr">Steuerberater</span></td><td>مشاور مالیاتی</td></tr>
+  <tr><td><span dir="ltr">Fachanwalt für Steuerrecht</span></td><td>وکیل متخصص حقوق مالیاتی</td></tr>
+  <tr><td><span dir="ltr">Sanierungsgewinn</span></td><td>سود ناشی از بازسازی</td></tr>
+</table>
+<a class="backtop" href="#">↑ بازگشت به فهرست</a>
+
+<hr>
+<p class="small">این کتاب بر پایهٔ ساختار و موضوعات پلاگین <span dir="ltr">steuerrecht-anwalt-und-berater</span> (و <span dir="ltr">berufsrecht-steuerberater</span>) در این مخزن تهیه شده است. ارجاع‌ها فقط به مواد قانونی واقعی داده شده‌اند؛ مطابق قاعدهٔ «بهداشت منابع» مخزن، هیچ شمارهٔ پرونده یا فندستلهٔ ساختگی به‌کار نرفته است. برای استناد در پرونده، متن روز قانون و رویهٔ قضایی را از منابع رسمی (<span dir="ltr">gesetze-im-internet.de، bundesfinanzhof.de، bmf.de</span>) راستی‌آزمایی کنید.</p>
+
+</div>
+</main>
+
+<footer>
+  <p>کتاب حقوق مالیاتی آلمان — نسخهٔ فارسی · وضعیت قانونی ۲۰۲۶</p>
+  <p class="small">سندی آموزشی؛ جایگزین مشاورهٔ حقوقی یا مالیاتی فردی نیست.</p>
+</footer>
+
+</body>
+</html>
