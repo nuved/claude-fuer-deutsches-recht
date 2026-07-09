@@ -1,27 +1,5 @@
 # Fachanwalt Versicherungsrecht
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`fachanwalt-versicherungsrecht`) | [`fachanwalt-versicherungsrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-versicherungsrecht.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **BU-Deckungsklage Pflegekraft Vogelweide Aachen** (`bu-deckungsklage-pflegekraft-vogelweide-aachen`) | [Gesamt-PDF lesen](../testakten/bu-deckungsklage-pflegekraft-vogelweide-aachen/gesamt-pdf/bu-deckungsklage-pflegekraft-vogelweide-aachen_gesamt.pdf) | [`testakte-bu-deckungsklage-pflegekraft-vogelweide-aachen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bu-deckungsklage-pflegekraft-vogelweide-aachen.zip) |
-| **Akte Vellbruck Robotics GmbH — Roboterflotte AtlasCare / LumaMove / Werkbank C7** (`robotikrecht-roboterflotte-vellbruck-muenchen`) | [Gesamt-PDF lesen](../testakten/robotikrecht-roboterflotte-vellbruck-muenchen/gesamt-pdf/robotikrecht-roboterflotte-vellbruck-muenchen_gesamt.pdf) | [`testakte-robotikrecht-roboterflotte-vellbruck-muenchen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-robotikrecht-roboterflotte-vellbruck-muenchen.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -49,7 +27,7 @@ Wenn du das hier öffnest, willst du einen Deckungsanspruch prüfen und gegen di
 Der Skill `einstieg-routing` ist das Anwalts-Dashboard zu diesem Plugin:
 Sofort-Triage als Tabelle (Rolle, Verfahrensstand, Eilfrist, Hauptanspruch,
 Zuständigkeit), Risiko-Ampel, Anschluss-Skill-Router mit echten Slugs,
-Norm-Radar, Leitentscheidungs-Anker und genau eine Rueckfrage - bei
+Norm-Radar, Leitentscheidungs-Anker und genau eine Rückfrage - bei
 klarer Faktenlage sofort zum Spezial-Skill. Der Anwalt bleibt im Driver Seat.
 
 Konvention: [`Install from .zip`](../references/anwalts-dashboard-konvention.md)
@@ -99,7 +77,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 91 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

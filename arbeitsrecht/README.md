@@ -1,33 +1,5 @@
 # Arbeitsrecht-Plugin
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`arbeitsrecht`) | [`arbeitsrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/arbeitsrecht.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Befristungskontrollklage Vogt ./. Stadtwerke Neukölln GmbH** (`befristungskontrollklage-vogt-stadtwerke`) | [Gesamt-PDF lesen](../testakten/befristungskontrollklage-vogt-stadtwerke/gesamt-pdf/befristungskontrollklage-vogt-stadtwerke_gesamt.pdf) | [`testakte-befristungskontrollklage-vogt-stadtwerke.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-befristungskontrollklage-vogt-stadtwerke.zip) |
-| **Akte Waldkrone HealthTech GmbH - NDA, Meldekanal und Lieferantenhinweis** (`hinweisgeberschutz-nda-meldekanal-waldkrone`) | [Gesamt-PDF lesen](../testakten/hinweisgeberschutz-nda-meldekanal-waldkrone/gesamt-pdf/hinweisgeberschutz-nda-meldekanal-waldkrone_gesamt.pdf) | [`testakte-hinweisgeberschutz-nda-meldekanal-waldkrone.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-hinweisgeberschutz-nda-meldekanal-waldkrone.zip) |
-| **Vertriebsbonus und staatsanwaltschaftlicher Honeypot** (`internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot`) | [Gesamt-PDF lesen](../testakten/internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot/gesamt-pdf/internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot_gesamt.pdf) | [`testakte-internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot.zip) |
-| **Kündigungsschutzklage Weber ./. TechLogix GmbH** (`kuendigungsschutzklage-weber-techlogix`) | [Gesamt-PDF lesen](../testakten/kuendigungsschutzklage-weber-techlogix/gesamt-pdf/kuendigungsschutzklage-weber-techlogix_gesamt.pdf) | [`testakte-kuendigungsschutzklage-weber-techlogix.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kuendigungsschutzklage-weber-techlogix.zip) |
-| **Akte Lahnwerke Maschinenbau AG - Slack, AirTags und IT-Sicherheitslage** (`nis2-cybersecurity-lahnwerke-slack-airtags-it-sicherheit`) | [Gesamt-PDF lesen](../testakten/nis2-cybersecurity-lahnwerke-slack-airtags-it-sicherheit/gesamt-pdf/nis2-cybersecurity-lahnwerke-slack-airtags-it-sicherheit_gesamt.pdf) | [`testakte-nis2-cybersecurity-lahnwerke-slack-airtags-it-sicherheit.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-nis2-cybersecurity-lahnwerke-slack-airtags-it-sicherheit.zip) |
-| **Rentenberaterakte Betriebsrentenberatung Pflegedienst Halle** (`rentenberater-bav-firmenberatung-pflegedienst-halle`) | [Gesamt-PDF lesen](../testakten/rentenberater-bav-firmenberatung-pflegedienst-halle/gesamt-pdf/rentenberater-bav-firmenberatung-pflegedienst-halle_gesamt.pdf) | [`testakte-rentenberater-bav-firmenberatung-pflegedienst-halle.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-rentenberater-bav-firmenberatung-pflegedienst-halle.zip) |
-| **Akte Vellbruck Robotics GmbH — Roboterflotte AtlasCare / LumaMove / Werkbank C7** (`robotikrecht-roboterflotte-vellbruck-muenchen`) | [Gesamt-PDF lesen](../testakten/robotikrecht-roboterflotte-vellbruck-muenchen/gesamt-pdf/robotikrecht-roboterflotte-vellbruck-muenchen_gesamt.pdf) | [`testakte-robotikrecht-roboterflotte-vellbruck-muenchen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-robotikrecht-roboterflotte-vellbruck-muenchen.zip) |
-| **Klingenhain Musikschule / DRV-Statusprüfung** (`statusfeststellung-drv-musikschule-gf-freelancer-klingenhain`) | [Gesamt-PDF lesen](../testakten/statusfeststellung-drv-musikschule-gf-freelancer-klingenhain/gesamt-pdf/statusfeststellung-drv-musikschule-gf-freelancer-klingenhain_gesamt.pdf) | [`testakte-statusfeststellung-drv-musikschule-gf-freelancer-klingenhain.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-statusfeststellung-drv-musikschule-gf-freelancer-klingenhain.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -49,7 +21,7 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du eine Kuendigung rechtssicher angreifen oder aussprechen und die Klagefrist sichern.
+Wenn du das hier öffnest, willst du eine Kündigung rechtssicher angreifen oder aussprechen und die Klagefrist sichern.
 Arbeitsrechtliche Abläufe für Personalabteilungen und Arbeitsrechtler: Einstellungsprüfung, Kündigungsprüfung, Richtlinienerstellung, Personalhandbuch-Updates, Lohn-und-Arbeitszeitfragen sowie Statusfeststellung – auf das deutsche Arbeitsrecht (KSchG, BetrVG, BGB, AGG, ArbZG, MiLoG, MuSchG, BEEG, TzBfG, BUrlG, EFZG, SGB IV) zugeschnitten.
 
 **Jede Ausgabe ist ein Entwurf zur anwaltlichen Prüfung – zitiert, mit Prüfhinweisen versehen und gegen unbeabsichtigte Weitergabe gesichert. Das Plugin erledigt die Recherchearbeit: Es liest Dokumente, wendet Ihre Prüfschemata an, benennt Risiken und erstellt Entwürfe. Die rechtliche Beurteilung und die Entscheidung liegen beim Rechtsanwalt oder Syndikusrechtsanwalt.** Zitate werden nach ihrer Quelle gekennzeichnet, damit klar ist, welche überprüft werden müssen. Vertraulichkeitsvermerke werden zurückhaltend gesetzt. Folgenreiche Handlungen – Einreichen, Versenden, Vollziehen – erfordern ausdrückliche Freigabe.
@@ -98,7 +70,7 @@ Die Konfiguration wird unter `~/.claude/plugins/config/claude-fuer-deutsches-rec
 | `/arbeitsrecht:lohnsteuer-sozialversicherung` | Statusfeststellung, Scheinselbständigkeit, Clearingverfahren DRV |
 | `/arbeitsrecht:fehlzeiten-register` | Urlaubsregister und Fehlzeitentracker: BUrlG, EFZG, MuSchG, BEEG |
 | `/arbeitsrecht:fehlzeit-erfassen` | Neue Fehlzeit / neuen Urlaub im Register anlegen |
-| `/arbeitsrecht:expansion-auftakt [Land]` | Entsendungs-/Expansionsprojekt eröffnen: AÜG, A1, EU-Entsende-RL, AentG |
+| `/arbeitsrecht:expansion-auftakt [Land]` | Entsendungs-/Expansionsprojekt eröffnen: AÜG, A1, EU-Entsende-RL, ÄntG |
 | `/arbeitsrecht:expansion-aktualisierung [Land]` | Offenes Entsendungsprojekt aktualisieren |
 | `/arbeitsrecht:untersuchung-eroeffnen` | Interne Untersuchung eröffnen – Intake, Quellenplan, Protokoll anlegen |
 | `/arbeitsrecht:untersuchung-ergaenzen` | Dokumente / Gesprächsnotizen zu offener Untersuchung hinzufügen |
@@ -253,7 +225,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 98 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

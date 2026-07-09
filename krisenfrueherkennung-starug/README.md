@@ -1,27 +1,5 @@
 # Krisenfrüherkennung und StaRUG-Management
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`krisenfrueherkennung-starug`) | [`krisenfrueherkennung-starug.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/krisenfrueherkennung-starug.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Krisenfrüherkennung & StaRUG – Vier Varianten** (`krisenfrueherkennung-starug-vier-varianten`) | [Gesamt-PDF lesen](../testakten/krisenfrueherkennung-starug-vier-varianten/gesamt-pdf/krisenfrueherkennung-starug-vier-varianten_gesamt.pdf) | [`testakte-krisenfrueherkennung-starug-vier-varianten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-krisenfrueherkennung-starug-vier-varianten.zip) |
-| **StaRUG-Aufhebung der Restrukturierungssache — Holding Düsseldorf (BGH IX ZB 18/25)** (`starug-aufhebung-holding-duesseldorf-ix-zb-18-25`) | [Gesamt-PDF lesen](../testakten/starug-aufhebung-holding-duesseldorf-ix-zb-18-25/gesamt-pdf/starug-aufhebung-holding-duesseldorf-ix-zb-18-25_gesamt.pdf) | [`testakte-starug-aufhebung-holding-duesseldorf-ix-zb-18-25.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-starug-aufhebung-holding-duesseldorf-ix-zb-18-25.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -43,7 +21,7 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du Eroeffnungsgrund und Fortbestehensprognose belastbar bestimmen und den naechsten Verfahrensschritt wählen.
+Wenn du das hier öffnest, willst du Eröffnungsgrund und Fortbestehensprognose belastbar bestimmen und den nächsten Verfahrensschritt wählen.
 **Plugin-Slug:** `krisenfrueherkennung-starug`
 **Version:** 3.2.1
 **Autor:** Klotzkette
@@ -166,7 +144,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 58 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

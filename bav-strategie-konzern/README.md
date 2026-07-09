@@ -1,29 +1,5 @@
 # BAV Strategie Konzern — Treuenfels Yamamoto Rechtsanwälte Partnerschaft mbB
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`bav-strategie-konzern`) | [`bav-strategie-konzern.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/bav-strategie-konzern.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Betriebliche Altersversorgung – MEISSNER RHEINWERK AG** (`bav-strategie-konzern-meissner-rheinwerk-ag`) | [Gesamt-PDF lesen](../testakten/bav-strategie-konzern-meissner-rheinwerk-ag/gesamt-pdf/bav-strategie-konzern-meissner-rheinwerk-ag_gesamt.pdf) | [`testakte-bav-strategie-konzern-meissner-rheinwerk-ag.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bav-strategie-konzern-meissner-rheinwerk-ag.zip) |
-| **Rentenberaterakte Betriebsrentenberatung Pflegedienst Halle** (`rentenberater-bav-firmenberatung-pflegedienst-halle`) | [Gesamt-PDF lesen](../testakten/rentenberater-bav-firmenberatung-pflegedienst-halle/gesamt-pdf/rentenberater-bav-firmenberatung-pflegedienst-halle_gesamt.pdf) | [`testakte-rentenberater-bav-firmenberatung-pflegedienst-halle.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-rentenberater-bav-firmenberatung-pflegedienst-halle.zip) |
-| **Rentenberaterakte Querschnitt Status, Betriebsrente und Rentenanspruch Dortmund** (`rentenberater-status-bav-rentenanspruch-querschnitt-dortmund`) | [Gesamt-PDF lesen](../testakten/rentenberater-status-bav-rentenanspruch-querschnitt-dortmund/gesamt-pdf/rentenberater-status-bav-rentenanspruch-querschnitt-dortmund_gesamt.pdf) | [`testakte-rentenberater-status-bav-rentenanspruch-querschnitt-dortmund.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-rentenberater-status-bav-rentenanspruch-querschnitt-dortmund.zip) |
-| **Betriebsrente Wiesbaden: Pensionskassenkürzung, Arbeitgeberhaftung und Anpassungsprüfung** (`rentenrecht-betriebsrente-pensionskasse-kuerzung-wiesbaden`) | [Gesamt-PDF lesen](../testakten/rentenrecht-betriebsrente-pensionskasse-kuerzung-wiesbaden/gesamt-pdf/rentenrecht-betriebsrente-pensionskasse-kuerzung-wiesbaden_gesamt.pdf) | [`testakte-rentenrecht-betriebsrente-pensionskasse-kuerzung-wiesbaden.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-rentenrecht-betriebsrente-pensionskasse-kuerzung-wiesbaden.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -45,7 +21,7 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 Dieses Plugin stellt 21 spezialisierte Skills für die strategische Beratung zur betrieblichen Altersversorgung (BAV) in Konzernen bereit. Es spiegelt den Beratungsansatz der Boutique-Großkanzlei **Treuenfels Yamamoto Rechtsanwälte Partnerschaft mbB**, Königsallee 92, 40212 Düsseldorf (Zweigbüro: Gion-Higashi, Shijō-dōri, Kyoto).
 
 **Namens-Partner:**
@@ -138,7 +114,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 58 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

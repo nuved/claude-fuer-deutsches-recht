@@ -1,27 +1,5 @@
 # DSA, DMA und Digitalregulierung der EU
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`dsa-dma-digitalregulierung`) | [`dsa-dma-digitalregulierung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/dsa-dma-digitalregulierung.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Aktenübersicht — Baustube Meißnerlein GmbH ./. Glitzerwald Inc. u. a.** (`dsa-dma-bayrische-baustube-meissner`) | [Gesamt-PDF lesen](../testakten/dsa-dma-bayrische-baustube-meissner/gesamt-pdf/dsa-dma-bayrische-baustube-meissner_gesamt.pdf) | [`testakte-dsa-dma-bayrische-baustube-meissner.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-dsa-dma-bayrische-baustube-meissner.zip) |
-| **DSA/DMA — VLOP-Designation und Mahnverfahren Körnerstrom Social GmbH (Halmweise.de)** (`dsa-dma-tunnelreichweite-vlop-very-large-online-plattform-koernerstrom`) | [Gesamt-PDF lesen](../testakten/dsa-dma-tunnelreichweite-vlop-very-large-online-plattform-koernerstrom/gesamt-pdf/dsa-dma-tunnelreichweite-vlop-very-large-online-plattform-koernerstrom_gesamt.pdf) | [`testakte-dsa-dma-tunnelreichweite-vlop-very-large-online-plattform-koernerstrom.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-dsa-dma-tunnelreichweite-vlop-very-large-online-plattform-koernerstrom.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -43,7 +21,7 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 Plugin für die anwaltliche Praxis im Recht der digitalen Märkte und Dienste.
 
 ## Abgedeckte Rechtsakte
@@ -99,7 +77,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 58 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

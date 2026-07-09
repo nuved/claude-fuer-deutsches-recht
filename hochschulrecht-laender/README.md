@@ -1,27 +1,5 @@
 # Hochschulrecht der Bundesländer
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`hochschulrecht-laender`) | [`hochschulrecht-laender.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/hochschulrecht-laender.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Akte Campus Rheinbogen - Berufung, Senat und Drittmittel** (`hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen`) | [Gesamt-PDF lesen](../testakten/hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen/gesamt-pdf/hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen_gesamt.pdf) | [`testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen.zip) |
-| **Akte Jana Mondsee - Drittversuch, KI-Vorwurf und Masterarbeit** (`pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee`) | [Gesamt-PDF lesen](../testakten/pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee/gesamt-pdf/pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee_gesamt.pdf) | [`testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -38,12 +16,12 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 | Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`hochschulrecht-laender.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/hochschulrecht-laender.zip) |
 | Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/hochschulrecht-laender/hochschulrecht-laender-werkstatt.md" download><code>hochschulrecht-laender-werkstatt.md</code></a> |
 | Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/hochschulrecht-laender/hochschulrecht-laender-schnellstart.md" download><code>hochschulrecht-laender-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Akte Campus Rheinbogen - Berufung, Senat und Drittmittel: [Gesamt-PDF](../testakten/hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen/gesamt-pdf/hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen_gesamt.pdf), [`testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen.zip), [`testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen-einzelpdfs.zip); Akte Jana Mondsee - Drittversuch, KI-Vorwurf und Masterarbeit: [Gesamt-PDF](../testakten/pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee/gesamt-pdf/pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee_gesamt.pdf), [`testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee.zip), [`testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee-einzelpdfs.zip) |
+| Testakte(n) als ZIP | ZIP | Akte Campus Rheinbogen - Berufung, Senat und Drittmittel: [Gesamt-PDF](../testakten/hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen/gesamt-pdf/hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen_gesamt.pdf), [`testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen.zip), [`testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen-einzelpdfs.zip); Akte Jana Mondsee - Drittversuch, digitale Systeme-Vorwurf und Masterarbeit: [Gesamt-PDF](../testakten/pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee/gesamt-pdf/pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee_gesamt.pdf), [`testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee.zip), [`testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee-einzelpdfs.zip) |
 
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 Dieses Plugin ist der Hochschulrechts-Kompass für Universitäten, Hochschulen, Präsidien, Fakultäten, Studenten, Lehrer und Rechtsabteilungen. Es verbindet Landeshochschulrecht, Satzungen, Wissenschaftsfreiheit und Verwaltungsrecht.
 
 ## Wofür dieses Plugin da ist
@@ -95,7 +73,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 100 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

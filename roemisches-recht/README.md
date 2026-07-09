@@ -1,26 +1,5 @@
 # Römisches Recht
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`roemisches-recht`) | [`roemisches-recht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/roemisches-recht.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Römischrechtliche Fallakte Aventinus** (`roemisches-recht-kauf-besitz-erbschaft-pergamentfall`) | [Gesamt-PDF lesen](../testakten/roemisches-recht-kauf-besitz-erbschaft-pergamentfall/gesamt-pdf/roemisches-recht-kauf-besitz-erbschaft-pergamentfall_gesamt.pdf) | [`testakte-roemisches-recht-kauf-besitz-erbschaft-pergamentfall.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-roemisches-recht-kauf-besitz-erbschaft-pergamentfall.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -42,7 +21,7 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 Römisches Recht als begriffliche Werkstatt: Zwölftafelgesetz, klassische Institute, justinianische Kompilation und byzantinische Fortbildung verstehen, Falltypen trennen und moderne Dogmatik nicht vorschnell hineindeuten. Der Grundton ist praktisch: Nicht zuerst ein abstraktes Gesetzbuch suchen, sondern fragen, welche **actio**, **exceptio**, Formel oder prätorische Schutztechnik den Fall trägt.
 
 Dieses Plugin führt durch **Römisches Recht** von der archaischen Zwölftafeltradition über Klassik und Justinian bis zum byzantinischen Recht. Es erzeugt je nach Bedarf Memos, Quellenmatrizen, Synopsen, Vertrags-/Klauselbausteine, Risiko-Dashboards, Unterrichtsbausteine oder Entscheidungsvermerke. Der allgemeine Skill startet schnell und schlägt anschließend die passenden Spezialskills vor.
@@ -97,7 +76,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 284 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

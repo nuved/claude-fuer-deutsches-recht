@@ -1,27 +1,5 @@
 # Deutsche Rechtsgeschichte
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`deutsche-rechtsgeschichte`) | [`deutsche-rechtsgeschichte.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/deutsche-rechtsgeschichte.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Rechtsgeschichtliche Akte Falkenau** (`deutsche-rechtsgeschichte-restitution-bgb-ddr-kontinuitaet`) | [Gesamt-PDF lesen](../testakten/deutsche-rechtsgeschichte-restitution-bgb-ddr-kontinuitaet/gesamt-pdf/deutsche-rechtsgeschichte-restitution-bgb-ddr-kontinuitaet_gesamt.pdf) | [`testakte-deutsche-rechtsgeschichte-restitution-bgb-ddr-kontinuitaet.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-deutsche-rechtsgeschichte-restitution-bgb-ddr-kontinuitaet.zip) |
-| **Akte Wusterhagen: Mühlenstau, Chaussee und Aufopferung** (`preussisches-landrecht-wusterhagen-muehlenstau-aufopferung`) | [Gesamt-PDF lesen](../testakten/preussisches-landrecht-wusterhagen-muehlenstau-aufopferung/gesamt-pdf/preussisches-landrecht-wusterhagen-muehlenstau-aufopferung_gesamt.pdf) | [`testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -43,7 +21,7 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 Rechtsgeschichte als Werkzeug, nicht als Museum: Quellen lesen, Epochen trennen, Kontinuitäten prüfen und Gegenwartsargumente sauber historisieren.
 
 Dieses Plugin führt durch **Deutsche Rechtsgeschichte** und erzeugt je nach Bedarf Memos, Quellenmatrizen, Vertrags-/Klauselbausteine, Risiko-Dashboards, Unterrichtsbausteine oder Entscheidungsvermerke. Der allgemeine Skill startet schnell und schlägt anschließend die passenden Spezialskills vor.
@@ -92,7 +70,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 205 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

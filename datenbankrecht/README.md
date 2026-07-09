@@ -1,26 +1,5 @@
 # Datenbankrecht und Datenbankherstellerrecht
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`datenbankrecht`) | [`datenbankrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/datenbankrecht.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Akte Datenspeicher Havel: automatisiertes Auslesen, API, Immobilienportal und KI-Training** (`datenbankrecht-datenabruf-plattform-investitionsschutz`) | [Gesamt-PDF lesen](../testakten/datenbankrecht-datenabruf-plattform-investitionsschutz/gesamt-pdf/datenbankrecht-datenabruf-plattform-investitionsschutz_gesamt.pdf) | [`testakte-datenbankrecht-datenabruf-plattform-investitionsschutz.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-datenbankrecht-datenabruf-plattform-investitionsschutz.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -37,12 +16,12 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 | Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`datenbankrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/datenbankrecht.zip) |
 | Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/datenbankrecht/datenbankrecht-werkstatt.md" download><code>datenbankrecht-werkstatt.md</code></a> |
 | Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/datenbankrecht/datenbankrecht-schnellstart.md" download><code>datenbankrecht-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Akte Datenspeicher Havel: automatisiertes Auslesen, API, Immobilienportal und KI-Training: [Gesamt-PDF](../testakten/datenbankrecht-datenabruf-plattform-investitionsschutz/gesamt-pdf/datenbankrecht-datenabruf-plattform-investitionsschutz_gesamt.pdf), [`testakte-datenbankrecht-datenabruf-plattform-investitionsschutz.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-datenbankrecht-datenabruf-plattform-investitionsschutz.zip), [`testakte-datenbankrecht-datenabruf-plattform-investitionsschutz-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-datenbankrecht-datenabruf-plattform-investitionsschutz-einzelpdfs.zip) |
+| Testakte(n) als ZIP | ZIP | Akte Datenspeicher Havel: automatisiertes Auslesen, API, Immobilienportal und Trainingsdaten: [Gesamt-PDF](../testakten/datenbankrecht-datenabruf-plattform-investitionsschutz/gesamt-pdf/datenbankrecht-datenabruf-plattform-investitionsschutz_gesamt.pdf), [`testakte-datenbankrecht-datenabruf-plattform-investitionsschutz.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-datenbankrecht-datenabruf-plattform-investitionsschutz.zip), [`testakte-datenbankrecht-datenabruf-plattform-investitionsschutz-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-datenbankrecht-datenabruf-plattform-investitionsschutz-einzelpdfs.zip) |
 
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 Das Plugin macht das sui-generis-Datenbankrecht praktisch: Es fragt nicht nach schöner Gestaltung, sondern nach wesentlicher Investition, Entnahme, Weiterverwendung, wesentlichem Teil und systematischen Teilentnahmen.
 
 ## Arbeitsweise
@@ -84,7 +63,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 129 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

@@ -1,26 +1,5 @@
 # E-Mail-Umformulierer (Berufsrechtskonform)
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`email-umformulierer-berufsrecht`) | [`email-umformulierer-berufsrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/email-umformulierer-berufsrecht.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Eskalations-E-Mails Mandantenstreit — Erbengemeinschaft Aufhauser-Trenkler vs. Kanzlei Rosenmühle & Partner** (`eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle`) | [Gesamt-PDF lesen](../testakten/eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle/gesamt-pdf/eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle_gesamt.pdf) | [`testakte-eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -42,7 +21,7 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 Formuliert unfreundliche, emotionale oder unsachliche E-Mails in höfliche, sachliche und berufsrechtskonform formulierte Texte um. Der Fokus liegt auf dem anwaltlichen Berufsrecht (BRAO/BORA), mit spezialisierten Modi für Steuerberater (StBerG/BOStB), Notare (BNotO) und allgemeine berufliche Korrespondenz.
 
 ## Enthaltene Skills
@@ -149,7 +128,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 82 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

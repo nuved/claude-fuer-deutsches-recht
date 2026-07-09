@@ -1,26 +1,5 @@
 # Solo-Selbstständige Praxis
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`solo-selbststaendige-praxis`) | [`solo-selbststaendige-praxis.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/solo-selbststaendige-praxis.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Luise Falkenberg - Solo-Selbstständigkeit Designstudio Falkensee 2026** (`solo-selbststaendige-designstudio-luise-falkensee-2026`) | [Gesamt-PDF lesen](../testakten/solo-selbststaendige-designstudio-luise-falkensee-2026/gesamt-pdf/solo-selbststaendige-designstudio-luise-falkensee-2026_gesamt.pdf) | [`testakte-solo-selbststaendige-designstudio-luise-falkensee-2026.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-solo-selbststaendige-designstudio-luise-falkensee-2026.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -42,7 +21,7 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 Ein Alltags-Cockpit für Menschen, die alleine selbstständig arbeiten und trotzdem mit Finanzamt, Kunden, Krankenkasse, DRV, KSK, Datenschutz, Verträgen, Rechnungen, Mahnungen und dem eigenen Kontostand klarkommen müssen.
 
 Das Plugin ist bewusst praktisch: Es fragt zuerst, ob die Person Anfängerin/Anfänger ist, ob es Haupt- oder Nebenerwerb ist, ob Gewerbe oder Freiberuf in Betracht kommt, ob gerade eine Frist läuft und ob ein Dokument vorliegt. Danach erzeugt es keine Wolke aus Ratschlägen, sondern ein konkretes Ergebnis: Mail, Checkliste, Rechnungstext, Vertragsbaustein, Statusmatrix, Fristenlog oder Entscheidungsmemo.
@@ -98,7 +77,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 201 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

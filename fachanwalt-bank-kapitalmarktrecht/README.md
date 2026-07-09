@@ -1,27 +1,5 @@
 # Fachanwalt Bank Kapitalmarktrecht
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`fachanwalt-bank-kapitalmarktrecht`) | [`fachanwalt-bank-kapitalmarktrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-bank-kapitalmarktrecht.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Cybertrading-Anlagebetrug Wittfeldt – Bremen** (`cybertrading-anlagebetrug-wittfeldt-bremen`) | [Gesamt-PDF lesen](../testakten/cybertrading-anlagebetrug-wittfeldt-bremen/gesamt-pdf/cybertrading-anlagebetrug-wittfeldt-bremen_gesamt.pdf) | [`testakte-cybertrading-anlagebetrug-wittfeldt-bremen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-cybertrading-anlagebetrug-wittfeldt-bremen.zip) |
-| **Projekt Nachtfalter — Private Equity Buyout, Schuldschein und NPL-Portfolio** (`private-equity-buyout-schuldschein-npl-heidelberg`) | [Gesamt-PDF lesen](../testakten/private-equity-buyout-schuldschein-npl-heidelberg/gesamt-pdf/private-equity-buyout-schuldschein-npl-heidelberg_gesamt.pdf) | [`testakte-private-equity-buyout-schuldschein-npl-heidelberg.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-private-equity-buyout-schuldschein-npl-heidelberg.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -43,7 +21,7 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 Plugin Fachanwalt für Bank- und Kapitalmarktrecht. Orientierung KWG ZAG WpHG WpIG MiFID-II MAR Marktmissbrauch MiCAR Verbraucherkredit Vermögensanlage Beratungshaftung. Schnittstellen gesellschaftsrecht und regulatorisches-recht.
 
 Der bankrechtliche Teil deckt nun ausdrücklich auch die klassischen Sicherungs- und Liquiditätsinstrumente ab: Bürgschaft, kaufmännische Bürgschaft, Aval, Kautionsaval, Bankgarantie, Bürgschaft auf erstes Anfordern, Akkreditiv, Standby Letter of Credit, Dokumentenstreit, Abruf, Eilrechtsschutz und Regress. Das ist der praktische Kern vieler Mandate: Die Bank sichert den Geschäftsverkehr ab, verschafft Liquidität, und im Streit entscheidet die genaue Formulierung des Sicherungsmittels.
@@ -90,7 +68,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 86 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

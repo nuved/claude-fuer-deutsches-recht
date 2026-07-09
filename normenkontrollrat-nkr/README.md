@@ -1,25 +1,4 @@
-# Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen
-
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`normenkontrollrat-nkr`) | [`normenkontrollrat-nkr.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/normenkontrollrat-nkr.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Testakte NKR: Elektronische Erreichbarkeit von Handelsregister-Gesellschaften (ElErrHandRegG 2026)** (`nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026`) | [Gesamt-PDF lesen](../testakten/nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026/gesamt-pdf/nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026_gesamt.pdf) | [`testakte-nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
+# Normenkontrollrat (NKR) — Prüfung von Gesetzentwürfen
 
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
@@ -42,20 +21,20 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 Freistehendes Plugin für die Arbeit eines **Mitglieds oder Referenten / einer Referentin des Nationalen Normenkontrollrats (NKR)** nach dem Gesetz über die Einsetzung eines Nationalen Normenkontrollrats (**NKRG vom 14.08.2006, BGBl. I S. 1866**) in der jeweils geltenden Fassung.
 
-Es bildet den vollständigen Prüfzyklus eines Vorhabens ab: von der **Eingangstriage** eines Referentenentwurfs über die **Erfuellungsaufwand-Berechnung** nach Standardkostenmodell (SKM) und die **Prüfraster** des NKR bis zur **Stellungnahme** nach § 6 NKRG.
+Es bildet den vollständigen Prüfzyklus eines Vorhabens ab: von der **Eingangstriage** eines Referentenentwurfs über die **Erfüllungsaufwand-Berechnung** nach Standardkostenmodell (SKM) und die **Prüfraster** des NKR bis zur **Stellungnahme** nach § 6 NKRG.
 
 ## Mandatsperspektive
 
 Das Plugin schreibt aus der Sicht des **NKR-Prüfers**, nicht aus Ressortsicht. Es geht **nicht** darum, einen Entwurf zu verteidigen, sondern darum, ihn nach den NKR-Kriterien zu prüfen und ggf. **kritisch zu kommentieren**.
 
-Leitsatz: *"Wenn nicht noetig, dann nicht regeln; wenn noetig, dann so einfach, so digital, so mittelstandsfreundlich und so evaluationsfest wie möglich."*
+Leitsatz: *"Wenn nicht nötig, dann nicht regeln; wenn nötig, dann so einfach, so digital, so mittelstandsfreundlich und so evaluationsfest wie möglich."*
 
 ## Aufbau
 
-Das Plugin enthaelt 37 Skills in fuenf Clustern:
+Das Plugin enthält 37 Skills in fünf Clustern:
 
 ```
 A — Grundlagen, Verfahren, Mandat (7 Skills)
@@ -109,9 +88,9 @@ E — Spezialfaelle / komplexe Themen (6 Skills)
 ## Methodische Grundlagen (Pflicht-Bezugnahmen)
 
 - **NKRG** vom 14.08.2006 (BGBl. I S. 1866) in der jeweils geltenden Fassung
-- **GGO** insbesondere § 44 (Prüfung der Gesetzesfolgen) und § 45 (Erfuellungsaufwand-Darstellung)
-- **Handbuch der Rechtsfoermlichkeit (HdR)** als Drafting-Grundlage
-- **Leitfaden zur Ermittlung und Darstellung des Erfuellungsaufwands** (BMI / NKR)
+- **GGO** insbesondere § 44 (Prüfung der Gesetzesfolgen) und § 45 (Erfüllungsaufwand-Darstellung)
+- **Handbuch der Rechtsförmlichkeit (HdR)** als Drafting-Grundlage
+- **Leitfaden zur Ermittlung und Darstellung des Erfüllungsaufwands** (BMI / NKR)
 - **Standardkostenmodell (SKM)** als NKR-Methodik
 - **One-in-one-out-Regel** (Beschluss der Bundesregierung 2015)
 - **Digitalcheck** (seit 2022)
@@ -122,7 +101,7 @@ E — Spezialfaelle / komplexe Themen (6 Skills)
 
 Zu diesem Plugin existiert eine vollständige Beispielakte unter [`nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026/`](../testakten/nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026/).
 
-**Sachverhalt**: Referentenentwurf des BMJ vom 14.04.2026 zur Verbesserung der elektronischen Erreichbarkeit im Handelsregister eingetragener Gesellschaften (**ElErrHandRegG**). NKR-Prüfung ergibt: Regelung ist erforderlich, Ausgestaltung jedoch zu komplex; geschaetzter Erfuellungsaufwand 320 Mio EUR jaehrlich für die Wirtschaft. Stellungnahme weist die Notwendigkeit positiv aus, kritisiert die konkrete Ausgestaltung und schlägt eine zentrale Loesung vor.
+**Sachverhalt**: Referentenentwurf des BMJ vom 14.04.2026 zur Verbesserung der elektronischen Erreichbarkeit im Handelsregister eingetragener Gesellschaften (**ElErrHandRegG**). NKR-Prüfung ergibt: Regelung ist erforderlich, Ausgestaltung jedoch zu komplex; geschätzter Erfüllungsaufwand 320 Mio EUR jährlich für die Wirtschaft. Stellungnahme weist die Notwendigkeit positiv aus, kritisiert die konkrete Ausgestaltung und schlägt eine zentrale Lösung vor.
 
 Die Akte zeigt sowohl die **mahnende** als auch die **konstruktive** Funktion des NKR.
 
@@ -141,13 +120,13 @@ Die Akte zeigt sowohl die **mahnende** als auch die **konstruktive** Funktion de
 
 ## Konversationsstil
 
-Erste Antwort knapp. Maximal eine gezielte Rueckfrage zur Mandatsaufnahme. Sofort in den Prüfraster-Modus übergehen und einen ersten Stellungnahme-Entwurf liefern, sobald Eckdaten vorliegen. Subsumtion und ausführliche Begründung nur dort, wo der Skill dies ausdruecklich vorsieht (Erforderlichkeit, Verhältnismäßigkeit, Alternativenpruefung).
+Erste Antwort knapp. Maximal eine gezielte Rückfrage zur Mandatsaufnahme. Sofort in den Prüfraster-Modus übergehen und einen ersten Stellungnahme-Entwurf liefern, sobald Eckdaten vorliegen. Subsumtion und ausführliche Begründung nur dort, wo der Skill dies ausdrücklich vorsieht (Erforderlichkeit, Verhältnismäßigkeit, Alternativenprüfung).
 
 ## Verwandte Plugins
 
-- [`legistik-werkstatt/`](../legistik-werkstatt/) — Drafting-Werkstatt für Referenten- und Kabinettsentwuerfe (Ressortsicht; NKR ist der Prüfer dieser Entwuerfe).
-- [`normenkontrolle-bauleitplanung/`](../normenkontrolle-bauleitplanung/) — Anfechtung von Bauleitplaenen nach § 47 VwGO (begriffliche Verwandtschaft, nicht inhaltlich).
-- [`buerokratieversteher-entbuerokratisierer/`](../buerokratieversteher-entbuerokratisierer/) — operative Entbuerokratisierung in einzelnen Verfahren.
+- [`legistik-werkstatt/`](../legistik-werkstatt/) — Drafting-Werkstatt für Referenten- und Kabinettsentwürfe (Ressortsicht; NKR ist der Prüfer dieser Entwürfe).
+- [`normenkontrolle-bauleitplanung/`](../normenkontrolle-bauleitplanung/) — Anfechtung von Bauleitplänen nach § 47 VwGO (begriffliche Verwandtschaft, nicht inhaltlich).
+- [`buerokratieversteher-entbuerokratisierer/`](../buerokratieversteher-entbuerokratisierer/) — operative Entbürokratisierung in einzelnen Verfahren.
 
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
@@ -170,7 +149,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 63 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

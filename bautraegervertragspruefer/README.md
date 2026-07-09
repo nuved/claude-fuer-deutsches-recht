@@ -1,25 +1,4 @@
-# Bauträgervertragspruefer
-
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`bautraegervertragspruefer`) | [`bautraegervertragspruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/bautraegervertragspruefer.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akte
-
-| Akte | Download |
-| --- | --- |
-| Pluginlokale Testakte | [`bautraegervertragspruefer-testakte.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/bautraegervertragspruefer-testakte.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
+# Bauträgervertragsprüfer
 
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
@@ -42,7 +21,7 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du einen deutschen Bauträgervertrag verbraucherseitig prüfen: Ratenplan, Sicherheiten, Baubeschreibung, Abnahme, Bauzeit, Preisanpassung, Teilungserklaerung — und am Ende ein Gutachten plus ein Aufforderungsschreiben an Bauträger und Notar in der Hand haben.
+Wenn du das hier öffnest, willst du einen deutschen Bauträgervertrag verbraucherseitig prüfen: Ratenplan, Sicherheiten, Baubeschreibung, Abnahme, Bauzeit, Preisanpassung, Teilungserklärung — und am Ende ein Gutachten plus ein Aufforderungsschreiben an Bauträger und Notar in der Hand haben.
 
 **Schwester-Plugin:** [`bautraegervertrag-pruefer`](../bautraegervertrag-pruefer) (mit Bindestrich) deckt dasselbe Mandat mit einzeln ladbaren Spezial-Skills samt references-Workflow ab; dieses Plugin hier bietet Megaprompt-Original und zwei Testakten. Für ein Mandat genügt eines von beiden.
 
@@ -55,26 +34,26 @@ Wenn du das hier öffnest, willst du einen deutschen Bauträgervertrag verbrauch
 
 ## Was du am Ende in der Hand hast
 
-Eine Klauselmatrix Satz für Satz mit Ampel-Einschaetzung (rot, orange, gruen), ein Mandantengutachten mit paragraphenbezogener Begründung, ein Aufforderungsschreiben an Bauträger und Notar mit konkreter richtiger Fassung pro beanstandeter Klausel sowie eine Verhandlungsstrategie mit Gegenargument-Antwort.
+Eine Klauselmatrix Satz für Satz mit Ampel-Einschätzung (rot, orange, grün), ein Mandantengutachten mit paragraphenbezogener Begründung, ein Aufforderungsschreiben an Bauträger und Notar mit konkreter richtiger Fassung pro beanstandeter Klausel sowie eine Verhandlungsstrategie mit Gegenargument-Antwort.
 
 ## Der Weg dorthin
 
-Vertrag und Anlagen einlesen → Fall-Fingerabdruck erstellen (Parteien, Einheit, Projekt, Preis, Ratenplan, Sicherheiten) → MaBV-Ratenplan und Sicherheiten prüfen → AGB-Kontrolle Klausel für Klausel → Baubeschreibung gegen Bausoll und anerkannte Regeln der Technik halten → Abnahme Gemeinschaftseigentum und Schlussrate prüfen → Bauzeit, Preisanpassung, Teilungserklaerung kontrollieren → Mandantengutachten und Aufforderungsschreiben ausgeben.
+Vertrag und Anlagen einlesen → Fall-Fingerabdruck erstellen (Parteien, Einheit, Projekt, Preis, Ratenplan, Sicherheiten) → MaBV-Ratenplan und Sicherheiten prüfen → AGB-Kontrolle Klausel für Klausel → Baubeschreibung gegen Bausoll und anerkannte Regeln der Technik halten → Abnahme Gemeinschaftseigentum und Schlussrate prüfen → Bauzeit, Preisanpassung, Teilungserklärung kontrollieren → Mandantengutachten und Aufforderungsschreiben ausgeben.
 
 ## Workflows
 
 Drei Modi zur Wahl:
 
-- **Schnellpruefung**: Top-Zehn-Auffaelligkeiten, geschaetztes Risikoprofil, Empfehlung in wenigen Saetzen.
-- **Vollpruefung**: Fall-Fingerabdruck, Klauselmatrix, AGB-Kontrolle, MaBV-Prüfung, Mandantengutachten.
-- **Verhandlungspfad**: Vollpruefung plus Aufforderungsschreiben an Bauträger und Notar mit konkreter richtiger Fassung pro Klausel und Verhandlungsstrategie.
+- **Schnellprüfung**: Top-Zehn-Auffälligkeiten, geschätztes Risikoprofil, Empfehlung in wenigen Sätzen.
+- **Vollprüfung**: Fall-Fingerabdruck, Klauselmatrix, AGB-Kontrolle, MaBV-Prüfung, Mandantengutachten.
+- **Verhandlungspfad**: Vollprüfung plus Aufforderungsschreiben an Bauträger und Notar mit konkreter richtiger Fassung pro Klausel und Verhandlungsstrategie.
 
 ## Was dich aufhält
 
-- **MaBV-Ratenplan**: Überhoehte Vorleistungen, falsche Verteilung der Raten auf Bauabschnitte, fehlende Sicherheit nach Paragraf 7 MaBV.
+- **MaBV-Ratenplan**: Überhöhte Vorleistungen, falsche Verteilung der Raten auf Bauabschnitte, fehlende Sicherheit nach Paragraf 7 MaBV.
 - **Verbraucherbauvertrag**: Paragrafen 650u und 650v BGB, Baubeschreibung als Pflichtinhalt, verbindliche Angabe zum Bauzeitende.
 - **AGB-Kontrolle**: Notarielle Beurkundung schliesst AGB-Kontrolle nicht aus; geltungserhaltende Reduktion findet bei unwirksamen Verbraucher-AGB nicht statt.
-- **Abnahme Gemeinschaftseigentum**: Verklammerung der Abnahme mit der Schlussrate gefaehrdet die werthaltige Sicherung.
+- **Abnahme Gemeinschaftseigentum**: Verklammerung der Abnahme mit der Schlussrate gefährdet die werthaltige Sicherung.
 - **Baubeschreibung**: Pauschale Verweise auf anerkannte Regeln der Technik ohne konkrete Spezifikation lassen das Bausoll offen.
 
 ## Rechtlicher Anker
@@ -83,13 +62,13 @@ Drei Modi zur Wahl:
 - Paragrafen 305 bis 310 BGB (AGB-Kontrolle)
 - Makler- und Bauträgerverordnung (MaBV), insbesondere Paragrafen 3, 7
 - Paragraf 14 BNotO (Belehrungspflichten Notar)
-- Wohnungseigentumsgesetz (Teilungserklaerung, Abnahme Gemeinschaftseigentum)
-- HOAI (Leistungsphasen Objektueberwachung)
+- Wohnungseigentumsgesetz (Teilungserklärung, Abnahme Gemeinschaftseigentum)
+- HOAI (Leistungsphasen Objektüberwachung)
 - BGH-Leitentscheidungen zu Bauträgervertrag, MaBV und Abnahmeklauseln (im Werkstatt-Prompt ausführlich)
 
 ## Hinweise
 
-Generischer Pruefstand, alle Angaben ohne Gewähr. Jede Nutzerin und jeder Nutzer prüft den Pruefbericht auf Plausibilität und Eignung im konkreten Einzelfall. Keine Rechtsberatung. Keine Garantie für Vollständigkeit oder Aktualität der Rechtsprechung. Bei streitigen Fällen Fachanwalt für Bau- und Architektenrecht oder Notar hinzuziehen.
+Generischer Prüfstand, alle Angaben ohne Gewähr. Jede Nutzerin und jeder Nutzer prüft den Prüfbericht auf Plausibilität und Eignung im konkreten Einzelfall. Keine Rechtsberatung. Keine Garantie für Vollständigkeit oder Aktualität der Rechtsprechung. Bei streitigen Fällen Fachanwalt für Bau- und Architektenrecht oder Notar hinzuziehen.
 
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
@@ -111,7 +90,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 30 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

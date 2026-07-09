@@ -1,26 +1,5 @@
 # Influencer-Recht
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`influencer-recht`) | [`influencer-recht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/influencer-recht.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Akte Luna Kanal: Sachleistungen, Rabattcodes, Musikrechte und Steuerprüfung** (`influencer-recht-creator-sachleistungen-steuer-werbung`) | [Gesamt-PDF lesen](../testakten/influencer-recht-creator-sachleistungen-steuer-werbung/gesamt-pdf/influencer-recht-creator-sachleistungen-steuer-werbung_gesamt.pdf) | [`testakte-influencer-recht-creator-sachleistungen-steuer-werbung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-influencer-recht-creator-sachleistungen-steuer-werbung.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -42,7 +21,7 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 Das Plugin übersetzt Creator-Alltag in Recht: Kooperation, Geschenk, Affiliate-Link, Story, Livestream, Gewinnspiel, Musik, Minderjährige, Agenturvertrag und Steuer werden als zusammenhängender Workflow geprüft.
 
 ## Arbeitsweise
@@ -84,7 +63,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 129 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

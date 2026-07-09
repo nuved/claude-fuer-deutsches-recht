@@ -1,26 +1,5 @@
 # Plugin: status-navigator-step-plan
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`status-navigator-step-plan`) | [`status-navigator-step-plan.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/status-navigator-step-plan.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **LausitzStorage 200 GmbH i.G. (Batteriegroßspeicher Jänschwalde/Peitz)** (`status-navigator-batteriespeicher-jaenschwalde-peitz`) | [Gesamt-PDF lesen](../testakten/status-navigator-batteriespeicher-jaenschwalde-peitz/gesamt-pdf/status-navigator-batteriespeicher-jaenschwalde-peitz_gesamt.pdf) | [`testakte-status-navigator-batteriespeicher-jaenschwalde-peitz.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-status-navigator-batteriespeicher-jaenschwalde-peitz.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -42,18 +21,18 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 **Status-Navigator und Step-Plan-Macher**.
 
-## Was dieses Plugin ist — und was es ausdruecklich nicht ist
+## Was dieses Plugin ist — und was es ausdrücklich nicht ist
 
-Dies ist ein Plugin reiner **Dokumentenverarbeitung**. Es enthaelt — bewusst und als einzige Ausnahme im Repo — **keine Normen- und Rechtsprechungs-Anker** in den Skills. Der Grund: der Status-Navigator strukturiert chaotische Dokumentenlagen, beantwortet die Fragen "Was haben wir?", "Was fehlt?", "Was muss geschehen?" — er bewertet jedoch nichts rechtlich. Die rechtliche Prüfung bleibt anwaltliche Aufgabe.
+Dies ist ein Plugin reiner **Dokumentenverarbeitung**. Es enthält — bewusst und als einzige Ausnahme im Repo — **keine Normen- und Rechtsprechungs-Anker** in den Skills. Der Grund: der Status-Navigator strukturiert chaotische Dokumentenlagen, beantwortet die Fragen "Was haben wir?", "Was fehlt?", "Was muss geschehen?" — er bewertet jedoch nichts rechtlich. Die rechtliche Prüfung bleibt anwaltliche Aufgabe.
 
-Alle uebrigen Plugins des Repos arbeiten mit verifizierten Norm- und Rechtsprechungs-Zitaten. Dieses Plugin tut das ausdruecklich nicht. Es liefert Reiter, Spalten, Workflow-Schritte und Status-Notes — keine Subsumtion.
+Alle übrigen Plugins des Repos arbeiten mit verifizierten Norm- und Rechtsprechungs-Zitaten. Dieses Plugin tut das ausdrücklich nicht. Es liefert Reiter, Spalten, Workflow-Schritte und Status-Notes — keine Subsumtion.
 
 ## Worum es geht
 
-Anwaeltinnen und Anwaelte aus Restrukturierung, Finanzierung, Gesellschaftsrecht und Transaktionen kennen das Problem: ein Riesenklumpatsch aus Dokumenten faellt ins Mandat. Ungeordnet, disparat, teils widersprüchlich. Zwei Fragen stellen sich immer:
+Anwältinnen und Anwälte aus Restrukturierung, Finanzierung, Gesellschaftsrecht und Transaktionen kennen das Problem: ein Riesenklumpatsch aus Dokumenten fällt ins Mandat. Ungeordnet, disparat, teils widersprüchlich. Zwei Fragen stellen sich immer:
 
 1. **Was ist eigentlich los?**
 2. **Was muss jetzt geschehen?**
@@ -62,11 +41,11 @@ Der Status-Navigator beantwortet beide — und macht aus einer statischen Bestan
 
 ## Die Vier-Reiter-Struktur
 
-Das Herzstueck ist eine mehrseitige Excel-Arbeitsmappe (nicht eine Chatfenster-Tabelle), bestehend aus mindestens vier Reitern:
+Das Herzstück ist eine mehrseitige Excel-Arbeitsmappe (nicht eine Chatfenster-Tabelle), bestehend aus mindestens vier Reitern:
 
 | Reiter | Inhalt |
 | --- | --- |
-| 1 Überblick / Statuslage | Gesamtsituation auf einen Blick: Dokument, Datum, Verfuegbarkeit, Unterschriftsstatus, Partei, Rechtsgrundlage, Zweck |
+| 1 Überblick / Statuslage | Gesamtsituation auf einen Blick: Dokument, Datum, Verfügbarkeit, Unterschriftsstatus, Partei, Rechtsgrundlage, Zweck |
 | 2 Vorhandene Dokumente | Detailliste aller vorhandenen Dokumente mit Status und Anmerkungen |
 | 3 Fehlende Dokumente | Auflistung der noch fehlenden Dokumente und Nachweise mit Beschaffungspfad |
 | 4 Workflow / Next Steps | Konkreter Step-Plan: Schritte in Reihenfolge, Rechtsgrundlage, Unterschrift, Empfänger |
@@ -75,15 +54,15 @@ Optional erweiterbar um Fristen, Beteiligte, Rangfolge, Sicherheiten und Hyperli
 
 ## Was der Status-Navigator konkret leistet
 
-1. **Dokumententypen erkennen und einordnen** (Verträge, Erklaerungen, Beschlüsse, Cap Tables, Korrespondenz).
+1. **Dokumententypen erkennen und einordnen** (Verträge, Erklärungen, Beschlüsse, Cap Tables, Korrespondenz).
 2. **Unterschriften und Vollständigkeit prüfen.**
 3. **Diskrepanzen und Copy-Paste-Fehler aufdecken.**
 4. **Versand- und Zustellungsstatus erfassen.**
-5. **Luecken und Fehler in den Tabellen direkt notifizieren.**
+5. **Lücken und Fehler in den Tabellen direkt notifizieren.**
 
 ## Padlet als Alternativausgabe
 
-Neben der Excel-Arbeitsmappe kann der Status-Navigator denselben Step-Plan als Padlet-Shelf ausspielen. Vier Spalten, eine je Reiter, mit Ampelfarbe pro Karte, Anhaengen und Kommentar-Threads. Sinnvoll für verteilte Teams und Mandantenfreigaben; **vor Einsatz Datenschutzpruefung** (siehe Skill `padlet-als-werkzeug`).
+Neben der Excel-Arbeitsmappe kann der Status-Navigator denselben Step-Plan als Padlet-Shelf ausspielen. Vier Spalten, eine je Reiter, mit Ampelfarbe pro Karte, Anhängen und Kommentar-Threads. Sinnvoll für verteilte Teams und Mandantenfreigaben; **vor Einsatz Datenschutzprüfung** (siehe Skill `padlet-als-werkzeug`).
 
 ## Die 35 Skills im Überblick
 
@@ -138,17 +117,17 @@ Neben der Excel-Arbeitsmappe kann der Status-Navigator denselben Step-Plan als P
 
 ## Wichtiger Hinweis vor der Nutzung
 
-- **Rechtliche Prüfung bleibt anwaltliche Aufgabe.** Der Status-Navigator erfasst und strukturiert — er bewertet nicht abschliessend. Ob eine Kuendigung wirksam, ein Zugang erfolgt, ein Formerfordernis erfuellt ist, muss der Anwalt selbst prüfen.
-- **Vollständigkeitskontrolle.** Die KI kann Dokumente oder Zusammenhaenge übersehen. Jede generierte Tabelle muss anhand der Originaldokumente überprüft werden.
+- **Rechtliche Prüfung bleibt anwaltliche Aufgabe.** Der Status-Navigator erfasst und strukturiert — er bewertet nicht abschliessend. Ob eine Kündigung wirksam, ein Zugang erfolgt, ein Formerfordernis erfüllt ist, muss der Anwalt selbst prüfen.
+- **Vollständigkeitskontrolle.** Die KI kann Dokumente oder Zusammenhänge übersehen. Jede generierte Tabelle muss anhand der Originaldokumente überprüft werden.
 - **Diskrepanz-Hinweise sind Hinweise, keine Befunde.**
-- **Datenschutz und Berufsrecht.** Finanzierungs- und Gesellschaftsdokumente enthalten hochsensible Daten. Die Nutzung ist nur mit einem System zulässig, das DSGVO, § 203 StGB und §§ 43a, 43e BRAO erfuellt.
+- **Datenschutz und Berufsrecht.** Finanzierungs- und Gesellschaftsdokumente enthalten hochsensible Daten. Die Nutzung ist nur mit einem System zulässig, das DSGVO, § 203 StGB und §§ 43a, 43e BRAO erfüllt.
 - **Eigenverantwortung.** Sie tragen die Verantwortung für jede Information und jeden Schritt.
 
 ## Excel-Vorlage und Beispiel
 
-Die Excel-Spaltenkoepfe folgen der Vorlage `step-plan-document-tracker-template.xlsx`. Ein voll ausgefuelltes Beispiel zum Mandat **LausitzStorage 200 GmbH i.G. (Batteriegrossspeicher Jaenschwalde / Peitz, Brandenburg)** liegt in der zugehoerigen Testakte `testakten/status-navigator-batteriespeicher-jaenschwalde-peitz/`:
+Die Excel-Spaltenköpfe folgen der Vorlage `step-plan-document-tracker-template.xlsx`. Ein voll ausgefülltes Beispiel zum Mandat **LausitzStorage 200 GmbH i.G. (Batteriegrossspeicher Jänschwalde / Peitz, Brandenburg)** liegt in der zugehörigen Testakte `testakten/status-navigator-batteriespeicher-jaenschwalde-peitz/`:
 
-- `25_step_plan_excel_lausitzstorage.xlsx` (4 Reiter, ampelgefaerbt)
+- `25_step_plan_excel_lausitzstorage.xlsx` (4 Reiter, ampelgefärbt)
 - `26_step_plan_pdf_lausitzstorage.pdf` (4 Reiter als 4 PDF-Seiten, A3 quer)
 
 Dieselbe Datenbasis lässt sich auch als Padlet-Shelf ausspielen (vier Spalten); siehe Padlet-Skills.
@@ -178,7 +157,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 35 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

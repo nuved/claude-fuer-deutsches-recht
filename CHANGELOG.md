@@ -1,3 +1,121 @@
+# v429.15.0 — Fachrouten, Rechtsprechungsanker und Prompt-Hygiene geschärft
+
+- Werkstatt- und Schnellstart-Prompts erhalten eigene Fachprofile für Immobilien-, Grundbuch- und Notarrecht, Europarecht, juristische Methodik, Betreuungsrecht, HOAI- und Planervertragsrecht, HR-Operations sowie Weltraumrecht. Dadurch sank die Zahl der bewusst allgemeinen Auffangrouten von 55 auf 21 Plugins.
+- Eindeutige Plugins werden vor jeder Teilwortsuche über eine feste Fachroute zugeordnet. Unter anderem starten Grundbuchamt, Notariat, Erbbaurecht, Europarecht-Kompass, Betreuungsrecht, HOAI-Leistungsphasen, Personalabteilung, Migrationsrecht, Verhältnismäßigkeitsprüfung und Internal Investigations nun mit ihrem eigenen Prüf- und Outputkern.
+- Der Arbeitsrechtsanker `BAG, Urteil vom 24.08.2023 - 2 AZR 17/23` ist inhaltlich berichtigt: Die Entscheidung betrifft die berechtigte Vertraulichkeitserwartung bei Äußerungen in einer Chatgruppe. Der Skill zur Betriebsratsanhörung nutzt stattdessen den einschlägigen Anker `BAG, Urteil vom 07.05.2020 - 2 AZR 678/19`.
+- Betreuungsrechtliche Prompts ziehen keine strukturanaloge Erbrechtsentscheidung mehr als Kernanker heran. Sie verwenden nun die verifizierten Linien `XII ZB 80/11`, `1 BvR 413/20` und `XII ZB 235/24` zu Erforderlichkeit, Selbstbestimmung, Betreuerauswahl und konkretem Betreuungsbedarf.
+- HOAI-Prompts trennen Alt- und Neuverträge, Leistungsbild, Leistungsstand, Honorar und Haftung und verorten `C-377/17`, `C-261/20` sowie `VII ZR 174/19` mit ihrem tatsächlichen Aussagegehalt. Weltraumrecht arbeitet mit Startstaat, Registerstaat, Genehmigung, Haftungsregime, Registrierung und Telemetriebeleg statt mit allgemeinem internationalem Vertragsrecht.
+- Der Prompt-Hygiene-Audit leitet seine Soll-Dateien nun ausschließlich aus dem Marketplace ab und prüft exakt 468 Promptdateien statt versehentlich eine Indexdatei mitzuzählen. Ein zusätzlicher Routing-Audit kontrolliert Vollständigkeit, Größen, Dezimalgliederung, kritische Fachzuordnungen und die Zahl allgemeiner Auffangprofile im Release-Lauf.
+- Die Umlautnormalisierung der erzeugten Prompts wurde um häufige juristische Begriffe wie Identität, Ermächtigungsgrundlage, Tatbestände, Schöpfung, Vergütung und Verhältnisse ergänzt; der Hygiene-Audit verhindert ein Zurückrutschen dieser Umschriften.
+
+---
+
+# v429.14.0 — Promptprofile und Release-Hygiene geschärft
+
+- Werkstatt- und Schnellstart-Prompts erhalten zusätzliche Themenprofile für Bürgerliches Recht und Vertragsrecht, Zivilprozess und Relation, Erbrecht, Medizin- und Gesundheitsrecht, Verkehrs- und Reisendenrecht sowie Zwangsvollstreckung.
+- Der Prompt-Generator filtert reine Quellen- und Verifikationshinweise aus den Arbeitsfeldern, Fallkarten und Kurzauszügen heraus, damit die kleinen Prompts schneller in Anspruch, Tatbestand, Beweislast, Gegenargument und Arbeitsprodukt kommen.
+- Schnellstart-Prompts für die neu profilierten Rechtsgebiete starten mit fachbezogenen Kernrouten, Normenankern, Beweislastmerkern und Rechtsfolgen statt mit allgemeinen Such- oder Quellenhinweisen.
+- Ein neuer Prompt-Hygiene-Audit prüft generierte Werkstatt- und Schnellstart-Prompts im Release-Lauf auf zurückgerutschtes Quellenrauschen.
+- Der Release-Workflow zeigt beim Asset-Upload fortlaufenden Fortschritt und nutzt eine kürzere, kontrollierte Drosselung; Marketplace, Plugin-Manifeste, Skill-Übersichten und Asset-Index wurden auf v429.14.0 synchronisiert.
+
+---
+
+# v429.13.0 — Rechtsprechungsanker und Promptprofile bereinigt
+
+- Die Rechtsprechungsprofile für Werkstatt- und Schnellstart-Prompts wurden nachgeschärft: Arbeitszeugnis, Bank- und Kapitalmarktrecht, Datenbankrecht, Lobbyregister, Geldwäscheprävention, Cybersicherheit, Kartellrecht, Produktrecht, Sozialversicherungsstatus und Forderungsmanagement erhalten nun eigene Normen-, Beweislast-, Rechtsfolgen- und Rechtsprechungsanker statt zufälliger Nachbarprofile.
+- Arbeitszeugnis-Prompts verweisen nicht mehr auf Kündigungs- oder Befristungsrecht, sondern auf Zeugnisrecht mit GewO Paragraf 109, BGB Paragraf 630 sowie BAG-Linien zu Gesamtnote, Zeugnisklarheit, tabellarischer Bewertung, Verzicht und Vollstreckbarkeit.
+- Der pauschale Verwaltungsrechtsanker `BVerwG 6 C 12.21 (Maßstab Verwaltungsentscheidung)` wurde repo-weit entfernt, weil er als Füllanker in fachfremde Skills und Prompts geraten war.
+- Forderungsmanagement und GmbH-Gesellschafterhaftung wurden bei Trihotel und Bremer Vulkan berichtigt: Trihotel wird mit `BGH, Urteil vom 16.07.2007 - II ZR 3/04` geführt, Bremer Vulkan mit `BGH, Urteil vom 17.09.2001 - II ZR 178/99`.
+- Werkstatt-, Schnellstart- und Vollprüfungs-Prompts wurden neu erzeugt; Marketplace, Plugin-Manifeste, Skill-Übersichten, Asset-Index und Testakten-Übersichten wurden auf v429.13.0 synchronisiert.
+
+---
+
+# v429.12.0 — Rechtsprechungsanker und Fristenstand korrigiert
+
+- Der Technikregulierungsprüfer verwendet den Familienrechtsanker `1 BvR 2017/21` nicht mehr in falschem Zusammenhang. Dieser Anker ist nun korrekt im Familienrecht bei der Vaterschaftsanfechtung verortet; die Polizeidatenanalyse verweist auf `1 BvR 1547/19` und `1 BvR 2634/20`.
+- Die Stichtagslogik zu VO (EU) 2024/1689 wurde an den aktuellen Digital-Omnibus-Zeitstrahl angepasst: Art. 50 bleibt ab 02.08.2026, Hochrisiko Anhang III wird gesondert mit 02.12.2027 und Anhang I mit 02.08.2028 geführt.
+- Werkstatt- und Schnellstart-Prompt des Technikregulierungsprüfers nutzen nun ein eigenes Profil mit kuratierten EuGH-/BVerfG-Ankern, Rollen-, Risiko-, Stichtags- und Nachweisaktenlogik; zufällig eingestreute Spezialanker werden dort unterdrückt.
+- Zwei Datenschutz-Skills mit Bezug zu VO (EU) 2024/1689 wurden auf dieselbe Fristenlinie und Behördenbezeichnung nachgezogen.
+- Marketplace, Plugin-Manifeste, Skill-Übersichten, Asset-Index und Testakten-Übersichten wurden auf v429.12.0 synchronisiert.
+
+---
+
+# v429.11.0 — Finaler Vorlagen- und Akten-Release-Nachlauf
+
+- Die geschärften Formatvorlagen aus v429.9.0 und der nachgezogene Insolvenzrecht-Aktenausbau aus v429.10.0 werden zusammen auf dem aktuellen Main-Stand veröffentlicht.
+- Marketplace, Plugin-Manifeste, Skill-Übersichten, Asset-Index und Testakten-Übersichten wurden auf v429.11.0 synchronisiert.
+- Release-Assets wurden vollständig gegen den erwarteten Dateisatz geprüft: Plugin-ZIPs, Prompt-Sammelpakete, zentrale Testakten-ZIPs, Einzel-PDF-ZIPs und Komplettpaket sind als Downloadpakete vorgesehen.
+
+---
+
+# v429.10.0 — Insolvenzrecht-Testakten mit vollem Aktenumfang ausgebaut
+
+- Sechs zu dünne Insolvenzrecht-Testakten wurden auf ≥25 nummerierte Aktenstücke plus vollständige Multi-Format-Unterordner gehoben: `insolvenzrecht-eigenverwaltung-schutzschirm-medtech-jena` (7 → 30), `insolvenzrecht-forderungspruefung-mietkaution-berlin` (7 → 26), `insolvenzverwaltung-nordlicht-handels-kiel` (5 → 27), `leasingrecht-maschinenfleet-restwert-insolvenz` (9 → 29), `luftrecht-airline-insolvenz-flugzeugpfand-flughafen` (11 → 29), `lumen-studios-insolvenz-strafverfahren` (9 → 30).
+- Elf mittlere Insolvenzanfechtungs- und Geschäftsführerhaftungsakten wurden auf 25–27 Aktenstücke ausgebaut: `insolvenz-asset-deal-chaincortex-ai-berlin`, `insolvenzanfechtung-bargeschaeft-vorkasse-rohstofflieferant-chemnitz`, `insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck`, `insolvenzanfechtung-kongruente-deckung-lieferant-mahnlauf-bielefeld`, `insolvenzanfechtung-kontokorrent-verrechnungen-geduldete-ueberziehung-dortmund`, `insolvenzanfechtung-inkongruente-deckung-warenlager-an-erfuellungs-statt-kassel`, `insolvenzanfechtung-inkongruente-deckung-zwangsvollstreckung-fuerth`, `insolvenzanfechtung-kiezflitzer-gesellschafterdarlehen-berlin` und `geschaeftsfuehrerhaftung-15b-inso-zahlungen-nach-insolvenzreife-hannover`. Ergänzt wurden vollständige Klageverfahren mit Klageschrift, Klageerwiderung, Duplik/Triplik, Beweisbeschluss, Zeugenvernehmungsprotokollen, Sachverständigengutachten zur Zahlungsunfähigkeit, Vergleichsverhandlungen und Vergleichen sowie multi-format-Belege.
+- Drei Spoiler-Dateien mit Antwort- oder Red-Team-Charakter wurden entfernt und durch neutrale Rohbelege ersetzt: die Anfechtungsmatrix in Havelberg-Regelverfahren, die Red-Team-Einwände im Hansa-Insolvenzplan-Starug und die Red-Team-Versagungsrisiken in der Reimers-Verbraucherinsolvenz. Auch die Risiko-und-Fristenmatrix im Leasingrecht-Maschinenfleet-Restwert wurde durch echte Aktenstücke (Wertgutachten, Verwertungsanzeige, Kaufvertrag Zweitverwertung, Erlösabrechnung) abgelöst.
+- Alle angefassten Akten erhielten neu gerenderte Gesamt-PDF und aktualisierte README mit vollständigen Aktenverzeichnissen.
+- Repo-weiter Versions-Bump auf v429.10.0; Marketplace, Plugin-Manifeste und Release-Übersichten wurden synchronisiert.
+
+---
+
+# v429.9.0 — Formatvorlagen geschärft und ausgabefest gemacht
+
+- Die zentrale Sammlung `testakten/formatvorlagen-paradebeispiele` wurde über alle 23 Markdown- und ODT-Vorlagen hinweg geglättet: echte Umlaute in deutscher Prosa, Normverweise im Repo-Stil `Paragraf`, einheitliche `Ausfüllfelder` und ein klarer Warnhinweis statt alter Vorlagensprache.
+- Jede Vorlage erhielt eine fachbezogene Verwendungskontrolle, etwa zu Fristen, Zuständigkeit, Anlagenlogik, Beweis- und Verfahrensrisiken, damit sie nicht nur als Formular, sondern als praxistaugliches Arbeitsstück funktioniert.
+- Das Gesamt-PDF der Vorlagensammlung wurde neu gebaut; die README beschreibt nun zutreffend, dass dieses PDF zur schnellen Sichtkontrolle vorhanden ist.
+- `scripts/generate-formatvorlagen.py` ist robuster: wiederkehrende Bausteine enthalten die neue Vorlagenlogik, und die ODT-Erzeugung fällt bei fehlendem `odfpy` auf Pandoc zurück.
+- Repo-weiter Versions-Bump auf v429.9.0; Marketplace, Plugin-Manifeste und Release-Übersichten wurden synchronisiert.
+
+---
+
+# v429.8.0 — Drei Sozialrecht-Testakten deutlich ausgebaut
+
+- Testakte `statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen` von 9 auf 33 Aktenstücke ausgebaut: vollständiger Gesellschaftsvertrag, historische Satzungsänderungen mit Notarurkunden, Handelsregisterauszug, DRV-Verfahren von Anhörung über Widerspruch bis Vergleich, Betriebsprüfungsbericht, Beitragsberechnungen und Multi-Format-Belege (E-Mails, CSV, XLSX, PDF, Chat-Screenshot).
+- Testakte `unfallversicherung-arbeitsunfall-lagerleiter-sturz-trier` von 9 auf 32 Aktenstücke ausgebaut: ausführliche Unfallschilderung, komplette medizinische Verlaufsdokumentation von Rettungsdienst bis Reha, vollständiger Verfahrensgang von BG-Anhörung über Klage bis Sachverständigengutachten mit MdE- und Rentenberechnung, Multi-Format-Belege ergänzt.
+- Testakte `sozialrecht-elektrorollstuhl-koerner-oldenburg` von 16 auf 30 Aktenstücke vertieft: vollständige medizinische und funktionelle Berichte, ausformulierter Widerspruchsbescheid, eingereichte Klageschrift und Klageerwiderung, gerichtlicher Beweisbeschluss und Sachverständigengutachten sowie eine BSG-Rechtsprechungsübersicht; der frühere Urteilsentwurf mit vorweggenommenem Ergebnis und die Klägerin-Kasse-Antwortmatrix wurden durch neutrale Verfahrensunterlagen ersetzt.
+- Für alle drei Akten wurden Gesamt-PDF neu gerendert und Akten-ZIP sowie Einzel-PDF-ZIP lokal geprüft.
+
+---
+
+# v429.7.0 — Fallkarten und Ankerlogik für Werkstatt und Schnellstart
+
+- Werkstatt-Prompts repo-weit entgenerisiert: neue Rechtsprechungs-Fallkarte, Normenanker-/Tatbestandsmatrix, Beweislastmerker, Quellenstatus und Outputvarianten stehen vor langen Prüfwegen und führen schneller zum Arbeitsprodukt.
+- Schnellstart-Prompts repo-weit verdichtet: jeder kompakte Prompt enthält nun Fallkarte, Normenanker, Rechtsprechungsanker, Tatbestandsgriff, Beweislast, Rechtsfolge und Quellenstatus innerhalb der 7500-Byte-Grenze.
+- Prompt-Generator gehärtet: UTF-8-Byte-Grenzen werden korrekt geprüft, zu lange Schnellstarts werden kontrolliert kompaktiert, Metasätze aus Skillbeschreibungen werden nicht mehr als fachlicher Tatbestand übernommen.
+- Themenprofile erweitert und Routingfehler behoben: Spezialgebiete wie Denkmalschutz, Ordnungswidrigkeiten, Schutzrechte, Berufs- und Verwaltungsrecht greifen jetzt deutlich häufiger auf passende Profilanker zu; schutzrechtliche Unterlassungserklärungen fallen nicht mehr fälschlich in die Strafrechtsroute.
+- Handkuratierte Promptsets wurden ergänzend mit Fallkarten-, Beweislast- und Quellenstatuslogik versehen, ohne ihre fachlichen Kerntexte zu überschreiben.
+
+---
+
+# v429.6.0 — Schnellstart-Routing und Aktivierungssignale
+
+- Schnellstart-Generator gehärtet: Fachrouten für Bau-, Software- und EU-Prozess-Themen werden nicht mehr durch bloße Teilworttreffer ausgelöst. Dadurch verschwinden fachfremde Sofortgriffe aus zahlreichen kompakten Prompts.
+- Europäisches Prozessrecht erhält ein eigenes Themenprofil mit unionsprozessualer Route, Fristen-, Zuständigkeits-, Sprach-, e-Curia-, Anlagen- und Antragssatzlogik sowie tragenden Norm- und Rechtsprechungsankern.
+- Skill `vertraulichkeit-beweis-anlagen` im europäischen Prozessrecht geschärft: vertrauliche Fassungen, Schwärzungen, Anlagenverzeichnis, Beweislinie, e-Curia-Upload und Streithelferzugriff werden jetzt als verwertbare Matrix geführt.
+- Der vorhandene Aktivierungs-Audit ist jetzt ein echter Release-Prüfschritt. Zu kurze, leere, doppelte oder untaugliche Skill-Beschreibungen stoppen künftig den Release statt nur Hinweise auszugeben.
+- Schnellstart-Fallbacks glätten doppelte Feldnamen und nutzen brauchbare Skill-Beschreibungen als konkrete Sofortgriffe; zusätzlich wurden generierte Übersichten und Prompt-Assets auf den neuen Stand synchronisiert.
+
+---
+
+# v429.5.0 — Direktstart, Kurzprompts und Aktenoptik
+
+- Werkstatt- und Schnellstart-Prompts starten repo-weit stärker aus vorhandenem Material: Wenn ein Ordner, Dateien oder Aktenstücke vorliegen, wird zuerst gelesen, geordnet und ein Arbeitsprodukt geliefert; Kaltstartfragen bleiben auf echte Lücken beschränkt.
+- Schnellstart-Prompts weiter entgenerisiert: Einsatzfelder greifen nun fachgebietsspezifisch zu, etwa Rentenverlauf, Sozialleistungsbescheid, Liquiditätsstatus, Satzungs- und Beschlussprüfung, Kündigungsfristen, Vergabe- oder Baustationslogik statt austauschbarer Workflow-Sätze.
+- Prompt-Generator nachgeschärft: bessere Normanker-Filter, weniger Frontmatter- und Beispieltext-Rauschen, stabilere Direkteinstiege, echte Umlaute in neu generierten Übersichten und kürzere, belastbarere Kurzprompt-Bausteine unter 7500 Bytes.
+- Testakten in Sozialrecht, Rentenrecht, Arbeitsrecht, Gesellschaftsrecht und Insolvenz-/Sanierungsrecht optisch geglättet: professionellere Kopf- und Fußzeilen, sauberere Word-Formatierung und reparierte abgeschnittene Aktenköpfe. Mehrere DOCX-Stichproben wurden gerendert und visuell geprüft.
+- SKILLS.md, skills-index, Asset-Index, Prompt-Coverage und Plugin-README-Skillübersichten neu generiert; ein leerer Lizenzlink im Root-README wurde als Sanity-Fund repariert.
+
+---
+
+# v429.4.0 — Schnellstart-Prompts, Schnittstellenhinweise und Aktenkontrolle
+
+- Schnellstart- und Werkstatt-Prompts repo-weit stärker auf den jeweiligen Plugin-Kern zugeschnitten: Skill-Überschriften werden als Arbeitsfelder genutzt, konkrete Norm- und Rechtsprechungsanker werden aus den vorhandenen Skills übernommen, generische Auffangformeln wurden deutlich zurückgedrängt.
+- Prompt-Generator nachgeschärft: keine pauschale Auffangreferenz auf Treu und Glauben mehr, keine Frontmatter-Zeilen als Anker, robustere Überschriftenauswertung und bessere deutsche Prosa in den kompakten Einstiegen.
+- Root-README um einen direkten Cowork-/Gateway-Einstieg ergänzt und den Abschnitt zur eigenen Schnittstelle präzisiert: erst Einzelplugin und Demo-Akte testen, Provider-Logs prüfen, dann Marketplace oder Sammelpakete nutzen.
+- Testakten-READMEs auf verräterische Stummel- und Platzhaltersprache geprüft; einzelne Vorlagen- und Bildhinweise in realistischere Aktenbegriffe überführt. Gesamt-PDF-, Akten-ZIP- und Einzel-PDF-ZIP-Verweise bleiben vollständig validiert.
+
+---
+
 # v429.3.0 — Aktenoptik für Sozial-, Renten-, Arbeits-, Gesellschafts- und Insolvenzrecht
 
 - Testakten in den genannten Rechtsgebieten auf echtere Aktenwirkung nachgezogen: Briefköpfe, Kanzlei- und Behördenvermerke, Tabellenlogik und Abschriften geglättet; sichtbare Format-Hinweise, Platzhalter, abgebrochene Auszüge und Testcharakter-Reste aus den betroffenen Aktenstücken entfernt.

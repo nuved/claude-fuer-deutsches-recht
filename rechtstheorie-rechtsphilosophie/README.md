@@ -1,22 +1,5 @@
 # Rechtstheorie und Rechtsphilosophie
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`rechtstheorie-rechtsphilosophie`) | [`rechtstheorie-rechtsphilosophie.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/rechtstheorie-rechtsphilosophie.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-Dieses Plugin hat (bewusst) keine eigene Demonstrations-Akte.
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -38,7 +21,7 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 Dieses Plugin übersetzt große rechtstheoretische, rechtsphilosophische und rechtsmethodologische Denkfiguren in praktische juristische Arbeitsroutinen. Es ist kein Literaturkommentar und keine Namenssammlung. Es fragt: Was macht eine juristische Begründung tragfähig, redlich, demokratisch rückgebunden und praktisch brauchbar?
 
 Das Plugin hilft bei Grundsatzgutachten, Methodenstreit, Rechtsfortbildung, Präjudizienarbeit, Abwägung, Gesetzesbindung, Rechtsrealismus, Systemkritik, Machtkritik und rechtspolitischer Selbstkontrolle. Es eignet sich für Kanzleivermerke, wissenschaftsnahe Memos, strategische Schriftsätze, Gesetzgebungsvorbereitung und Red-Team-Prüfungen.
@@ -51,7 +34,7 @@ Hinzu kommt eine stärker privatrechtliche Theorieachse am Beispiel von Besitz, 
 
 Neu ergänzt ist außerdem eine hayekianisch informierte, aber kritisch kontrollierte Wissensachse: dezentrale Information, stilles Erfahrungswissen, gewachsene Praxis, Regeln als kognitive Entlastung und spontane Ordnung werden als wichtige Erkenntnisquellen behandelt. Zugleich prüft das Plugin, ob Gewohnheit nur schlechte Praxis, Kartelllogik, Umweltlasten, Diskriminierung, Trägheit oder demokratiefeindliche Gesetzgebungsskepsis stabilisiert.
 
-Neu vertieft ist die Legalitäts- und Rechtsstaatsachse: Recht wird nicht schon dadurch gut, dass es formal als Recht auftritt. Entscheidend ist, ob Normen öffentlich, allgemein, zukunftsgerichtet, verständlich, widerspruchsfrei, erfüllbar, stabil und mit der Anwendungspraxis kongruent sind. Diese Achse hilft besonders bei Machtkritik, Verwaltungsrealismus, Rückwirkung, Ausnahmebehauptungen und der Frage, ob Menschen als verantwortliche Rechtsadressaten ernst genommen werden.
+Neu vertieft ist die Legalitäts- und Rechtsstaatsachse: Recht wird nicht schon dadurch gut, dass es formal als Recht auftritt. Entscheidend ist, ob Normen öffentlich, allgemein, zukunftsgerichtet, verständlich, widerspruchsfrei, erfüllbar, stabil und mit der Anwendungspraxis kongrünt sind. Diese Achse hilft besonders bei Machtkritik, Verwaltungsrealismus, Rückwirkung, Ausnahmebehauptungen und der Frage, ob Menschen als verantwortliche Rechtsadressaten ernst genommen werden.
 
 ## Kaltstart
 
@@ -90,7 +73,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 65 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

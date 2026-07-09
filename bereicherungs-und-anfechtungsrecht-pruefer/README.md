@@ -1,27 +1,5 @@
 # bereicherungs-und-anfechtungsrecht-prüfer
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`bereicherungs-und-anfechtungsrecht-pruefer`) | [`bereicherungs-und-anfechtungsrecht-pruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/bereicherungs-und-anfechtungsrecht-pruefer.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Bereicherungs-Dreiecksverhaeltnis / Doppelverkauf Oldtimer Bischof-Hellberg / Bonn** (`bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn`) | [Gesamt-PDF lesen](../testakten/bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn/gesamt-pdf/bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn_gesamt.pdf) | [`testakte-bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn.zip) |
-| **BGB BT — Holzofen, Lieferkette, Bürgschaft, GoA und Brandschaden** (`bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt`) | [Gesamt-PDF lesen](../testakten/bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt/gesamt-pdf/bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt_gesamt.pdf) | [`testakte-bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -38,12 +16,12 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 | Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`bereicherungs-und-anfechtungsrecht-pruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/bereicherungs-und-anfechtungsrecht-pruefer.zip) |
 | Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/bereicherungs-und-anfechtungsrecht-pruefer/bereicherungs-und-anfechtungsrecht-pruefer-werkstatt.md" download><code>bereicherungs-und-anfechtungsrecht-pruefer-werkstatt.md</code></a> |
 | Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/bereicherungs-und-anfechtungsrecht-pruefer/bereicherungs-und-anfechtungsrecht-pruefer-schnellstart.md" download><code>bereicherungs-und-anfechtungsrecht-pruefer-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Bereicherungs-Dreiecksverhaeltnis / Doppelverkauf Oldtimer Bischof-Hellberg / Bonn: [Gesamt-PDF](../testakten/bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn/gesamt-pdf/bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn_gesamt.pdf), [`testakte-bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn.zip), [`testakte-bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn-einzelpdfs.zip); BGB BT — Holzofen, Lieferkette, Bürgschaft, GoA und Brandschaden: [Gesamt-PDF](../testakten/bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt/gesamt-pdf/bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt_gesamt.pdf), [`testakte-bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt.zip), [`testakte-bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt-einzelpdfs.zip) |
+| Testakte(n) als ZIP | ZIP | Bereicherungs-Dreiecksverhältnis / Doppelverkauf Oldtimer Bischof-Hellberg / Bonn: [Gesamt-PDF](../testakten/bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn/gesamt-pdf/bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn_gesamt.pdf), [`testakte-bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn.zip), [`testakte-bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bereicherung-dreiecksverhaeltnis-doppelverkauf-oldtimer-bischof-bonn-einzelpdfs.zip); BGB BT — Holzofen, Lieferkette, Bürgschaft, GoA und Brandschaden: [Gesamt-PDF](../testakten/bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt/gesamt-pdf/bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt_gesamt.pdf), [`testakte-bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt.zip), [`testakte-bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bgb-bt-holzofen-lieferkette-buergschaft-goa-delikt-einzelpdfs.zip) |
 
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 Generisches Mechanik-Prüfungs-Plugin zum interaktiven Durchprüfen aller Tatbestandsmerkmale von:
 
 - **Bereicherungsrecht** §§ 812 ff. BGB (Herausgabe ohne Rechtsgrund Erlangtes)
@@ -193,7 +171,7 @@ Nicht das komplette Repository-ZIP hochladen. Das Plugin-ZIP muss im Root direkt
 | `anfg-grundtatbestand-und-anfechtungsberechtigte` | § 2 AnfG: Titel, fällige Forderung, Fruchtlosigkeit |
 | `anfg-vorsatzanfechtung-3-i` | Benachteiligungsvorsatz und Kenntnis, zehn Jahre |
 | `anfg-unentgeltliche-leistung-4` | Unentgeltlichkeit, vier Jahre |
-| `anfg-mittelbare-benachteiligung-und-kongruenz` | Kongruente und inkongruente Deckung im AnfG |
+| `anfg-mittelbare-benachteiligung-und-kongruenz` | Kongrünte und inkongrünte Deckung im AnfG |
 | `anfg-fristen-und-anfechtungszeitraum` | Fristen §§ 3 und 4 AnfG, Verjährung |
 | `anfg-rechtsfolge-rueckgewaehr-11` | Duldungspflicht, Rückgewähr, Wertersatz |
 | `anfg-anfechtungsklage-prozessuales` | Zuständigkeit, Klageantrag, Streitwert, Vollstreckung |
@@ -274,7 +252,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 138 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

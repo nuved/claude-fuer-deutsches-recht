@@ -1,22 +1,5 @@
 # Juristische Sprache Deutsch als Zweitsprache
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`juristische-sprache-deutsch-als-zweitsprache`) | [`juristische-sprache-deutsch-als-zweitsprache.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/juristische-sprache-deutsch-als-zweitsprache.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-Dieses Plugin hat (bewusst) keine eigene Demonstrations-Akte.
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -38,8 +21,8 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
-Dieses Plugin hilft Menschen, die mit deutschem Recht zu tun haben, aber Deutsch nicht als Herkunftssprache sprechen. Es erklaert Bescheide, Fristen, Formulare, Verträge, Schriftsaetze und Gerichtssprache respektvoll und klar.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Dieses Plugin hilft Menschen, die mit deutschem Recht zu tun haben, aber Deutsch nicht als Herkunftssprache sprechen. Es erklärt Bescheide, Fristen, Formulare, Verträge, Schriftsätze und Gerichtssprache respektvoll und klar.
 
 Es ist kein einfacher Sprachkurs. Es ist ein juristischer Verstehens- und Formulierungsassistent: Was bedeutet dieser Satz? Was muss ich tun? Was darf ich nicht aus Versehen zugeben? Wie schreibe ich das in gutem, formalem Deutsch, ohne meinen Inhalt zu verlieren?
 
@@ -54,11 +37,11 @@ Es ist kein einfacher Sprachkurs. Es ist ein juristischer Verstehens- und Formul
 ## Typische Starts
 
 - Ich verstehe diesen Bescheid nicht.
-- Ich will der Behoerde antworten.
+- Ich will der Behörde antworten.
 - Ich habe Angst, etwas Falsches zuzugeben.
 - Ich muss eine Frist berechnen.
 - Ich will meinem Anwalt eine gute E-Mail schreiben.
-- Ich brauche eine einfache Erklaerung eines juristischen Wortes.
+- Ich brauche eine einfache Erklärung eines juristischen Wortes.
 
 ## Quellenregel
 
@@ -85,7 +68,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 55 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

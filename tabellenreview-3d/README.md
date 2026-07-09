@@ -1,26 +1,5 @@
 # Tabellenreview 3D
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`tabellenreview-3d`) | [`tabellenreview-3d.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/tabellenreview-3d.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Tabellenreview Paragrafix GmbH — Fortbestehensprognose v23, IDW S 11** (`tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck`) | [Gesamt-PDF lesen](../testakten/tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck/gesamt-pdf/tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck_gesamt.pdf) | [`testakte-tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -42,7 +21,7 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 3D-Tabellenreview als Würfel: Spaltenprompts pro Datenpunkt x Zeilenprompts pro Dokument x Arbeitsblatt-Perspektiven (Recht / Steuer / Wirtschaft) gestapelt. Massenprüfung Vertragsstapel M&A-DD Immobilien Vendor-Onboarding mit Excel-Mehrblatt Kreuzblatt-Konsistenz Audit-Trail Belegkette.
 
 ## Installation in der Plugin-Umgebung
@@ -63,19 +42,19 @@ Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegig
 | `caching-und-teil-rerun` | Caching der Würfelzellen und gezielter Teil-Rerun bei Änderungen — vermeidet die voll Neuberechnung von tausenden Zellen wenn nur ein Spaltenprompt eine Zeile oder ein Arbeitsblatt geändert wurde. Cache-Key pro Zel… |
 | `dokumentstapel-aufnehmen` | Nimmt einen Dokumentenstapel als Zeilenachse des Würfels auf. Quellen: VDR-Export (Datasite Intralinks Box) lokaler Ordner SharePoint-Bibliothek E-Mail-Anhang-Sammlung gescannte PDF mit OCR-Pipeline. Erzeugt pro Doku… |
 | `excel-multi-sheet-export` | Exportiert den dreidimensionalen Würfel in eine einzige Excel-Datei mit mehreren Tabellenblättern — ein Reiter pro Arbeitsblatt-Perspektive (Recht / Steuer / Wirtschaft / Datenschutz / IT / Betrieb / Compliance). Je… |
-| `tabellenreview-3d-kaltstart-interview` | Kaltstart-Interview für das tabellenreview-3d-Plugin. Erfragt typische Anwendungsfälle (M&A-DD / Immobilienportfolio / Vendor-Onboarding / Arbeitsverträge / Mietverträge / Anlagedokumente / freie Eigenwuerfel), St… |
+| `tabellenreview-3d-kaltstart-interview` | Kaltstart-Interview für das tabellenreview-3d-Plugin. Erfragt typische Anwendungsfälle (M&A-DD / Immobilienportfolio / Vendor-Onboarding / Arbeitsverträge / Mietverträge / Anlagedokumente / freie Eigenwürfel), St… |
 | `kreuzblatt-konsistenzpruefung` | Prüft die dritte Würfel-Dimension auf innere Konsistenz — läuft NACH `review-durchfuehren` über alle Arbeitsblätter und sucht Widersprüche zwischen Perspektiven (z. B. ein Vertrag rechtlich grün aber datenschut… |
 | `pdf-bericht-erzeugen` | Erstellt einen prüfbaren PDF-Bericht aus dem 3D-Würfel. Struktur: Deckblatt mit Projekt Mandant Stichtag Würfel-Ampel; Management-Summary mit Hotspots und blockierenden Roten; pro Arbeitsblatt-Perspektive ein Absch… |
 | `prompt-versionierung` | Versioniert alle Spalten- und Zeilenprompts mit semantischer Versions-ID — patch für Wortlautfeinheiten minor für geänderte Antworttypen oder Ampelregeln major für geänderte Prüfdimension. Jede Zelle im Würfel … |
-| `pruefer-uebergabe-paket` | Schnuert das vollständige Prüfer-Paket nach Abschluss eines Würfellaufs — Excel-Würfel-Datei aus Skill `excel-multi-sheet-export` PDF-Bericht aus `pdf-bericht-erzeugen` Belegketten-CSV aus `belegkette-rueckverfolg… |
-| `review-durchfuehren` | Führt den eigentlichen Reviewlauf über den Würfel durch — Anzahl Zellen = Spalten x Zeilen x Arbeitsblätter. Pro Zelle: Spaltenprompt + Zeilenprompt + Arbeitsblatt-Perspektive zusammenführen, Antwort aus dem Doku… |
+| `pruefer-uebergabe-paket` | Schnürt das vollständige Prüfer-Paket nach Abschluss eines Würfellaufs — Excel-Würfel-Datei aus Skill `excel-multi-sheet-export` PDF-Bericht aus `pdf-bericht-erzeugen` Belegketten-CSV aus `belegkette-rueckverfolg… |
+| `review-durchführen` | Führt den eigentlichen Reviewlauf über den Würfel durch — Anzahl Zellen = Spalten x Zeilen x Arbeitsblätter. Pro Zelle: Spaltenprompt + Zeilenprompt + Arbeitsblatt-Perspektive zusammenführen, Antwort aus dem Doku… |
 | `risikoampel-aggregation` | Konsolidiert die Ampel-Wertungen entlang aller drei Würfelachsen — pro Zelle (atomisch) pro Zeile (Dokument-Gesamtampel) pro Spalte (Datenpunkt-Hotspots) pro Arbeitsblatt (Perspektiven-Gesamtampel) und pro Gesamtwuer… |
 | `spaltenprompts-definieren` | Definiert die Spaltenprompts der ersten Würfel-Achse — jede Spalte ist eine einzige praezise Frage die für ALLE Dokumente identisch gestellt wird damit Vergleichbarkeit über den Stapel entsteht. Enthält eine Bibli… |
 | `vorlage-arbeitsvertrag-portfolio` | Würfelvorlage für Massenprüfung von Arbeitsverträgen — 15 Spalten (Vertragsdatum Probezeit Befristung-mit-oder-ohne-Sachgrund Wochenarbeitszeit Kündigungsfrist Tarifbindung Bruttogehalt Sonderzahlung Verschwiegen… |
 | `vorlage-immobilien-portfolio` | Würfelvorlage für Immobilien-Portfolioanalyse — 16 Spalten (Gemarkung / Flur / Flurstück / Wirtschaftsart / Größe / Eigentümerkette / Abteilung-II-Lasten / Abteilung-III-Grundpfandrechte / Rang / Löschungserlei… |
 | `vorlage-ma-due-diligence` | Fertige Würfelvorlage für M&A-Due-Diligence — 18 Spalten (Vertragsart Laufzeit Kündigungsfrist Change-of-Control MAC-Klausel Abtretungsverbot Haftungsbegrenzung Garantien Vertragsstrafe SLA Datenschutz Geheimhaltun… |
 | `vorlage-vendor-onboarding-3d` | Würfelvorlage für Vendor- und Lieferanten-Onboarding — 17 Spalten (Vendor-Stammdaten Branche AVV-Pflicht AVV-vorhanden SLA-Reaktionszeit SLA-Verfügbarkeit Exit-Klausel Datenherausgabe Verschlüsselung Subunternehme… |
-| `wuerfel-aufbauen` | Baut die dreidimensionale Würfel-Struktur für ein neues Prüfprojekt auf — drei Achsen: Spalten (Datenpunkte als Spaltenprompts) Zeilen (Dokumente mit optionalen Zeilenprompts) Arbeitsblätter (Perspektiven wie Rech… |
+| `würfel-aufbauen` | Baut die dreidimensionale Würfel-Struktur für ein neues Prüfprojekt auf — drei Achsen: Spalten (Datenpunkte als Spaltenprompts) Zeilen (Dokumente mit optionalen Zeilenprompts) Arbeitsblätter (Perspektiven wie Rech… |
 | `zeilenprompts-definieren` | Definiert die Zeilenprompts der zweiten Würfel-Achse — pro Dokument eine optionale Sonderanweisung die das Lesen genau dieses Dokuments steuert. Beispiele: 'Konzernvertrag — AktG Paragraph 311 zusätzlich prüfen' / … |
 
 ## Lizenz
@@ -91,20 +70,20 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-routing`, `dokumente-intake`, `einstieg-routing`, `kaltstart-interview`, `kaltstart-triage`, `start-chronologie-fristen`, `tabellenreview-erstpruefung-und-mandatsziel`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `belegkette-rueckverfolgung`, `belegkette-rueckverfolgung-caching-rerun`, `chronologie-und-belegmatrix`, `datenpunkt-dokument-excel-beweislast`, `datenpunkt-dokumentenmatrix-lueckenliste`, `dokument-behoerden-gericht-und-registerweg`, `dokumentstapel-aufnehmen`, `excel-beweislast-darlegungslast`, `excel-beweislast-und-darlegungslast`, `gestapelt-compliance-dokumentation`, `immobilien-formular-portal-einreichungslogik`, `immobilien-formular-portal-und-einreichung`, `quellen-livecheck`, `spezial-steuer-livequellen-und-rechtsprechungscheck`, `steuer-quellenkarte`, `tabellenreview-dokument-behoerden-gerichts-registerweg`, `unterlagen-luecken`, `workflow-unterlagen-lueckenliste`, ... plus 2 weitere |
-| 3. Prüfung, Anspruch und Subsumtion | `erstpruefung-rollenklaerung`, `excel-multi-kreuzblatt-konsistenzpruefung-pdf`, `fristen-und-risikoampel`, `gestapelt-immobilien-massenpruefung`, `kreuzblatt-konsistenzpruefung`, `massenpruefung-interessen`, `massenpruefung-mehrparteien-konflikt-und-interessen`, `pruefer-uebergabe-paket`, `risikoampel-aggregation`, `zeilenprompts-risikoampel-gegenargumente`, `zeilenprompts-risikoampel-und-gegenargumente` |
+| 1. Einstieg und Fallrouting | `anschluss-routing`, `dokumente-intake`, `einstieg-routing`, `kaltstart-interview`, `kaltstart-triage`, `start-chronologie-fristen`, `tabellenreview-erstprüfung-und-mandatsziel`, `workflow-kaltstart-und-routing` |
+| 2. Unterlagen, Sachverhalt und Quellen | `belegkette-rückverfolgung`, `belegkette-rückverfolgung-caching-rerun`, `chronologie-und-belegmatrix`, `datenpunkt-dokument-excel-beweislast`, `datenpunkt-dokumentenmatrix-lückenliste`, `dokument-behörden-gericht-und-registerweg`, `dokumentstapel-aufnehmen`, `excel-beweislast-darlegungslast`, `excel-beweislast-und-darlegungslast`, `gestapelt-compliance-dokumentation`, `immobilien-formular-portal-einreichungslogik`, `immobilien-formular-portal-und-einreichung`, `quellen-livecheck`, `spezial-steuer-livequellen-und-rechtsprechungscheck`, `steuer-quellenkarte`, `tabellenreview-dokument-behörden-gerichts-registerweg`, `unterlagen-lücken`, `workflow-unterlagen-lückenliste`, ... plus 2 weitere |
+| 3. Prüfung, Anspruch und Subsumtion | `erstprüfung-rollenklärung`, `excel-multi-kreuzblatt-konsistenzprüfung-pdf`, `fristen-und-risikoampel`, `gestapelt-immobilien-massenprüfung`, `kreuzblatt-konsistenzprüfung`, `massenprüfung-interessen`, `massenprüfung-mehrparteien-konflikt-und-interessen`, `prüfer-übergabe-paket`, `risikoampel-aggregation`, `zeilenprompts-risikoampel-gegenargumente`, `zeilenprompts-risikoampel-und-gegenargumente` |
 | 4. Gestaltung, Strategie und Verhandlung | `perspektiven-verhandlung-vergleich-eskalation`, `perspektiven-verhandlung-vergleich-und-eskalation`, `vertragsstapel-internationaler-bezug`, `vertragsstapel-vorlage-arbeitsvertrag`, `vorlage-arbeitsvertrag-portfolio` |
-| 5. Verfahren, Behörde und Gericht | `arbeitsblatt-schriftsatz-brief-memo-bausteine`, `arbeitsblatt-schriftsatz-brief-und-memo-bausteine`, `spaltenprompts-fristen-form-und-zustaendigkeit`, `spaltenprompts-fristen-form-zustaendigkeit`, `tr3d-feststellungsklage-tabellenfeststellung`, `tr3d-feststellungsklage-tabellenfeststellung-spezial` |
-| 6. Ergebnis, Schreiben und Kommunikation | `mandantenkommunikation`, `onboarding-mandantenkommunikation`, `onboarding-mandantenkommunikation-entscheidungsvorlage`, `output-waehlen`, `pdf-bericht-erzeugen` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `audit-trail-protokoll`, `professional-review-sheet`, `professional-review-tabellenreview-vendor-red-team-korrektur`, `prompt-versionierung-paket-review`, `redteam-qualitygate`, `review-durchfuehren`, `vendor-fehlerkatalog`, `vendor-red-team-und-qualitaetskontrolle`, `vorlage-ma-arbeitsblatt-perspektiven-audit` |
-| 8. Spezialmodule und Schnittstellen | `aggregation-spaltenprompts-definieren`, `arbeitsblatt-perspektiven-definieren`, `caching-und-teil-rerun`, `excel-multi-sheet-export`, `mehrblatt-sonderfall-edge-case`, `mehrblatt-sonderfall-onboarding-perspektiven`, `prompt-versionierung`, `spaltenprompts-definieren`, `tr3d-bestreitensgruende-leitfaden`, `tr3d-massearmut-tabelle-spezial`, `tr3d-pruefkategorien-bauleiter`, `tr3d-pruefkategorien-vorlage-vendor-wuerfel`, `vorlage-immobilien-portfolio`, `vorlage-ma-due-diligence`, `vorlage-vendor-onboarding-3d`, `wirtschaft-wuerfel-zeilenprompts`, `wirtschaft-zahlen-schwellenwerte-berechnung`, `wuerfel-aufbauen`, ... plus 1 weitere |
+| 5. Verfahren, Behörde und Gericht | `arbeitsblatt-schriftsatz-brief-memo-bausteine`, `arbeitsblatt-schriftsatz-brief-und-memo-bausteine`, `spaltenprompts-fristen-form-und-zuständigkeit`, `spaltenprompts-fristen-form-zuständigkeit`, `tr3d-feststellungsklage-tabellenfeststellung`, `tr3d-feststellungsklage-tabellenfeststellung-spezial` |
+| 6. Ergebnis, Schreiben und Kommunikation | `mandantenkommunikation`, `onboarding-mandantenkommunikation`, `onboarding-mandantenkommunikation-entscheidungsvorlage`, `output-wählen`, `pdf-bericht-erzeugen` |
+| 7. Kontrolle, Qualität und Gegenprüfung | `audit-trail-protokoll`, `professional-review-sheet`, `professional-review-tabellenreview-vendor-red-team-korrektur`, `prompt-versionierung-paket-review`, `redteam-qualitygate`, `review-durchführen`, `vendor-fehlerkatalog`, `vendor-red-team-und-qualitätskontrolle`, `vorlage-ma-arbeitsblatt-perspektiven-audit` |
+| 8. Spezialmodule und Schnittstellen | `aggregation-spaltenprompts-definieren`, `arbeitsblatt-perspektiven-definieren`, `caching-und-teil-rerun`, `excel-multi-sheet-export`, `mehrblatt-sonderfall-edge-case`, `mehrblatt-sonderfall-onboarding-perspektiven`, `prompt-versionierung`, `spaltenprompts-definieren`, `tr3d-bestreitensgründe-leitfaden`, `tr3d-massearmut-tabelle-spezial`, `tr3d-prüfkategorien-bauleiter`, `tr3d-prüfkategorien-vorlage-vendor-würfel`, `vorlage-immobilien-portfolio`, `vorlage-ma-due-diligence`, `vorlage-vendor-onboarding-3d`, `wirtschaft-würfel-zeilenprompts`, `wirtschaft-zahlen-schwellenwerte-berechnung`, `würfel-aufbauen`, ... plus 1 weitere |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 83 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

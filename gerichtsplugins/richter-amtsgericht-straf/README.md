@@ -1,29 +1,5 @@
 # Richter Amtsgericht Strafsachen
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`richter-amtsgericht-straf`) | [`richter-amtsgericht-straf.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/richter-amtsgericht-straf.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Betäubungsmittel-Kurierfahrt auf der A3 bei Köln** (`strafrecht-btm-kokain-kurierfahrt-a3-koeln`) | [Gesamt-PDF lesen](../../testakten/strafrecht-btm-kokain-kurierfahrt-a3-koeln/gesamt-pdf/strafrecht-btm-kokain-kurierfahrt-a3-koeln_gesamt.pdf) | [`testakte-strafrecht-btm-kokain-kurierfahrt-a3-koeln.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-btm-kokain-kurierfahrt-a3-koeln.zip) |
-| **Häusliche Gewalt und gefährliche Körperverletzung Dresden** (`strafrecht-haeusliche-gewalt-koerperverletzung-dresden`) | [Gesamt-PDF lesen](../../testakten/strafrecht-haeusliche-gewalt-koerperverletzung-dresden/gesamt-pdf/strafrecht-haeusliche-gewalt-koerperverletzung-dresden_gesamt.pdf) | [`testakte-strafrecht-haeusliche-gewalt-koerperverletzung-dresden.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-haeusliche-gewalt-koerperverletzung-dresden.zip) |
-| **Jugendstrafsache Schulhofraub Hamburg-Wilhelmsburg** (`strafrecht-jugendlicher-raub-schulhof-hamburg`) | [Gesamt-PDF lesen](../../testakten/strafrecht-jugendlicher-raub-schulhof-hamburg/gesamt-pdf/strafrecht-jugendlicher-raub-schulhof-hamburg_gesamt.pdf) | [`testakte-strafrecht-jugendlicher-raub-schulhof-hamburg.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-jugendlicher-raub-schulhof-hamburg.zip) |
-| **Alleinrennen, Unfallflucht und Dashcam Berlin** (`strafrecht-verkehrsunfall-alleinrennen-berlin`) | [Gesamt-PDF lesen](../../testakten/strafrecht-verkehrsunfall-alleinrennen-berlin/gesamt-pdf/strafrecht-verkehrsunfall-alleinrennen-berlin_gesamt.pdf) | [`testakte-strafrecht-verkehrsunfall-alleinrennen-berlin.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-verkehrsunfall-alleinrennen-berlin.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -68,11 +44,11 @@ StGB, StPO, GVG, JGG, OWiG, BZRG, RVG
 ## Skill-Liste
 
 - **01-akte-erstdurchsicht-strafsache** — Strukturierte Erstdurchsicht: Anklagesatz, wesentliches Ergebnis der Ermittlungen, hinreichender Tatverdacht, Beweismitt
-- **02-zuständigkeit-und-eroeffnungsbeschluss** — Zuständigkeit Strafrichter oder Schöffengericht (Paragraf 25 oder 28 GVG), Eröffnung Paragrafen 199-203 StPO, Nichter
-- **03-hauptverhandlung-vorbereiten** — Terminierung, Ladung Paragraf 214 StPO, Beweisantraege, Erforderlichkeit Verteidigerbestellung Paragraf 140 StPO, Versta
-- **04-beweisaufnahme-und-beweisantraege** — Beweisaufnahme nach Paragrafen 244-256 StPO, Umgang mit Beweisantraegen, Praesenzvermutung Paragraf 244 Abs. 6, Wahrunte
-- **05-beweiswuerdigung-strafrecht** — Beweiswürdigung Paragraf 261 StPO: Indizien, Aussage gegen Aussage, Glaubhaftigkeit, In-dubio-pro-reo, Sachverständige
-- **06-strafzumessung-paragraf-46-stgb** — Strafzumessung Paragraf 46 StGB: Schuld als Grundlage, Strafzumessungstatsachen, Strafrahmen, Strafmilderung Paragrafen - **07-tenor-und-rechtsmittelbelehrung-straf** — Tenor: Schuldspruch, Strafausspruch, Nebenstrafen, Bewaehrung, Einziehung Paragraf 73 StGB, Kostenentscheidung Paragraf - **08-urteilsbegruendung-paragraf-267-stpo** — Urteilsgründe: Persoenliche Verhältnisse, Feststellungen zum Tatgeschehen, Beweiswürdigung, rechtliche Würdigung, St
+- **02-zuständigkeit-und-eröffnungsbeschluss** — Zuständigkeit Strafrichter oder Schöffengericht (Paragraf 25 oder 28 GVG), Eröffnung Paragrafen 199-203 StPO, Nichter
+- **03-hauptverhandlung-vorbereiten** — Terminierung, Ladung Paragraf 214 StPO, Beweisanträge, Erforderlichkeit Verteidigerbestellung Paragraf 140 StPO, Versta
+- **04-beweisaufnahme-und-beweisanträge** — Beweisaufnahme nach Paragrafen 244-256 StPO, Umgang mit Beweisanträgen, Präsenzvermutung Paragraf 244 Abs. 6, Wahrunte
+- **05-beweiswürdigung-strafrecht** — Beweiswürdigung Paragraf 261 StPO: Indizien, Aussage gegen Aussage, Glaubhaftigkeit, In-dubio-pro-reo, Sachverständige
+- **06-strafzumessung-paragraf-46-stgb** — Strafzumessung Paragraf 46 StGB: Schuld als Grundlage, Strafzumessungstatsachen, Strafrahmen, Strafmilderung Paragrafen - **07-tenor-und-rechtsmittelbelehrung-straf** — Tenor: Schuldspruch, Strafausspruch, Nebenstrafen, Bewährung, Einziehung Paragraf 73 StGB, Kostenentscheidung Paragraf - **08-urteilsbegründung-paragraf-267-stpo** — Urteilsgründe: Persönliche Verhältnisse, Feststellungen zum Tatgeschehen, Beweiswürdigung, rechtliche Würdigung, St
 - **09-strafbefehl-und-beschleunigtes-verfahren** — Strafbefehlsverfahren Paragrafen 407-412 StPO, Voraussetzungen, Inhalt, Einspruch, Hauptverhandlung nach Einspruch; besc
 - **10-entscheidungsvorschlag-strafrichter** — Strukturierter Entscheidungsvorschlag mit Schuldspruch-Skizze, Strafzumessungs-Skizze, Nebenfolgen, Risikohinweisen, aus
 
@@ -82,24 +58,24 @@ StGB, StPO, GVG, JGG, OWiG, BZRG, RVG
 
 ### Rechtliche Einordnung der KI-Verordnung (KI-VO, VO (EU) 2024/1689)
 
-- **Art. 6 Abs. 2 i.V.m. Anhang III Nr. 8 lit. a KI-VO**: KI-Systeme, die von einer Justizbehoerde oder in deren Auftrag bei der **Recherche und Auslegung von Sachverhalten und Rechtsvorschriften** sowie bei der **Anwendung des Rechts auf konkrete Sachverhalte** verwendet werden, sind grundsaetzlich **Hochrisiko-KI**.
+- **Art. 6 Abs. 2 i.V.m. Anhang III Nr. 8 lit. a KI-VO**: KI-Systeme, die von einer Justizbehörde oder in deren Auftrag bei der **Recherche und Auslegung von Sachverhalten und Rechtsvorschriften** sowie bei der **Anwendung des Rechts auf konkrete Sachverhalte** verwendet werden, sind grundsätzlich **Hochrisiko-KI**.
 - **Aber Art. 6 Abs. 3 KI-VO**: Ein KI-System gilt **nicht** als Hochrisiko-KI, wenn es nur eine **vorbereitende Aufgabe** wahrnimmt (z.B. Vorbereitung von Dokumenten, reine Recherche ohne Subsumtion).
 - **Notifizierungspflicht**: Auch im Ausnahmefall des Art. 6 Abs. 3 ist der Anbieter bzw. Betreiber verpflichtet, das KI-System bei der zuständigen Aufsicht zu **registrieren** (Art. 49 Abs. 2 KI-VO).
-- Die Einordnung ist im Einzelfall zu prüfen. Sobald das System konkrete Entscheidungsvorschlaege produziert, die Subsumtion vornimmt oder die richterliche Würdigung ersetzt, wird die Schwelle zur Hochrisiko-KI überschritten.
+- Die Einordnung ist im Einzelfall zu prüfen. Sobald das System konkrete Entscheidungsvorschläge produziert, die Subsumtion vornimmt oder die richterliche Würdigung ersetzt, wird die Schwelle zur Hochrisiko-KI überschritten.
 
 ### Art. 22 DSGVO — Verbot ausschliesslich automatisierter Entscheidung
 
-Die richterliche Letztentscheidung muss zwingend bei einem Menschen liegen. **Keine Maschine entscheidet als Richter.** Diese Skills sind ausschliesslich **Unterstuetzung** der richterlichen Arbeit, niemals deren Ersatz. Der Richter prüft, gewichtet, entscheidet — die KI bereitet vor und macht Vorschlaege.
+Die richterliche Letztentscheidung muss zwingend bei einem Menschen liegen. **Keine Maschine entscheidet als Richter.** Diese Skills sind ausschliesslich **Unterstützung** der richterlichen Arbeit, niemals deren Ersatz. Der Richter prüft, gewichtet, entscheidet — die KI bereitet vor und macht Vorschläge.
 
 ### Aktengeheimnis und Datenschutz
 
 - **Paragraf 353b StGB** (Verletzung von Dienstgeheimnissen) und **Paragraf 43 DRiG** (Amtsverschwiegenheit der Richter) sind strikt zu wahren.
-- Akteninhalte duerfen nicht ungeprüfte an externe KI-Anbieter übermittelt werden. Vor jeder Verwendung ist zu prüfen, ob die genutzte KI-Umgebung den Datenschutz und das Aktengeheimnis gewaehrleistet.
-- **Schatten-KI ist ausdrücklich abgelehnt.** Dieses Plugin soll keine Hilfe sein, KI an behoerdlichen Datenschutz- und IT-Richtlinien vorbei einzusetzen.
+- Akteninhalte dürfen nicht ungeprüfte an externe KI-Anbieter übermittelt werden. Vor jeder Verwendung ist zu prüfen, ob die genutzte KI-Umgebung den Datenschutz und das Aktengeheimnis gewährleistet.
+- **Schatten-KI ist ausdrücklich abgelehnt.** Dieses Plugin soll keine Hilfe sein, KI an behördlichen Datenschutz- und IT-Richtlinien vorbei einzusetzen.
 
 ### Revisionssicherheit
 
-- Saemtliche Arbeitsergebnisse müssen revisionssicher dokumentiert werden: Wer hat wann welche KI-Ausgabe genutzt, welche Änderungen wurden danach durch den Richter vorgenommen, welche Akten- und Promptbestandteile lagen zugrunde?
+- Sämtliche Arbeitsergebnisse müssen revisionssicher dokumentiert werden: Wer hat wann welche KI-Ausgabe genutzt, welche Änderungen wurden danach durch den Richter vorgenommen, welche Akten- und Promptbestandteile lagen zugrunde?
 - Die KI-Ausgabe muss als KI-Ausgabe erkennbar bleiben (Markierung, Versionierung); die richterliche Bearbeitung dokumentiert werden.
 - Aufbewahrungsfristen nach Aktenordnung der Gerichte und ggf. KI-VO-Logging-Pflichten beachten.
 
@@ -115,7 +91,7 @@ Die Nutzung erfolgt **auf eigene Gefahr und eigene Verantwortung**. Es handelt s
 
 - Keine erfundenen Aktenzeichen.
 - Rechtsprechung nur mit Aktenzeichen + Datum + Verfahrensbezeichnung.
-- Bei Unsicherheit lieber Lueckenliste als Erfindung.
+- Bei Unsicherheit lieber Lückenliste als Erfindung.
 - Vor Verwendung Aktenzeichen in offiziellen Datenbanken (Bundesgerichte, juris frei, Bundesverfassungsgericht.de) live verifizieren.
 
 ## Lizenz
@@ -140,7 +116,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 13 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

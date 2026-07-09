@@ -1,27 +1,5 @@
 # Fachanwalt Vergaberecht
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`fachanwalt-vergaberecht`) | [`fachanwalt-vergaberecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-vergaberecht.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **IT-SIG-2-Vergabe Landeshauptstadt Schwerin – Nachprüfungsverfahren VK** (`it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung`) | [Gesamt-PDF lesen](../testakten/it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung/gesamt-pdf/it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung_gesamt.pdf) | [`testakte-it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung.zip) |
-| **Korruptionsverdacht in der Vergabestelle München** (`strafrecht-korruption-bauamt-vergabestelle-muenchen`) | [Gesamt-PDF lesen](../testakten/strafrecht-korruption-bauamt-vergabestelle-muenchen/gesamt-pdf/strafrecht-korruption-bauamt-vergabestelle-muenchen_gesamt.pdf) | [`testakte-strafrecht-korruption-bauamt-vergabestelle-muenchen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-korruption-bauamt-vergabestelle-muenchen.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -38,12 +16,12 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 | Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`fachanwalt-vergaberecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-vergaberecht.zip) |
 | Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/fachanwalt-vergaberecht/fachanwalt-vergaberecht-werkstatt.md" download><code>fachanwalt-vergaberecht-werkstatt.md</code></a> |
 | Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/fachanwalt-vergaberecht/fachanwalt-vergaberecht-schnellstart.md" download><code>fachanwalt-vergaberecht-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | IT-SIG-2-Vergabe Landeshauptstadt Schwerin – Nachprüfungsverfahren VK: [Gesamt-PDF](../testakten/it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung/gesamt-pdf/it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung_gesamt.pdf), [`testakte-it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung.zip), [`testakte-it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung-einzelpdfs.zip); Korruptionsverdacht in der Vergabestelle München: [Gesamt-PDF](../testakten/strafrecht-korruption-bauamt-vergabestelle-muenchen/gesamt-pdf/strafrecht-korruption-bauamt-vergabestelle-muenchen_gesamt.pdf), [`testakte-strafrecht-korruption-bauamt-vergabestelle-muenchen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-korruption-bauamt-vergabestelle-muenchen.zip), [`testakte-strafrecht-korruption-bauamt-vergabestelle-muenchen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-korruption-bauamt-vergabestelle-muenchen-einzelpdfs.zip); Der große Baufall - Talbrücke Fuchsbachtal und Tunnel Hirschleite: [Gesamt-PDF](../testakten/baurecht-grosser-baufall-talbruecke-tunnel-a44/gesamt-pdf/baurecht-grosser-baufall-talbruecke-tunnel-a44_gesamt.pdf), [`testakte-baurecht-grosser-baufall-talbruecke-tunnel-a44.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-baurecht-grosser-baufall-talbruecke-tunnel-a44.zip), [`testakte-baurecht-grosser-baufall-talbruecke-tunnel-a44-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-baurecht-grosser-baufall-talbruecke-tunnel-a44-einzelpdfs.zip) |
+| Testakte(n) als ZIP | ZIP | Der große Baufall - Talbrücke Fuchsbachtal und Tunnel Hirschleite: [Gesamt-PDF](../testakten/baurecht-grosser-baufall-talbruecke-tunnel-a44/gesamt-pdf/baurecht-grosser-baufall-talbruecke-tunnel-a44_gesamt.pdf), [`testakte-baurecht-grosser-baufall-talbruecke-tunnel-a44.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-baurecht-grosser-baufall-talbruecke-tunnel-a44.zip), [`testakte-baurecht-grosser-baufall-talbruecke-tunnel-a44-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-baurecht-grosser-baufall-talbruecke-tunnel-a44-einzelpdfs.zip); IT-SIG-2-Vergabe Landeshauptstadt Schwerin – Nachprüfungsverfahren VK: [Gesamt-PDF](../testakten/it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung/gesamt-pdf/it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung_gesamt.pdf), [`testakte-it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung.zip), [`testakte-it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-it-sig-2-vergabe-landeshauptstadt-schwerin-nachpruefung-einzelpdfs.zip); Korruptionsverdacht in der Vergabestelle München: [Gesamt-PDF](../testakten/strafrecht-korruption-bauamt-vergabestelle-muenchen/gesamt-pdf/strafrecht-korruption-bauamt-vergabestelle-muenchen_gesamt.pdf), [`testakte-strafrecht-korruption-bauamt-vergabestelle-muenchen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-korruption-bauamt-vergabestelle-muenchen.zip), [`testakte-strafrecht-korruption-bauamt-vergabestelle-muenchen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-korruption-bauamt-vergabestelle-muenchen-einzelpdfs.zip) |
 
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du eine Vergabeentscheidung ruegen und das Nachpruefungsverfahren fristgerecht führen.
+Wenn du das hier öffnest, willst du eine Vergabeentscheidung rügen und das Nachprüfungsverfahren fristgerecht führen.
 Plugin Fachanwalt für Vergaberecht. Orientierung GWB §§ 97 ff. VgV UVgO SektVO KonzVgV VOB-A EU-Vergabe-RL Nachprüfungsverfahren Vergabekammer OLG-Vergabesenat. Es führt nicht nur zur abstrakten Rechtsprüfung, sondern auch zu vorgerichtlicher Abhilfe, Rüge, Nachprüfungsantrag, Sachverhaltsvortrag vor der Vergabekammer, Akteneinsicht, Zurückversetzung, Neuwertung, Änderung der Vergabeunterlagen, Vergleich und sofortiger Beschwerde. Schnittstellen fachanwalt-bau-architektenrecht.
 
 ## Installation in der Plugin-Umgebung
@@ -87,7 +65,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 120 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

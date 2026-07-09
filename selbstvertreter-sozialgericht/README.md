@@ -1,32 +1,5 @@
 # selbstvertreter-sozialgericht
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`selbstvertreter-sozialgericht`) | [`selbstvertreter-sozialgericht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/selbstvertreter-sozialgericht.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Akte Selbstvertreter Sozialgericht — Heizkosten und Eilantrag** (`selbstvertreter-sozialgericht-heizkosten-eilantrag`) | [Gesamt-PDF lesen](../testakten/selbstvertreter-sozialgericht-heizkosten-eilantrag/gesamt-pdf/selbstvertreter-sozialgericht-heizkosten-eilantrag_gesamt.pdf) | [`testakte-selbstvertreter-sozialgericht-heizkosten-eilantrag.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-selbstvertreter-sozialgericht-heizkosten-eilantrag.zip) |
-| **Hilfsmittelstreit Elektrorollstuhl Heinz Körner gegen Weser-Ems Gesundheitskasse** (`sozialrecht-elektrorollstuhl-koerner-oldenburg`) | [Gesamt-PDF lesen](../testakten/sozialrecht-elektrorollstuhl-koerner-oldenburg/gesamt-pdf/sozialrecht-elektrorollstuhl-koerner-oldenburg_gesamt.pdf) | [`testakte-sozialrecht-elektrorollstuhl-koerner-oldenburg.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sozialrecht-elektrorollstuhl-koerner-oldenburg.zip) |
-| **Sozialrecht: Enzymsubstitution bei seltener Erkrankung in Jena** (`sozialrecht-enzymsubstitution-seltene-erkrankung-jena`) | [Gesamt-PDF lesen](../testakten/sozialrecht-enzymsubstitution-seltene-erkrankung-jena/gesamt-pdf/sozialrecht-enzymsubstitution-seltene-erkrankung-jena_gesamt.pdf) | [`testakte-sozialrecht-enzymsubstitution-seltene-erkrankung-jena.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sozialrecht-enzymsubstitution-seltene-erkrankung-jena.zip) |
-| **Sozialrecht: Orphan-Drug-Krebsmedikament in Münster** (`sozialrecht-orphan-drug-krebsmedikament-muenster`) | [Gesamt-PDF lesen](../testakten/sozialrecht-orphan-drug-krebsmedikament-muenster/gesamt-pdf/sozialrecht-orphan-drug-krebsmedikament-muenster_gesamt.pdf) | [`testakte-sozialrecht-orphan-drug-krebsmedikament-muenster.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sozialrecht-orphan-drug-krebsmedikament-muenster.zip) |
-| **Pflegekasse Trier: nächtliche Weglauftendenz, Pflegegrad und Entlastungsleistungen** (`sozialrecht-pflegegrad-demenz-nachtwache-trier`) | [Gesamt-PDF lesen](../testakten/sozialrecht-pflegegrad-demenz-nachtwache-trier/gesamt-pdf/sozialrecht-pflegegrad-demenz-nachtwache-trier_gesamt.pdf) | [`testakte-sozialrecht-pflegegrad-demenz-nachtwache-trier.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sozialrecht-pflegegrad-demenz-nachtwache-trier.zip) |
-| **Teilhabeassistenz Berufsschule Regensburg: Autismus, Schulweg und Kommunikationshilfen** (`sozialrecht-teilhabeassistenz-autismus-berufsschule-regensburg`) | [Gesamt-PDF lesen](../testakten/sozialrecht-teilhabeassistenz-autismus-berufsschule-regensburg/gesamt-pdf/sozialrecht-teilhabeassistenz-autismus-berufsschule-regensburg_gesamt.pdf) | [`testakte-sozialrecht-teilhabeassistenz-autismus-berufsschule-regensburg.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sozialrecht-teilhabeassistenz-autismus-berufsschule-regensburg.zip) |
-| **Sozialrecht: Wohnraumanpassung und Rampe in Wittenberge** (`sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge`) | [Gesamt-PDF lesen](../testakten/sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge/gesamt-pdf/sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge_gesamt.pdf) | [`testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -87,7 +60,7 @@ Bei Unsicherheit: Wenden Sie sich an eine Beratungsstelle (Sozialverband VdK, So
 ## Aufbau einer Skill
 
 1. Worum geht es?
-2. In einfacher Sprache (3 bis 5 kurze Saetze)
+2. In einfacher Sprache (3 bis 5 kurze Sätze)
 3. Wann brauchen Sie diese Skill?
 4. Fachbegriffe
 5. Rechtsgrundlagen
@@ -125,7 +98,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 138 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

@@ -1,26 +1,5 @@
 # Fachanwalt Agrarrecht
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`fachanwalt-agrarrecht`) | [`fachanwalt-agrarrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-agrarrecht.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Ökolandbau-Förderrückforderung / Hofgemeinschaft Driessen — Niederrhein** (`oekolandbau-foerderprueckforderung-hofgemeinschaft-driessen-niederrhein`) | [Gesamt-PDF lesen](../testakten/oekolandbau-foerderprueckforderung-hofgemeinschaft-driessen-niederrhein/gesamt-pdf/oekolandbau-foerderprueckforderung-hofgemeinschaft-driessen-niederrhein_gesamt.pdf) | [`testakte-oekolandbau-foerderprueckforderung-hofgemeinschaft-driessen-niederrhein.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-oekolandbau-foerderprueckforderung-hofgemeinschaft-driessen-niederrhein.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -42,8 +21,8 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
-Plugin Fachanwalt für Agrarrecht. Orientierung Hoefeordnung Anerbenrechte Landpachtrecht BGB §§ 581 ff. GrdstVG EU-GAP Direktzahlungen Cross-Compliance Düngeverordnung Pflanzenschutzrecht Tierschutz Forstrecht.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Plugin Fachanwalt für Agrarrecht. Orientierung Höfeordnung Anerbenrechte Landpachtrecht BGB §§ 581 ff. GrdstVG EU-GAP Direktzahlungen Cross-Compliance Düngeverordnung Pflanzenschutzrecht Tierschutz Forstrecht.
 
 ## Installation in der Plugin-Umgebung
 
@@ -57,7 +36,7 @@ Plugin Fachanwalt für Agrarrecht. Orientierung Hoefeordnung Anerbenrechte Landp
 
 | Skill | Zweck |
 | --- | --- |
-| `fachanwalt-agrarrecht-orientierung` | Orientierung im Agrarrecht — FAO Voraussetzungen Normen typische Mandate Fristen Quellenprüfung. Hoefeordnung (HoefeO) Anerbenrecht der Bundesländer Landpachtrecht (BGB §§ 581 ff.) Grundstücksverkehrsgesetz GVG-G… |
+| `fachanwalt-agrarrecht-orientierung` | Orientierung im Agrarrecht — FAO Voraussetzungen Normen typische Mandate Fristen Quellenprüfung. Höfeordnung (HöfeO) Anerbenrecht der Bundesländer Landpachtrecht (BGB §§ 581 ff.) Grundstücksverkehrsgesetz GVG-G… |
 
 ## Lizenz
 
@@ -85,7 +64,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 78 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

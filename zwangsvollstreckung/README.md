@@ -1,27 +1,5 @@
 # Zwangsvollstreckung
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`zwangsvollstreckung`) | [`zwangsvollstreckung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/zwangsvollstreckung.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Vollstreckungsmappe Sparkasse Niederrhein gegen Mueller** (`vollstreckungsmappe-mueller-sparkasse-niederrhein`) | [Gesamt-PDF lesen](../testakten/vollstreckungsmappe-mueller-sparkasse-niederrhein/gesamt-pdf/vollstreckungsmappe-mueller-sparkasse-niederrhein_gesamt.pdf) | [`testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip) |
-| **Zwangsvollstreckung Mietrückstand und Raeumung — Eppendorfer Altbau Grewenig — Vollstreckungsmappe Zweite Runde** (`zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde`) | [Gesamt-PDF lesen](../testakten/zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde/gesamt-pdf/zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde_gesamt.pdf) | [`testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -38,12 +16,12 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 | Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`zwangsvollstreckung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/zwangsvollstreckung.zip) |
 | Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/zwangsvollstreckung/zwangsvollstreckung-werkstatt.md" download><code>zwangsvollstreckung-werkstatt.md</code></a> |
 | Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/zwangsvollstreckung/zwangsvollstreckung-schnellstart.md" download><code>zwangsvollstreckung-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Vollstreckungsmappe Sparkasse Niederrhein gegen Mueller: [Gesamt-PDF](../testakten/vollstreckungsmappe-mueller-sparkasse-niederrhein/gesamt-pdf/vollstreckungsmappe-mueller-sparkasse-niederrhein_gesamt.pdf), [`testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip), [`testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein-einzelpdfs.zip); Zwangsvollstreckung Mietrückstand und Raeumung — Eppendorfer Altbau Grewenig — Vollstreckungsmappe Zweite Runde: [Gesamt-PDF](../testakten/zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde/gesamt-pdf/zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde_gesamt.pdf), [`testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde.zip), [`testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde-einzelpdfs.zip) |
+| Testakte(n) als ZIP | ZIP | Vollstreckungsmappe Sparkasse Niederrhein gegen Müller: [Gesamt-PDF](../testakten/vollstreckungsmappe-mueller-sparkasse-niederrhein/gesamt-pdf/vollstreckungsmappe-mueller-sparkasse-niederrhein_gesamt.pdf), [`testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip), [`testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein-einzelpdfs.zip); Zwangsvollstreckung Mietrückstand und Räumung — Eppendorfer Altbau Grewenig — Vollstreckungsmappe Zweite Runde: [Gesamt-PDF](../testakten/zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde/gesamt-pdf/zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde_gesamt.pdf), [`testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde.zip), [`testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde-einzelpdfs.zip) |
 
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlaegigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
+Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 Freistehendes Cowork-Plugin für die Zwangsvollstreckung nach §§ 704 ff. ZPO aus allen Titelarten. Es ist ein vollständiger Arbeitsraum für Gläubigeranwalt, Inkasso, Hausverwaltung, Kreditbearbeitung und Insolvenzverwaltung: Titel prüfen, Klausel besorgen, Zustellung organisieren, Mahn- oder Vollstreckungsbescheid online beantragen, PfÜB gegen Bank, Arbeitgeber, Mieter oder Finanzamt entwerfen, Kontensuche § 802l ZPO und Vermögensauskunft beim Gerichtsvollzieher steuern, Mobiliar- und Räumungsaufträge erteilen, aus notarieller Urkunde § 800 ZPO oder Tabellenauszug § 201 InsO vollstrecken, ZVG-Antrag stellen und Schuldnerschutz auf Erinnerung, Vollstreckungsschutz und P-Konto-Bescheinigung beantworten.
 
 ## Wofür das Plugin gedacht ist
@@ -82,17 +60,17 @@ Das Plugin arbeitet titelorientiert und drittschuldnerorientiert. Es prüft erst
 | zv-pfueb-bank | Entwirft Pfändungs- und Überweisungsbeschluss gegen Bankguthaben mit P-Konto-Behandlung. |
 | zv-pfueb-arbeitsentgelt | Pfändet Arbeitseinkommen § 850 ZPO mit Tabelle 1.7.2025, Unterhalts- und Privilegrang. |
 | zv-pfueb-mieter-finanzamt | Pfändet Mietzinsforderungen § 851b ZPO und Erstattungsansprüche gegen das Finanzamt. |
-| zv-vermoegensauskunft-gv | Beauftragt den Gerichtsvollzieher mit Vermögensauskunft § 802c ZPO und Schuldnerverzeichnis. |
+| zv-vermögensauskunft-gv | Beauftragt den Gerichtsvollzieher mit Vermögensauskunft § 802c ZPO und Schuldnerverzeichnis. |
 | zv-kontensuche-drittschuldner | Steuert die Kontensuche § 802l ZPO über das Bundeszentralamt für Steuern. |
 | zv-notarielle-urkunde-grundschuld | Vollstreckt aus notarieller Grundschuldurkunde § 800 ZPO inkl. Kündigung § 1193 BGB. |
-| zv-zvg-antrag-glaeubiger | Stellt Zwangsversteigerungs- und Beitrittsantrag § 15 ZVG aus Gläubigersicht. |
+| zv-zvg-antrag-gläubiger | Stellt Zwangsversteigerungs- und Beitrittsantrag § 15 ZVG aus Gläubigersicht. |
 | zv-tabellenauszug-201-inso | Vollstreckt aus Tabellenauszug § 201 InsO nach Aufhebung des Insolvenzverfahrens. |
 | zv-mobiliar-gv-auftrag | Erteilt Mobiliarvollstreckungs- und Sachpfändungsauftrag (auch Krypto-Hardware-Wallets). |
-| zv-raeumung-885 | Führt Räumungsvollstreckung § 885 ZPO inkl. Berliner Modell und Vollstreckungsschutz. |
+| zv-räumung-885 | Führt Räumungsvollstreckung § 885 ZPO inkl. Berliner Modell und Vollstreckungsschutz. |
 | zv-abwehr-schuldner | Erstellt Erinnerung § 766 ZPO, Vollstreckungsschutz § 765a ZPO und Drittwiderspruch § 771 ZPO. |
-| zv-vollstreckungsschutz-haertefall-765a | Vertiefter Härtefall-Schutz § 765a ZPO (Suizidgefahr, Schwangerschaft, Obdachlosigkeit, Trauerfall); Antragsformular mit Glaubhaftmachung. **NEU** |
-| zv-eu-kontenpfaendung-655-2014 | Europäische Kontenpfändung VO (EU) 655/2014 — grenzüberschreitende vorläufige Sicherung von Bankkonten in der EU (außer Dänemark). **NEU** |
-| zv-pfaendungstabelle-2025 | Hält die Pfändungstabelle 1.7.2025 bis 30.6.2026 nach § 850c ZPO bereit. Auto-Warnung des Rechners ab 1.6.2026. |
+| zv-vollstreckungsschutz-härtefall-765a | Vertiefter Härtefall-Schutz § 765a ZPO (Suizidgefahr, Schwangerschaft, Obdachlosigkeit, Trauerfall); Antragsformular mit Glaubhaftmachung. **NEU** |
+| zv-eu-kontenpfändung-655-2014 | Europäische Kontenpfändung VO (EU) 655/2014 — grenzüberschreitende vorläufige Sicherung von Bankkonten in der EU (außer Dänemark). **NEU** |
+| zv-pfändungstabelle-2025 | Hält die Pfändungstabelle 1.7.2025 bis 30.6.2026 nach § 850c ZPO bereit. Auto-Warnung des Rechners ab 1.6.2026. |
 | zv-elektronische-zustellung-2027 | Steuert sicheren Übermittlungsweg für Kreditinstitute ab 1.10.2027 (ZVollstrDigitG). |
 
 ## Werkzeug
@@ -132,7 +110,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 59 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

@@ -1,28 +1,5 @@
 # Lobbyregister Bundestag
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`lobbyregister-bundestag`) | [`lobbyregister-bundestag.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/lobbyregister-bundestag.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Akte Lobbyregister: Bürgerinitiative Waldmoor 2030** (`lobbyregister-buergerinitiative-waldmoor`) | [Gesamt-PDF lesen](../testakten/lobbyregister-buergerinitiative-waldmoor/gesamt-pdf/lobbyregister-buergerinitiative-waldmoor_gesamt.pdf) | [`testakte-lobbyregister-buergerinitiative-waldmoor.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-lobbyregister-buergerinitiative-waldmoor.zip) |
-| **Akte Lobbyregister: Emerald Liffey Bank plc / Zweigniederlassung Frankfurt** (`lobbyregister-dublin-bank-frankfurt-branch`) | [Gesamt-PDF lesen](../testakten/lobbyregister-dublin-bank-frankfurt-branch/gesamt-pdf/lobbyregister-dublin-bank-frankfurt-branch_gesamt.pdf) | [`testakte-lobbyregister-dublin-bank-frankfurt-branch.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-lobbyregister-dublin-bank-frankfurt-branch.zip) |
-| **Akte Lobbyregister: Spreebogen Regulatory GmbH / Wasserstoffpaket** (`lobbyregister-public-affairs-agentur-wasserstoff`) | [Gesamt-PDF lesen](../testakten/lobbyregister-public-affairs-agentur-wasserstoff/gesamt-pdf/lobbyregister-public-affairs-agentur-wasserstoff_gesamt.pdf) | [`testakte-lobbyregister-public-affairs-agentur-wasserstoff.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-lobbyregister-public-affairs-agentur-wasserstoff.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -45,9 +22,9 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du Registrierungspflicht, Ausnahmen, Auftraggeber, Regelungsvorhaben, Finanzangaben, Stellungnahmen, Aktualisierungspflichten und Portalangaben nach dem Lobbyregistergesetz sauber steuern.
-Superplugin für Meldungen, Registrierung, Aktualisierung, oeffentliche API-Abfragen und laufende Compliance im Lobbyregister für die Interessenvertretung gegenüber dem Deutschen Bundestag und der Bundesregierung. Es führt Nutzer von der Frage "Muss ich überhaupt?" bis zur prueffaehigen Registrierungsmappe, zum Portal-Eingabeplan, zu Quartals-Uploads, Jahresaktualisierung, Verhaltenskodex, Open-Data-Monitoring und Meldung moeglicher Verstoesse.
+Superplugin für Meldungen, Registrierung, Aktualisierung, öffentliche API-Abfragen und laufende Compliance im Lobbyregister für die Interessenvertretung gegenüber dem Deutschen Bundestag und der Bundesregierung. Es führt Nutzer von der Frage "Muss ich überhaupt?" bis zur prüffähigen Registrierungsmappe, zum Portal-Eingabeplan, zu Quartals-Uploads, Jahresaktualisierung, Verhaltenskodex, Open-Data-Monitoring und Meldung möglicher Verstöße.
 
-Dieses Plugin ist **vollständig freistehend**. Es erwartet keine anderen Plugins, keine Portal-API und keine Kanzleisoftware. Wenn kein Zugang zum Lobbyregisterportal, DMS, CRM, Public-Affairs-Tool oder Finanzsystem vorhanden ist, arbeitet es mit manuellen Uploads oder einem ausdruecklich markierten Simulationsmodus.
+Dieses Plugin ist **vollständig freistehend**. Es erwartet keine anderen Plugins, keine Portal-API und keine Kanzleisoftware. Wenn kein Zugang zum Lobbyregisterportal, DMS, CRM, Public-Affairs-Tool oder Finanzsystem vorhanden ist, arbeitet es mit manuellen Uploads oder einem ausdrücklich markierten Simulationsmodus.
 
 ## Schnellstart
 
@@ -55,7 +32,7 @@ Dieses Plugin ist **vollständig freistehend**. Es erwartet keine anderen Plugin
 2. Neue Sache mit `lobbyregister-kommandocenter` oder `end-to-end-registrierungswizard` starten.
 3. Organisation, geplante Kontakte, Auftraggeber, Regelungsvorhaben, Fristen, Portalstatus und vorhandene Unterlagen nennen.
 4. Das Plugin routet zu Pflichtcheck, Ausnahmen, Portalangaben, Finanzdaten, Stellungnahmen, Updates, Verhaltenskodex oder Meldung.
-5. Am Ende immer das Qualitaetsgate verlangen: Pflichtgrund, Ausnahmen, Datenfelder, Fristen, Freigaben, offene Annahmen und naechste Portalaktion.
+5. Am Ende immer das Qualitätsgate verlangen: Pflichtgrund, Ausnahmen, Datenfelder, Fristen, Freigaben, offene Annahmen und nächste Portalaktion.
 
 ## Enthaltene Skills
 
@@ -69,10 +46,10 @@ Dieses Plugin ist **vollständig freistehend**. Es erwartet keine anderen Plugin
 - `freiwillige-registrierung` - Freiwillige Registrierung
 - `personen-organisationstyp` - Personen- und Organisationstyp
 - `konzern-netzwerk-plattform` - Konzern, Netzwerk und Plattform
-- `hauptstadtrepraesentanz` - Hauptstadtrepraesentanz
+- `hauptstadtrepraesentanz` - Hauptstadtrepräsentanz
 - `vertretungsberechtigte-personen` - Vertretungsberechtigte Personen
 - `betraute-personen` - Betraute Personen
-- `drehtuer-angaben` - Drehtuer-Angaben
+- `drehtuer-angaben` - Drehtür-Angaben
 - `taetigkeitsbeschreibung` - Tätigkeitsbeschreibung
 - `interessen-und-vorhabenbereiche` - Interessen- und Vorhabenbereiche
 - `regelungsvorhaben-erfassen` - Regelungsvorhaben erfassen
@@ -82,28 +59,28 @@ Dieses Plugin ist **vollständig freistehend**. Es erwartet keine anderen Plugin
 - `fremdmandat-agenturfall` - Fremdmandat und Agenturfall
 - `finanzaufwendungen-berechnen` - Finanzaufwendungen berechnen
 - `hauptfinanzierungsquellen` - Hauptfinanzierungsquellen
-- `oeffentliche-zuwendungen` - Oeffentliche Zuwendungen
+- `oeffentliche-zuwendungen` - Öffentliche Zuwendungen
 - `schenkungen-sponsoring` - Schenkungen und Sponsoring
 - `mitgliedschaften-mitgliederzahl` - Mitgliedschaften und Mitgliederzahl
 - `jahresabschluss-rechenschaftsbericht` - Jahresabschluss und Rechenschaftsbericht
 - `anonymisierung-schutzantrag` - Anonymisierung und Schutzantrag
-- `datenschutz-nichtoeffentliche-angaben` - Datenschutz und nicht oeffentliche Angaben
+- `datenschutz-nichtoeffentliche-angaben` - Datenschutz und nicht öffentliche Angaben
 - `portal-account-rollen` - Portal-Account und Rollen
-- `erstregistrierung-ausfuellen` - Erstregistrierung ausfuellen
+- `erstregistrierung-ausfuellen` - Erstregistrierung ausfüllen
 - `bestaetigungsdokument-freigabe` - Bestätigungsdokument und Freigabe
 - `registereintrag-finalcheck` - Registereintrag Finalcheck
-- `aktualisierung-unverzueglich` - Unverzuegliche Aktualisierung
+- `aktualisierung-unverzueglich` - Unverzügliche Aktualisierung
 - `geschaeftsjahresaktualisierung` - Geschäftsjahresaktualisierung
 - `fristen-und-quartalsmonitor` - Fristen- und Quartalsmonitor
-- `verhaltenskodex-integritaet` - Verhaltenskodex und Integritaet
+- `verhaltenskodex-integritaet` - Verhaltenskodex und Integrität
 - `erstkontakt-offenlegung` - Erstkontakt Offenlegung
 - `visitenkarte-und-nachweise` - Visitenkarte und Nachweise
 - `hausausweis-und-anhoerung` - Hausausweis und Anhörung
-- `registerfuehrende-stelle-kontakt` - Registerfuehrende Stelle Kontakt
-- `verstoesse-melden` - Verstoesse melden
-- `bussgeld-und-pruefverfahren` - Bussgeld und Pruefverfahren
+- `registerfuehrende-stelle-kontakt` - Registerführende Stelle Kontakt
+- `verstoesse-melden` - Verstöße melden
+- `bussgeld-und-pruefverfahren` - Bussgeld und Prüfverfahren
 - `nicht-aktualisiert-risiko` - Nicht-aktualisiert Risiko
-- `fruehere-interessenvertretung-exit` - Exit und fruehere Interessenvertretung
+- `fruehere-interessenvertretung-exit` - Exit und frühere Interessenvertretung
 - `suche-open-data-monitor` - Suche und Open-Data-Monitor
 - `benachrichtigungskonto-monitor` - Benachrichtigungskonto Monitor
 - `interne-lobbyregister-richtlinie` - Interne Lobbyregister-Richtlinie
@@ -112,7 +89,7 @@ Dieses Plugin ist **vollständig freistehend**. Es erwartet keine anderen Plugin
 
 ## Vorlagen
 
-- `assets/templates/registrierungspflicht-check.md` - Pflicht- und Ausnahmepruefung
+- `assets/templates/registrierungspflicht-check.md` - Pflicht- und Ausnahmeprüfung
 - `assets/templates/registereintrag-datenraum.md` - Datenraum für Erstregistrierung und Update
 - `assets/templates/regelungsvorhaben-matrix.md` - Regelungsvorhaben, Stellungnahmen und Uploadfristen
 - `assets/templates/auftraggeber-und-unterauftrag.md` - Auftraggeber, Unterauftrag und eingesetzte Personen
@@ -120,11 +97,11 @@ Dieses Plugin ist **vollständig freistehend**. Es erwartet keine anderen Plugin
 - `assets/templates/aktualisierungskalender.md` - Fristen, Quartale und Geschäftsjahresupdate
 - `assets/templates/verhaltenskodex-kontaktkarte.md` - Offenlegung und Kodex-Check für Kontakte
 - `assets/templates/qualitaetsgate.md` - Finaler Freigabe- und Risiko-Check
-- `assets/templates/auslandsrechtstraeger-zweigniederlassung-check.md` - Spezialcheck auslaendischer Rechtstraeger mit deutscher Zweigniederlassung
+- `assets/templates/auslandsrechtstraeger-zweigniederlassung-check.md` - Spezialcheck ausländischer Rechtsträger mit deutscher Zweigniederlassung
 - `assets/templates/streitvermerk-doppelregistrierung.md` - Variantenvermerk einmalige oder doppelte Registrierung
-- `assets/templates/rfs-anfrage-zweigniederlassung.md` - Anfrageentwurf an die registerfuehrende Stelle
-- `assets/templates/api-abfrageplan.md` - API-Such- und Abfrageplan für oeffentliche Registerdaten
-- `assets/templates/registerdaten-json-mapping.md` - JSON-nahes Mapping interner Registerdaten auf den oeffentlichen Export
+- `assets/templates/rfs-anfrage-zweigniederlassung.md` - Anfrageentwurf an die registerführende Stelle
+- `assets/templates/api-abfrageplan.md` - API-Such- und Abfrageplan für öffentliche Registerdaten
+- `assets/templates/registerdaten-json-mapping.md` - JSON-nahes Mapping interner Registerdaten auf den öffentlichen Export
 - `assets/templates/registerexport-diff.md` - Diff zwischen interner Freigabeakte und API/API-Export
 - `assets/templates/open-data-monitoring-plan.md` - Watchlist, Alarmregeln und API-Cursor-Protokoll
 
@@ -135,9 +112,9 @@ Dieses Plugin ist **vollständig freistehend**. Es erwartet keine anderen Plugin
 - Handbuch zur Eintragung Version 2.0
 - LobbyRG bei gesetze-im-internet
 - Verhaltenskodex Anlage 6 BTGO
-- Sanktionen bei Verstoessen
+- Sanktionen bei Verstößen
 - Inhalte der Interessenvertretung
-- Registerfuehrende Stelle
+- Registerführende Stelle
 - Open Data/API
 - API V2 YAML
 - API V2 Swagger UI
@@ -145,12 +122,12 @@ Dieses Plugin ist **vollständig freistehend**. Es erwartet keine anderen Plugin
 
 ## Open Data und API V2
 
-Das Plugin nutzt die offizielle API als **lesende Kontrollschicht**: Suche nach Organisationen, Abfrage veroeffentlichter Registereintraege, Versionen, Statistikdaten, Dublettenpruefung, Export-Diff und Monitoring. Registrierung, Aktualisierung, Bestätigung, Stellungnahmen-Upload und sonstige Portalhandlungen bleiben Portalaktionen und dürfen nicht als API-Einreichung ausgegeben werden.
+Das Plugin nutzt die offizielle API als **lesende Kontrollschicht**: Suche nach Organisationen, Abfrage veröffentlichter Registereinträge, Versionen, Statistikdaten, Dublettenprüfung, Export-Diff und Monitoring. Registrierung, Aktualisierung, Bestätigung, Stellungnahmen-Upload und sonstige Portalhandlungen bleiben Portalaktionen und dürfen nicht als API-Einreichung ausgegeben werden.
 
 Technische Arbeitsregel:
 
 1. Vor der Portalaktion: interne Daten mit `assets/templates/registerdaten-json-mapping.md` JSON-nah strukturieren.
-2. Nach der Veroeffentlichung: oeffentlichen Eintrag mit API V2 abfragen und mit `assets/templates/registerexport-diff.md` gegen die Freigabeakte prüfen.
+2. Nach der Veröffentlichung: öffentlichen Eintrag mit API V2 abfragen und mit `assets/templates/registerexport-diff.md` gegen die Freigabeakte prüfen.
 3. Für laufende Compliance: `assets/templates/api-abfrageplan.md` und `assets/templates/open-data-monitoring-plan.md` nutzen, Cursor und `sourceDate` archivieren.
 4. Bei Zweigniederlassungen, Auftraggebern, Unterauftragnehmern und Namensvarianten immer eine Freitextsuche auf Dubletten dokumentieren.
 
@@ -160,12 +137,12 @@ Details stehen in [references/open-data-api-v2.md](references/open-data-api-v2.m
 
 - Keine Aussage "nicht registrierungspflichtig" ohne dokumentierte Prüfung von Interessenvertretung, Adressat, Schwelle und Ausnahme.
 - Keine Registrierung oder Aktualisierung ohne Verantwortliche, Freigabe und Bestätigungsdokument.
-- Keine Behauptung einer API-Einreichung ohne offizielle Dokumentation. Die bekannte API V2 ist für oeffentliche Registerdaten als lesender Zugriff zu behandeln.
+- Keine Behauptung einer API-Einreichung ohne offizielle Dokumentation. Die bekannte API V2 ist für öffentliche Registerdaten als lesender Zugriff zu behandeln.
 - Keine Regelungsvorhaben- oder Stellungnahme-Bewertung ohne Datum der Kontaktaufnahme und Quartals-/Updatefrist.
 - Keine Finanzangaben ohne Geschäftsjahr, Berechnungsmethode, Belege und Plausibilitätscheck.
-- Keine Kontaktaufnahme ohne Offenlegung von Identitaet, Anliegen und gegebenenfalls Auftraggeber.
-- Keine Meldung moeglicher Verstoesse ohne konkrete Registernummer, Sachverhalt, Belege und Unsicherheiten.
-- Keine echten Mandats-, Lobbying- oder Personaldaten in ungepruefte Cloud- oder KI-Umgebungen.
+- Keine Kontaktaufnahme ohne Offenlegung von Identität, Anliegen und gegebenenfalls Auftraggeber.
+- Keine Meldung möglicher Verstöße ohne konkrete Registernummer, Sachverhalt, Belege und Unsicherheiten.
+- Keine echten Mandats-, Lobbying- oder Personaldaten in ungeprüfte Cloud- oder KI-Umgebungen.
 
 ## Verwendungsbeispiel
 
@@ -197,7 +174,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 52 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

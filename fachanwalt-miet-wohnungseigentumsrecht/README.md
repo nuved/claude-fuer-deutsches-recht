@@ -1,26 +1,5 @@
 # Fachanwalt Miet- und Wohnungseigentumsrecht
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`fachanwalt-miet-wohnungseigentumsrecht`) | [`fachanwalt-miet-wohnungseigentumsrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-miet-wohnungseigentumsrecht.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Eigenbedarf + WEG-Konflikt – Straßburger / Köln-Südstadt** (`eigenbedarf-weg-konflikt-strassburger-koeln-suedstadt`) | [Gesamt-PDF lesen](../testakten/eigenbedarf-weg-konflikt-strassburger-koeln-suedstadt/gesamt-pdf/eigenbedarf-weg-konflikt-strassburger-koeln-suedstadt_gesamt.pdf) | [`testakte-eigenbedarf-weg-konflikt-strassburger-koeln-suedstadt.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-eigenbedarf-weg-konflikt-strassburger-koeln-suedstadt.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -42,13 +21,13 @@ Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für ein
 > Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du eine fristlose Kuendigung wegen Zahlungsverzug rechtssicher aussprechen oder abwehren.
+Wenn du das hier öffnest, willst du eine fristlose Kündigung wegen Zahlungsverzug rechtssicher aussprechen oder abwehren.
 ## Anwalts-Dashboard für den Schnelleinstieg
 
 Der Skill `einstieg-routing` ist das Anwalts-Dashboard zu diesem Plugin:
 Sofort-Triage als Tabelle (Rolle, Verfahrensstand, Eilfrist, Hauptanspruch,
 Zuständigkeit), Risiko-Ampel, Anschluss-Skill-Router mit echten Slugs,
-Norm-Radar, Leitentscheidungs-Anker und genau eine Rueckfrage - bei
+Norm-Radar, Leitentscheidungs-Anker und genau eine Rückfrage - bei
 klarer Faktenlage sofort zum Spezial-Skill. Der Anwalt bleibt im Driver Seat.
 
 Konvention: [`Install from .zip`](../references/anwalts-dashboard-konvention.md)
@@ -105,7 +84,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 382 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 

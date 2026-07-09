@@ -16,7 +16,7 @@ Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP
 
 <!-- END gesamt-pdf-section (autogen) -->
 
-Arbeitsakte des Insolvenzverwalters über das Vermögen der Trave Clean Gebäudeservice GmbH (Gebäudereinigung, Lübeck), Amtsgericht Lübeck, 53c IN 21/26. Eine Wettbewerberin stellt am 09.02.2026 einen Fremdantrag; siebzehn Tage später — vor Anordnung von Sicherungsmaßnahmen und vor jeder Veröffentlichung im Bekanntmachungsportal — zahlt die Schuldnerin ihre rückständigen Gesamtsozialversicherungsbeiträge von 54.320 EUR an die BKK Ostseeküste. Der Verwalter ficht die kongruente Deckung nach § 130 Abs. 1 Satz 1 Nr. 2 InsO an.
+Arbeitsakte des Insolvenzverwalters über das Vermögen der Trave Clean Gebäudeservice GmbH (Gebäudereinigung, Lübeck), Amtsgericht Lübeck, 53c IN 21/26. Eine Wettbewerberin stellt am 09.02.2026 einen Fremdantrag; siebzehn Tage später — vor Anordnung von Sicherungsmaßnahmen und vor jeder Veröffentlichung im Bekanntmachungsportal — zahlt die Schuldnerin ihre rückständigen Gesamtsozialversicherungsbeiträge von 54.320 EUR an die BKK Ostseeküste. Der Verwalter ficht die kongrünte Deckung nach § 130 Abs. 1 Satz 1 Nr. 2 InsO an.
 
 Der Streit dreht sich allein um die Kenntnis der Kasse: Ein Außendienstmitarbeiter hatte neun Tage vor der Zahlung einen Telefonvermerk über den „laufenden Insolvenzantrag eines Wettbewerbers" gefertigt und an den Beitragseinzug gemailt; die Kasse beruft sich darauf, dass die zuständige Sachbearbeitung davon keine Kenntnis genommen habe, und auf den entwertenden Kontext („reine Schikane"). Zur Insolvenzreife enthält die Akte ein formal poliertes Kurzgutachten eines Sanierungsberaters vom Mai 2025, das schon zum 31.03.2025 — annähernd ein Jahr vor dem Antrag — eingetretene Zahlungsunfähigkeit und eine negative Fortbestehensprognose feststellt, während das Verwalterschreiben die nach außen manifeste Krise erst ab Januar 2026 datiert. Die Akte nimmt die rechtliche Würdigung nicht vorweg.
 
@@ -53,7 +53,22 @@ insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck/
 ├── 12_recherchevermerk_bekanntmachungsportal_2026-06-04.docx Vermerk: keine Veröffentlichung vor dem 10.03.2026, Zustellung der Anhörungsverfügung am 13.02.2026
 ├── 13_anfechtungsschreiben_verwalter_2026-06-08.docx       Anfechtung nach § 130 Abs. 1 Satz 1 Nr. 2 InsO mit Wissenszurechnungs-Argumentation
 ├── 14_erwiderung_bkk_2026-06-24.docx                       Erwiderung der Kasse: keine positive Kenntnis, entwerteter Hinweis, Verlauf des Beitragskontos
+├── 15_replik_verwalter.docx                                Replik: Kenntniszurechnung durch Vollstreckungsankuendigung und Telefonvermerk
+├── 16_duplik_bkk.docx                                      Duplik der Kasse: Vollstreckungsankuendigung als Routinevorgang
+├── 17_klageschrift_verwalter_lg_luebeck.docx               Klageschrift zum LG Luebeck, Az. 4 O 91/26
+├── 18_klageerwiderung_bkk_lg_luebeck.docx                  Klageerwiderung der Kasse
+├── 19_beweisbeschluss_lg_luebeck.docx                      Beweisbeschluss: Zeugenvernehmung Kroeger und Wohlert
+├── 20_zeugenvernehmungsprotokoll_kroeger_wohlert.docx      Vernehmung der Zeugen Kroeger und Wohlert
+├── 21_stellungnahme_verwalter_nach_beweisaufnahme.docx     Stellungnahme: Kenntniszurechnung nach Beweisaufnahme bestaetigt
+├── 22_vergleichsvorschlag_bkk.docx                         Vergleichsvorschlag der Kasse (EUR 22.000)
+├── 23_vergleichsannahme_verwalter.docx                     Annahme des Vergleichsvorschlags durch den Verwalter
+├── 24_feststellungsbeschluss_vergleich_luebeck.docx        Feststellungsbeschluss § 278 VI ZPO
+├── 25_schlussvermerk_verwalter_luebeck.docx                Aktenvermerk: Abschluss des Anfechtungsverfahrens
+├── xlsx/
+│   └── beitragszahlungen_anfechtungszeitraum.xlsx          Tabellarische Beitragszahlungen im Anfechtungszeitraum
 └── eml/
     ├── 2026-02-18_kroeger_weiterleitung_vermerk.eml        Weiterleitung des Telefonvermerks an die Teamleiterin Beitragseinzug mit Anfechtungswarnung
-    └── 2026-02-20_albayrak_zahlungsankuendigung.eml        Zahlungsankündigung des Geschäftsführers an das Funktionspostfach der Kasse
+    ├── 2026-02-20_albayrak_zahlungsankuendigung.eml        Zahlungsankündigung des Geschäftsführers an das Funktionspostfach der Kasse
+    ├── 2026-11-25_vergleichsvorschlag_bkk.eml              Übersendung des Vergleichsvorschlags der Kasse
+    └── 2027-01-15_zahlungsbestaetigung_luebeck.eml         Bestätigung Zahlungseingang Vergleichsbetrag
 ```

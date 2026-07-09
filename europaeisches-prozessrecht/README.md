@@ -1,22 +1,5 @@
 # Europäisches Prozessrecht
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`europaeisches-prozessrecht`) | [`europaeisches-prozessrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/europaeisches-prozessrecht.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-Dieses Plugin hat (bewusst) keine eigene Demonstrations-Akte.
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -76,7 +59,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 20 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 
@@ -100,7 +83,7 @@ Automatisch generierte Komplett-Liste aller 20 Skills in diesem Plugin. Beschrei
 | `urteilsauswertung-folgeverfahren` | Wertet EuGH- und EuG-Entscheidungen in Umsetzungsplan, nationales Folgeverfahren, Vollzug, Kommunikation und weitere Rechtsmitteloptionen aus. |
 | `vergleich-ruecknahme-erledigung` | Prüft prozessuale Beendigung: Rücknahme, Erledigung, Vergleichslösung, Kostenfolge, Wiederholungsrisiko und Kommunikation mit Gericht oder Gegenseite. |
 | `vertragsverletzung-art-258-260` | Ordnet Vertragsverletzungsverfahren nach Art. 258 bis 260 AEUV: Kommissionsbeschwerde, Vorverfahren, mit Gründen versehene Stellungnahme, Klage, Zwangsgeld und strategische Parallelverfahren. |
-| `vertraulichkeit-beweis-anlagen` | Sortiert vertrauliche Fassungen, Anlagen, Geschäftsgeheimnisse, Beweisangebote, Aktenauszüge und Schwärzungen für EuGH- und EuG-Verfahren. |
+| `vertraulichkeit-beweis-anlagen` | Steuert vertrauliche Fassungen, Anlagenverzeichnis, Geschäftsgeheimnisse, Beweisangebote, Aktenauszüge und Schwärzungen in Verfahren vor Gerichtshof, Gericht und Beschwerdekammern. Aktivieren bei e-Curia-Einreichung, Art.-103-Vertraulich... |
 | `vorlage-transfer-eug-2024` | Berücksichtigt die seit 2024 praktisch wichtige Verteilung bestimmter Vorabentscheidungsbereiche zwischen Gerichtshof und Gericht und baut eine Zuständigkeits- und Transferprüfung ein. |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

@@ -1,28 +1,5 @@
 # Datenschutz-Sanktionsverfahren und Verteidigung
 
-
-<!-- BEGIN plugin-sofort-download-section (autogen) -->
-## Sofort-Downloads
-
-Direkt-Downloads ohne Umwege. Die URLs sind stabil und zeigen immer auf die aktuelle Version (`latest`-Release).
-
-### Plugin als ZIP
-
-| Inhalt | Download |
-| --- | --- |
-| **Dieses Plugin** (`datenschutz-sanktionsverfahren-verteidigung`) | [`datenschutz-sanktionsverfahren-verteidigung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/datenschutz-sanktionsverfahren-verteidigung.zip) |
-| **Alle Skills als Markdown** | [`alle-skills-markdown.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
-
-### Demonstrations-Akten
-
-| Akte | PDF lesen | Akten-ZIP |
-| --- | --- | --- |
-| **Auskunft nach Artikel 15 DSGVO bei verstreuten Datenbeständen (Karlsruhe)** (`datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe`) | [Gesamt-PDF lesen](../testakten/datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe/gesamt-pdf/datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe_gesamt.pdf) | [`testakte-datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe.zip) |
-| **Beschäftigten-Videoüberwachung und Kündigung (Gelsenkirchen)** (`datenschutz-beschaeftigte-videoueberwachung-kuendigung-gelsenkirchen`) | [Gesamt-PDF lesen](../testakten/datenschutz-beschaeftigte-videoueberwachung-kuendigung-gelsenkirchen/gesamt-pdf/datenschutz-beschaeftigte-videoueberwachung-kuendigung-gelsenkirchen_gesamt.pdf) | [`testakte-datenschutz-beschaeftigte-videoueberwachung-kuendigung-gelsenkirchen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-datenschutz-beschaeftigte-videoueberwachung-kuendigung-gelsenkirchen.zip) |
-| **Datenpanne und 72-Stunden-Meldung nach Ransomware (Osnabrück)** (`datenschutz-datenpanne-72-stunden-meldung-ransomware-osnabrueck`) | [Gesamt-PDF lesen](../testakten/datenschutz-datenpanne-72-stunden-meldung-ransomware-osnabrueck/gesamt-pdf/datenschutz-datenpanne-72-stunden-meldung-ransomware-osnabrueck_gesamt.pdf) | [`testakte-datenschutz-datenpanne-72-stunden-meldung-ransomware-osnabrueck.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-datenschutz-datenpanne-72-stunden-meldung-ransomware-osnabrueck.zip) |
-
-<!-- END plugin-sofort-download-section (autogen) -->
-
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
@@ -135,7 +112,7 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Ueberblick
+## Alle Skills im Überblick
 
 Automatisch generierte Komplett-Liste aller 100 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
 
